@@ -373,7 +373,7 @@ def engineer_features(df: pd.DataFrame, baseline: dict, discharge_date: str,
 
     # ── E. PRETRAINED ML DISEASE FLAGGING (ANOMALY DETECTION) ──────────────
     # Using IsolationForest to flag multidimensional disease states
-    vitals = df[['weight_kg', 'resting_hr_bpm', 'spo2_pct', 'steps']].fillna(method='ffill').fillna(0)
+    vitals = df[['weight_kg', 'resting_hr_bpm', 'spo2_pct', 'steps']].ffill().fillna(0)
     try:
         clf = IsolationForest(contamination=0.1, random_state=42)
         anomalies = clf.fit_predict(vitals)
@@ -844,6 +844,7 @@ def analyze():
                 print("PDF error:", e)
                 
         # 2. Check for missing data - No more fallbacks
+
         if not wearable_file or not wearable_file.filename:
             return jsonify({"error": "DATA INGESTION FAILED: Wearable Vitals CSV is required. Please upload the details."}), 400
             
