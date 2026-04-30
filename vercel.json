@@ -6,14 +6,30 @@
       "use": "@vercel/python"
     },
     {
+      "src": "api/safety.py",
+      "use": "@vercel/python"
+    },
+    {
       "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "safety.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
+      "src": "/api/safety/(.*)",
+      "dest": "api/safety.py"
+    },
+    {
       "src": "/api/(.*)",
       "dest": "api/analyze.py"
+    },
+    {
+      "src": "/safety",
+      "dest": "safety.html"
     },
     {
       "src": "/(.*)",
