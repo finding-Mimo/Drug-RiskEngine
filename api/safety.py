@@ -9,6 +9,7 @@ import os
 import time
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
 
 app = Flask(__name__)
 CORS(app)
@@ -21,54 +22,7 @@ BASE_URL = "https://api.fda.gov/drug/event.json"
 USER_DB_FILE = "/tmp/users.json" if os.environ.get('VERCEL') else "users.json"
 
 # -----------------------------
-# AUTH LOGIC
-# -----------------------------
-def load_users():
-    if os.path.exists(USER_DB_FILE):
-        try:
-            with open(USER_DB_FILE, "r") as f:
-                return json.load(f)
-        except:
-            pass
-    return {
-        "admin": {"password": hashlib.sha256("admin123".encode()).hexdigest(), "role": "admin"},
-        "analyst": {"password": hashlib.sha256("analyst123".encode()).hexdigest(), "role": "analyst"}
-    }
-
-@app.route('/api/safety/auth', methods=['POST'])
-def auth():
-    data = request.json
-    action = data.get('action')
-    username = data.get('username')
-    password = data.get('password')
-    
-    users = load_users()
-    
-    if action == 'login':
-        user_data = users.get(username)
-        if not user_data:
-            return jsonify({"error": "User not found"}), 401
-        
-        hashed = hashlib.sha256(password.encode()).hexdigest()
-        if hashed == user_data.get("password"):
-            return jsonify({"username": username, "role": user_data.get("role")})
-        return jsonify({"error": "Invalid credentials"}), 401
-        
-    elif action == 'signup':
-        if username in users:
-            return jsonify({"error": "User already exists"}), 400
-        
-        role = data.get('role', 'analyst')
-        users[username] = {
-            "password": hashlib.sha256(password.encode()).hexdigest(),
-            "role": role
-        }
-        with open(USER_DB_FILE, "w") as f:
-            json.dump(users, f)
-        return jsonify({"message": "Account created"})
-
-# -----------------------------
-# ENGINE LOGIC
+# FETCH DATA
 # -----------------------------
 def fetch_fda_data(drug_name, limit=1000):
     params = {
@@ -103,13 +57,12 @@ def analyze():
     if not raw:
         return jsonify({"error": "No records found"}), 404
         
-    # Process
     reports = []
     reactions = []
     for entry in raw:
         rid = entry.get("safetyreportid")
         reports.append({
-            "id": rid,
+            "report_id": rid,
             "serious": int(entry.get("serious", 0)),
             "country": entry.get("primarysource", {}).get("reportercountry", "Unknown"),
             "date": entry.get("receiptdate")
@@ -117,56 +70,53 @@ def analyze():
         for r in entry.get("patient", {}).get("reaction", []):
             name = r.get("reactionmeddrapt")
             if name:
-                reactions.append({"id": rid, "name": name.upper()})
+                reactions.append({"report_id": rid, "reaction_name": name.upper()})
                 
     df_reports = pd.DataFrame(reports)
     df_reactions = pd.DataFrame(reactions)
     
-    # 1. Top Reactions
-    top_rx = df_reactions['name'].value_counts().head(10).to_dict()
+    # ML Logic - Perfectly as per pharmacovigilance_dashboard.py
+    merged = df_reactions.merge(df_reports, on="report_id")
+    reaction_counts = merged["reaction_name"].value_counts().to_dict()
+    merged["reaction_freq"] = merged["reaction_name"].map(reaction_counts)
     
-    # 2. Risk Signals
-    merged = df_reactions.merge(df_reports, on="id")
-    risk = merged.groupby("name").agg(total=("serious", "count"), serious=("serious", "sum"))
-    risk["score"] = (risk["serious"] / risk["total"]).round(3)
-    top_risk = risk[risk["total"] > 2].sort_values("score", ascending=False).head(10)["score"].to_dict()
+    X = merged[["reaction_freq"]]
+    y = merged["serious"]
     
-    # 3. PRR (Simulated with current batch)
+    accuracy = "0.00%"
+    importance = 0.0
+    if len(merged) > 10:
+        try:
+            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+            model = RandomForestClassifier()
+            model.fit(X_train, y_train)
+            preds = model.predict(X_test)
+            acc = accuracy_score(y_test, preds)
+            accuracy = f"{acc:.2%}"
+            importance = float(model.feature_importances_[0])
+        except:
+            pass
+
+    # Trends Logic
+    df_reports['date'] = pd.to_datetime(df_reports['date'], errors='coerce')
+    df_reports['month'] = df_reports['date'].dt.strftime('%Y-%m')
+    trend = df_reports.groupby('month').size().tail(12).to_dict()
+
+    # Baseline for PRR
     baseline_raw = fetch_baseline()
-    b_rx = []
+    baseline_reactions = []
     for entry in baseline_raw:
         for r in entry.get("patient", {}).get("reaction", []):
             name = r.get("reactionmeddrapt")
-            if name: b_rx.append(name.upper())
-    
-    b_counts = pd.Series(b_rx).value_counts()
-    d_counts = df_reactions['name'].value_counts()
-    
-    prr_list = []
-    total_b = len(b_rx)
-    total_d = len(df_reactions)
-    
-    for rx in d_counts.index[:15]:
-        A = d_counts[rx]
-        C = b_counts.get(rx, 0)
-        if C > 0:
-            prr = (A/total_d) / (C/total_b)
-            prr_list.append({"name": rx, "prr": round(prr, 2)})
-            
-    # 4. ML Prediction (Simplified for API speed)
-    # We'll just return the reaction importance based on the current batch
-    importance = d_counts.head(5).to_dict()
-    
+            if name: baseline_reactions.append(name.upper())
+
     return jsonify({
-        "metrics": {
-            "total": len(df_reports),
-            "serious": int(df_reports['serious'].sum()),
-            "ratio": f"{(df_reports['serious'].sum()/len(df_reports)*100):.1f}%"
-        },
-        "top_reactions": top_rx,
-        "risk_signals": top_risk,
-        "prr_signals": prr_list,
-        "importance": importance
+        "reports": reports,
+        "reactions": reactions,
+        "baseline_reactions": baseline_reactions,
+        "accuracy": accuracy,
+        "importance": round(importance, 3),
+        "trend_data": trend
     })
 
 if __name__ == "__main__":
