@@ -35,17 +35,28 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-# Change HuggingFace cache directory to D: drive
-os.environ['HF_HOME'] = r'd:\new_flagged\huggingface_cache'
-os.environ['TRANSFORMERS_CACHE'] = r'd:\new_flagged\huggingface_cache'
+import requests
 
-try:
-    from transformers import pipeline
-    clinical_classifier = pipeline("zero-shot-classification", model="typeform/distilbert-base-uncased-mnli")
-except Exception:
-    clinical_classifier = None
+# ─────────────────────────────────────────────────────────────────────────────
+# ONLINE INFERENCE CONFIG (Vercel-Friendly)
+# ─────────────────────────────────────────────────────────────────────────────
+HF_API_URL = "https://api-inference.huggingface.co/models/typeform/distilbert-base-uncased-mnli"
+HF_HEADERS = {"Authorization": "Bearer hf_placeholder"} # Users should replace with their free token
 
-warnings.filterwarnings("ignore")
+def query_clinical_classifier(text, labels):
+    """
+    Online Inference 'Hack': Calls Hugging Face API instead of loading the model locally.
+    This saves 4GB of space and makes the Vercel deployment possible.
+    """
+    payload = {
+        "inputs": text,
+        "parameters": {"candidate_labels": labels},
+    }
+    try:
+        response = requests.post(HF_API_URL, headers=HF_HEADERS, json=payload, timeout=10)
+        return response.json()
+    except:
+        return None
 
 # ─────────────────────────────────────────────────────────────────────────────
 # SECTION 1 — DATA INGESTION LAYER
@@ -806,7 +817,7 @@ def analyze():
         pharmacy_file = request.files.get('pharmacy')
         pdf_file = request.files.get('discharge')
         
-        # 1. Parse Discharge Summary using Pre-trained NLP (Zero-Shot) if available
+        # 1. Parse Discharge Summary using Online NLP (Zero-Shot)
         clinical = {"name": "Unknown Patient", "patient_id": "N/A", "age": 67, "ef_pct": 32}
         
         if pdf_file and pdf_file.filename:
