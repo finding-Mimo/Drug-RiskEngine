@@ -25,7 +25,11 @@
 
     <script type="text/babel">
         const { useState, useEffect } = React;
-        const { motion, AnimatePresence } = FramerMotion;
+        
+        // --- Library Initialization ---
+        const MotionLib = window.Motion || window.FramerMotion;
+        const motion = MotionLib?.motion || (({children, ...props}) => <div {...props}>{children}</div>);
+        const AnimatePresence = MotionLib?.AnimatePresence || (({children}) => <>{children}</>);
 
         const App = () => {
             const [user, setUser] = useState(null);
