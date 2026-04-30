@@ -102,14 +102,8 @@
 </head>
 
 <body class="antialiased">
-    <div id="root">
-        <div className="flex items-center justify-center min-h-screen">
-            <div className="flex flex-col items-center gap-4">
-                <div className="loader-spin"></div>
-                <p className="text-gray-500 font-bold tracking-widest animate-pulse uppercase">Initializing Clinical Engine...</p>
-            </div>
-        </div>
-    </div>
+    <div id="root"></div>
+
 
     <script type="text/babel">
         const MotionLib = window.Motion || window.FramerMotion;
@@ -292,7 +286,7 @@
                     <motion.a 
                         initial={{ opacity: 0, x: 20 }}
                         animate={{ opacity: 1, x: 0 }}
-                        href="/safety.html" 
+                        href="/safety" 
                         className="fixed right-8 top-12 z-[100] glass-panel bg-neon/10 hover:bg-neon text-white px-6 py-4 rounded-2xl font-black uppercase tracking-tighter shadow-[0_0_40px_rgba(168,85,247,0.3)] transition-all hover:scale-110 flex items-center gap-3 border border-neon/50 group"
                     >
                         <div className="flex flex-col items-end">
