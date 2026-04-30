@@ -364,7 +364,72 @@
                                         </div>
                                     )}
 
-                                    {activeTab === 'ai' && <div className="p-20 text-center text-gray-500 font-bold uppercase tracking-widest">AI Engine Initializing...</div>}
+                                    {activeTab === 'ai' && (
+                                        <div className="space-y-12">
+                                            <div className="flex items-center gap-3">
+                                                <span className="text-2xl">🤖</span>
+                                                <h2 className="text-2xl font-bold">AI Risk Prediction</h2>
+                                            </div>
+                                            <div className="grid grid-cols-2 gap-20">
+                                                <div className="space-y-8">
+                                                    <div>
+                                                        <p className="text-xs text-gray-400 font-bold mb-2 uppercase tracking-widest">Model Prediction Accuracy</p>
+                                                        <p className="text-5xl font-bold font-outfit">{rawData?.accuracy || "0.00%"}</p>
+                                                    </div>
+                                                    <p className="text-sm text-gray-400 font-bold leading-relaxed">This model uses reaction frequency patterns to predict serious outcomes.</p>
+                                                    
+                                                    <div className="border-t border-[#262730] pt-8">
+                                                        <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">🔍 Model Explainability</h3>
+                                                        <p className="text-xs font-bold mb-4 uppercase tracking-widest text-gray-400">Reaction Frequency Importance: <span className="text-green-400 bg-green-400/10 px-3 py-1 rounded ml-2">{rawData?.importance || "0.000"}</span></p>
+                                                        <div className="bg-[#1e293b]/50 p-6 rounded-xl border border-blue-500/20 backdrop-blur-sm">
+                                                            <p className="text-sm text-blue-300 font-bold leading-relaxed">Higher reaction frequency in this dataset strongly correlates with 'Serious' classification probability.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div className="space-y-6">
+                                                    <div className="bg-[#131720] p-8 rounded-2xl border border-[#262730] space-y-6">
+                                                        <div>
+                                                            <label className="text-xs text-gray-400 font-bold mb-3 block uppercase tracking-widest">Select Reaction to Predict Severity</label>
+                                                            <select 
+                                                                value={selectedReaction} 
+                                                                onChange={(e) => setSelectedReaction(e.target.value)} 
+                                                                className="st-input h-14 text-sm font-bold border-2 border-transparent focus:border-[#a855f7] transition-all"
+                                                            >
+                                                                {processed.all_reactions.map(r => <option key={r} value={r}>{r}</option>)}
+                                                            </select>
+                                                        </div>
+                                                        <button 
+                                                            onClick={() => {
+                                                                const prob = parseFloat(processed.risk_signals[selectedReaction] || 0);
+                                                                setPrediction(prob > 0.5 ? "HIGH" : "LOW");
+                                                            }} 
+                                                            className="st-button h-14 text-sm uppercase tracking-[0.2em] shadow-lg shadow-purple-500/20 active:scale-95 transition-transform"
+                                                        >
+                                                            Predict Clinical Risk
+                                                        </button>
+                                                        
+                                                        <AnimatePresence>
+                                                            {prediction && (
+                                                                <motion.div 
+                                                                    initial={{ opacity: 0, y: 20 }} 
+                                                                    animate={{ opacity: 1, y: 0 }}
+                                                                    exit={{ opacity: 0, scale: 0.95 }}
+                                                                    className={`p-5 rounded-xl border-2 font-black text-center text-xs tracking-widest flex items-center justify-center gap-3 ${
+                                                                        prediction === 'HIGH' 
+                                                                        ? 'bg-red-500/10 border-red-500/50 text-red-500' 
+                                                                        : 'bg-green-500/10 border-green-500/50 text-green-500'
+                                                                    }`}
+                                                                >
+                                                                    {prediction === 'HIGH' ? '⚠️' : '✅'} PREDICTION: {prediction} CLINICAL RISK DETECTED
+                                                                </motion.div>
+                                                            )}
+                                                        </AnimatePresence>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )}
                                 </div>
                             )}
                         </div>
