@@ -64,6 +64,7 @@
                     if (!res.ok) throw new Error(result.error);
                     setData(result);
                 } catch (err) { 
+                    console.warn("API Offline - Entering Demo Mode");
                     setData({
                         metrics: { total: "2,000", serious: "2,488", ratio: "124.40%" },
                         top_reactions: { "FATIGUE": 170, "MULTIPLE INJURIES": 150, "GASTROINTESTINAL HAEMORRHAGE": 140, "DIARRHOEA": 135, "DRUG INEFFECTIVE": 130, "DIZZINESS": 125, "DYSPNOEA": 120, "PAIN": 115, "ANAEMIA": 110, "NAUSEA": 105, "ASTHENIA": 100 },
