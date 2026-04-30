@@ -1,0 +1,501 @@
+report_id,date,serious,reactions
+10003304,20140424,2,Drug hypersensitivity
+10003310,20150812,2,Back pain
+10003349,20140312,1,"Cerebrovascular accident, Blood pressure increased, Pain"
+10003432,20150812,1,"Oedema peripheral, Fluid retention"
+10003582,20140312,2,"Hypertension, Dehydration, Night sweats, Panic attack, Hyperlipidaemia, Insomnia, Cold sweat, Bipolar disorder, Hyperhidrosis, Dysgeusia, Nausea"
+10003595,20140312,1,Transfusion
+10003632,20140312,1,"Influenza, Pneumonia"
+10003713,20140611,2,"Rash, Dyspnoea"
+10003717,20140312,1,"Haemoglobin decreased, Weight increased"
+10003740,20140312,1,Type 2 diabetes mellitus
+10003792,20140312,1,"Grand mal convulsion, Vomiting, Amnesia"
+10003859,20150312,1,"Blood count abnormal, Platelet count decreased"
+10003864,20140312,1,"Platelet count decreased, Blood count abnormal"
+10003923,20170119,1,"Increased appetite, Incontinence, Off label use, Epistaxis, Blindness, Weight increased, Skin cancer, Nasopharyngitis, Dizziness, Dry eye, Wrong technique in product usage process, Pruritus, Increased tendency to bruise, Diarrhoea, Constipation"
+10004051,20140312,2,"Pain, Dizziness, Headache"
+10004057,20200421,2,"Malaise, Nausea, Haemoglobin decreased, Headache"
+10004085,20140618,1,Lower gastrointestinal haemorrhage
+10004101,20140312,2,Rash
+10004111,20140611,2,"Rash, Headache"
+10004114,20140312,2,"Oral mucosal erythema, Oral pain, Abdominal tenderness"
+10004130,20140912,2,"Laboratory test abnormal, Contusion, Drug dose omission, Platelet count increased, Hypertension, Treatment noncompliance, Eye disorder, White blood cell count increased, Pain"
+10004138,20140312,2,"Pneumonia, Anaemia"
+10004140,20140312,2,"Nausea, Drug administration error"
+10004144,20140312,2,Flatulence
+10004175,20140721,1,"Skin discolouration, Rash"
+10004186,20140502,1,"Thrombotic microangiopathy, Renal impairment, Hepatic failure, Mental status changes, Stem cell transplant, Graft versus host disease, Fatigue, Drug administration error"
+10004211,20140313,1,"Spinal disorder, Dizziness, Feeling abnormal"
+10004221,20140425,1,"Chest pain, Palpitations, Drug ineffective"
+10004254,20140502,2,Drug ineffective
+10004383,20140312,1,"Neuropathy peripheral, Muscle spasms, Myopathy, Sleep disorder, Blood glucose increased"
+10004428,20140312,1,"Cerebrovascular accident, Weight increased, Withdrawal syndrome"
+10004465,20140312,1,"Depression, Disease progression, Psychotic disorder"
+10004480,20140312,2,"Diarrhoea, Fatigue, Furuncle"
+10004486,20140312,2,"Nausea, Chills, Abdominal pain, Headache"
+10004554,20140312,1,"Cardiac stress test abnormal, Arteriogram coronary abnormal, Weight decreased"
+10004589,20140611,1,"Haemoglobin decreased, Alopecia, Palpitations, Chills, Blood count abnormal"
+10004604,20140430,1,"Nephrolithiasis, Kidney infection, Heart rate increased, Dyspnoea, Fatigue, Dizziness"
+10004608,20140611,2,"Incontinence, Urinary tract infection"
+10004622,20140312,2,"White blood cell count increased, Platelet count decreased, Contusion"
+10004629,20140312,2,Diarrhoea
+10004634,20140312,2,"Dyspepsia, Contusion"
+10004640,20140611,2,"Hypertension, Increased appetite, Weight increased, Haemoglobin decreased"
+10004687,20140707,1,Arteritis
+10004707,20140820,1,"Hip fracture, Visual impairment, Overdose, Rehabilitation therapy, Gait disturbance, Mobility decreased, Dizziness, Fall"
+10004759,20140516,1,"Myocardial infarction, Coronary arterial stent insertion, Drug administration error"
+10004795,20191101,1,Type 2 diabetes mellitus
+10004803,20191104,1,"Hyperkalaemia, Pancreatitis acute, Type 2 diabetes mellitus"
+10004896,20180209,2,Drug hypersensitivity
+10004923,20140415,1,"Respiratory failure, Myocardial infarction, Cardiac failure, Memory impairment, Pain in extremity, Diarrhoea"
+10004971,20140312,2,"Asthenia, Dyspnoea, Anaemia, Drug administration error"
+10005001,20140312,2,"Flatulence, Decreased appetite, Nausea, Constipation"
+10005204,20140611,2,"Nasal congestion, Constipation, Spondylitis, Weight increased"
+10005231,20140312,2,Adverse drug reaction
+10005238,20140312,1,"Joint swelling, Pain in extremity, Anxiety, Disturbance in attention, Fatigue, Insomnia"
+10005289,20140715,1,"Cardio-respiratory arrest, Death, Septic shock, Respiratory failure"
+10005296,20140312,1,"Gallbladder disorder, Oropharyngeal pain, Sinusitis"
+10005416,20140313,2,"Adverse event, Influenza like illness"
+10005429,20140312,1,"Intentional underdose, Wrong technique in drug usage process, Drug withdrawal syndrome, Insomnia, Decreased appetite, Loss of consciousness, Dehydration, Blood glucose abnormal"
+10005542,20140313,1,"Dyspnoea, Asthma, Chest pain, Chest discomfort, Wheezing, Cough, Sinusitis"
+10005562,20140326,2,"Hyperhidrosis, Pain, Insomnia, Flushing"
+10005664,20140313,2,"Headache, Nasopharyngitis"
+10005676,20140313,2,"Muscle spasms, Weight decreased, Influenza, Gait disturbance, Cerebellar ataxia, Hypersensitivity, Headache, Insomnia, Overdose"
+10005772,20140313,2,Genital rash
+10005778,20140313,2,Herpes zoster
+10005826,20140313,1,"Loss of consciousness, Iron deficiency anaemia, Syncope"
+10005888,20180307,1,"Cardiac arrest, Acute myocardial infarction, Left atrial dilatation, Hyponatraemia, Hypertension, Coronary artery disease, Ischaemic cardiomyopathy, Fatigue, Ventricular tachycardia, Ventricular fibrillation, Heart rate increased, Cardiac failure acute, Atrial fibrillation, Hypogonadism, Respiratory failure, Ejection fraction decreased, Cardiac failure congestive, Sinus bradycardia, Coronary artery occlusion, Sleep apnoea syndrome"
+10005923,20140313,1,"Atypical pneumonia, Hypoacusis"
+10005993,20140417,1,"Glaucoma, Rash, Oedema peripheral, Lacrimation increased, Oedema peripheral, Pain, Fatigue, Herpes virus infection"
+10006049,20140317,1,"Death, Respiratory distress, Anaemia, Haematochezia"
+10006051,20140602,1,"Blindness, Deafness, Loss of consciousness, Contusion, Glaucoma, Pruritus, Muscle disorder, Confusional state, Skin lesion, Pain, Oral disorder, Delusion, Aggression"
+10006071,20140422,1,"Cardiac arrest, Blood urine present, Unresponsive to stimuli, Blood pressure decreased, Haemoglobin decreased, Abdominal pain"
+10006097,20140613,2,"Overdose, Drug ineffective, Product quality issue, Product quality issue"
+10006105,20140313,2,"Memory impairment, Chronic lymphocytic leukaemia"
+10006117,20140324,1,"Infection, Neutropenia, White blood cell count decreased"
+10006147,20140508,1,"Dizziness, Fatigue, Rash"
+10006156,20140313,1,Death
+10006158,20140313,1,"Pulmonary thrombosis, Thrombosis"
+10006168,20140313,1,"Incorrect dose administered, White blood cell count decreased, Rash"
+10006170,20140313,1,"Off label use, Atrial fibrillation, Metastases to bone"
+10006179,20140313,1,"Hypersensitivity, Angioedema, Pruritus"
+10006203,20150331,1,"Hearing impaired, Epistaxis, Hypertension, Computerised tomogram abnormal, Inappropriate schedule of drug administration, Rash, Hip fracture, Haemorrhagic diathesis, Rash, Dry skin"
+10006218,20140502,1,"Bacterial infection, Gastrointestinal disorder, Diarrhoea"
+10006236,20140326,1,Increased tendency to bruise
+10006272,20140313,1,"Gastrointestinal haemorrhage, Drug interaction"
+10006274,20140313,1,"Weight decreased, Transaminases increased, Malaise"
+10006313,20140313,1,"Haemorrhage, Drug interaction"
+10006314,20140313,1,"Gastrointestinal haemorrhage, Drug interaction"
+10006367,20150217,1,Type 2 diabetes mellitus
+10006374,20150217,1,Type 2 diabetes mellitus
+10006398,20140313,1,"Gastrointestinal haemorrhage, Drug interaction"
+10006401,20140313,1,"Chillblains, Pain in extremity, Oedema peripheral"
+10006412,20140313,1,"Gastrointestinal haemorrhage, Drug interaction, Diverticulum intestinal haemorrhagic, Rectal haemorrhage, Melaena"
+10006449,20140311,1,"Dyspnoea, Eye swelling, Dizziness, Palpitations"
+10006483,20150216,1,Type 2 diabetes mellitus
+10006492,20140516,1,Small fibre neuropathy
+10006498,20140313,1,"Renal failure acute, Retroperitoneal haemorrhage"
+10006505,20140313,1,"Haemorrhage, Drug interaction"
+10006512,20140313,1,"Ulcer haemorrhage, Drug interaction"
+10006522,20140313,1,"Gastrointestinal haemorrhage, Drug interaction, Melaena"
+10006576,20140618,1,Type 2 diabetes mellitus
+10006583,20141222,1,"Laceration, Dyspnoea, Productive cough, Seizure, Head injury, Presyncope, Fall, Rib fracture, Loss of consciousness, Syncope, Balance disorder, Concomitant disease aggravated, Insomnia, Humerus fracture, Joint injury"
+10006584,20140313,2,Inappropriate schedule of drug administration
+10006746,20150813,2,"Pain, Skin disorder"
+10006778,20140311,1,"Pyrexia, Unresponsive to stimuli, Hypotonia, Atrial fibrillation, Sick sinus syndrome, Ischaemic stroke"
+10006834,20140311,1,"Kounis syndrome, Acute myocardial infarction"
+10006982,20140311,1,"Nausea, Tremor, Dizziness, Anxiety, Headache, Blood pressure systolic increased, Product label on wrong product, Wrong drug administered"
+10007002,20140313,1,"Gastrointestinal haemorrhage, Drug interaction, Haematochezia"
+10007059,20140714,1,"Off label use, Thrombophlebitis superficial, Thrombosis"
+10007132,20150327,1,"Depression, Drug hypersensitivity, Suicidal ideation, Weight decreased, Insomnia, Pemphigoid"
+10007195,20140312,1,"Nausea, Dehydration, Cardiac arrest, Abdominal pain"
+10007246,20140417,2,"Disorientation, Dizziness, Hypersensitivity"
+10007380,20140313,1,"Eye disorder, Loss of consciousness, Fall, Headache, Eye infection"
+10007386,20140312,2,"Dyspnoea, Cough, Pleural effusion, Pneumonia, Anaemia"
+10007397,20140313,1,"Gastrointestinal haemorrhage, Drug interaction"
+10007454,20140313,1,"Haematuria, Pyrexia, Myalgia, Urinary tract infection"
+10007455,20150415,1,Type 2 diabetes mellitus
+10007468,20140313,1,"Gastrointestinal haemorrhage, Drug interaction"
+10007511,20140612,1,"Type 2 diabetes mellitus, Diabetic neuropathy, Impaired driving ability, Diabetic vascular disorder"
+10007541,20141006,1,"Glucose tolerance impaired, Type 2 diabetes mellitus"
+10007648,20140313,1,"Respiratory distress, Drug hypersensitivity"
+10007839,20140311,1,"Brain injury, Dizziness, Vomiting, Cognitive disorder"
+10008011,20140321,1,"Subdural haemorrhage, Brain stem haemorrhage, Haematemesis, Apnoea"
+10008054,20140313,1,Basal cell carcinoma
+10008151,20140313,1,"Cerebrovascular accident, Weight increased, Withdrawal syndrome"
+10008154,20140331,2,"Off label use, Drug ineffective"
+10008431,20140313,1,"Hyponatraemia, Confusional state"
+10008437,20140228,1,"Application site vesicles, Application site pain"
+10008463,20150427,1,"Osteoporosis, Alopecia, Dementia Alzheimer^s type, Osteopenia, Hearing impaired, Skin wrinkling, Fall"
+10008529,20140313,2,"Diarrhoea, Abdominal pain upper"
+10008535,20140312,2,"Back pain, Platelet count decreased, Cystitis"
+10008542,20140312,2,"Flushing, Hyperhidrosis, Dizziness"
+10008553,20140312,2,"Malaise, Decreased appetite, Diarrhoea, Hypoaesthesia, Vision blurred, Insomnia, Dizziness, Headache"
+10008573,20140312,2,"Nausea, Retching"
+10008600,20140312,2,"Dyspnoea, Haemoglobin decreased"
+10008608,20140312,2,Hypoaesthesia
+10008630,20140312,2,Nasopharyngitis
+10008680,20140312,2,"Depression, Platelet count increased"
+10008682,20140312,2,"Dry eye, Cataract"
+10008684,20140312,2,"Nausea, Dizziness, Increased tendency to bruise"
+10008690,20200407,1,"Vomiting, Anxiety, Diarrhoea, Weight increased, Urinary tract infection, Pruritus, Dry skin, Stomatitis, Paraesthesia, Dysphagia, Depression, Nausea, Dysgeusia, Therapeutic response unexpected, Pyrexia, Off label use, Headache, Night sweats, Insomnia, Hypoaesthesia, Thrombocytopenia, Rash, Chest pain, Constipation, Anaemia, Hot flush, Cough"
+10008694,20140312,2,Asthenia
+10008706,20140312,2,Blood uric acid increased
+10008720,20140312,2,"Oedema, Fatigue"
+10008721,20140312,2,"Tooth loss, Somnolence"
+10008729,20140312,1,Haemoglobin decreased
+10008730,20140312,2,"Haematochezia, Abdominal pain upper, Haemorrhoids, Local swelling, Wound"
+10008737,20140312,2,Blood pressure increased
+10008739,20140312,2,Diarrhoea
+10008742,20140312,2,"Contusion, Respiratory tract infection, Platelet count decreased"
+10008750,20140312,2,Tenderness
+10008757,20140312,2,Diarrhoea
+10008758,20140312,1,"Haemoglobin decreased, Diarrhoea"
+10008760,20140312,2,Nail discolouration
+10008779,20140312,2,"Abdominal pain upper, Diarrhoea, Back pain, Headache"
+10008782,20140312,2,Transfusion
+10008785,20140312,2,"Tremor, Diarrhoea, Pyrexia, Chills, Fatigue, Asthenia"
+10008798,20140312,2,"Dyspnoea, Asthenia, Platelet count decreased, Dizziness"
+10008801,20140312,2,"Back pain, Pain in extremity"
+10008819,20140312,2,White blood cell count increased
+10008822,20140312,2,"Fatigue, Muscular weakness, Lethargy, Haemoglobin decreased"
+10008832,20140313,2,"Weight decreased, Constipation, Decreased appetite"
+10008857,20140312,2,"Fatigue, Haemorrhagic diathesis, Insomnia, Dizziness, Contusion"
+10008865,20140313,2,Tremor
+10008869,20140312,2,"Venous thrombosis limb, Pain in extremity, Hypoaesthesia, Fall, Asthenia, Paraesthesia, Constipation, Arthralgia, Contusion, Fatigue, Intervertebral disc protrusion"
+10008870,20140312,2,Rash
+10008912,20140313,1,Blood count abnormal
+10008914,20140313,2,"Fatigue, Anaemia"
+10008934,20140313,2,"Blood creatinine increased, Fatigue, Haemoglobin decreased, Haematocrit decreased, Red blood cell count decreased, Decreased appetite, Blast cell count increased"
+10008937,20140313,1,"Haemoglobin decreased, Haematocrit decreased"
+10008938,20140313,2,"Stomatitis, Skin lesion"
+10008951,20140313,2,Spleen disorder
+10008956,20140313,1,"Angina pectoris, Diabetes mellitus inadequate control, Wound haemorrhage, Therapy cessation"
+10008960,20140313,1,Haemoglobin decreased
+10008980,20140313,2,"Fatigue, Nausea, Muscle spasms, Burning sensation"
+10008981,20140313,2,Osteoarthritis
+10009000,20140313,2,"Syncope, Pyrexia, Chills"
+10009012,20140313,2,"Pruritus, Red blood cell count decreased, Haemoglobin decreased, Haematocrit decreased"
+10009030,20140313,2,"Alopecia, Dizziness, Asthenia, Pain, Platelet count decreased"
+10009043,20140313,2,"Abdominal distension, Weight increased"
+10009079,20140313,2,"Back pain, Pain in extremity"
+10009342,20140313,1,"Cerebrovascular accident, Weight increased, Withdrawal syndrome"
+10009348,20140313,2,"Pain in extremity, White blood cell count decreased, Platelet count decreased"
+10009384,20140313,1,"Haemoglobin decreased, Fatigue, Drug ineffective"
+10009440,20140313,2,Abdominal distension
+10009445,20140312,1,"Haemoglobin decreased, Red blood cell count decreased"
+10009453,20211020,1,"Death, Erythropoiesis abnormal, Hepatic failure, Haemoglobin decreased, Oedema peripheral, Asthenia, Therapeutic response decreased, Splenomegaly, Fall, General physical health deterioration, Illness, Anxiety, Decreased activity, Pain, Platelet count decreased, Increased tendency to bruise, Contusion"
+10009460,20140313,1,"Abdominal pain, Vomiting, Rectal haemorrhage, Atrial fibrillation"
+10009462,20140312,2,Back pain
+10009470,20140313,2,"Gastrooesophageal reflux disease, Blood count abnormal"
+10009473,20140312,2,Skin lesion
+10009474,20140312,2,Constipation
+10009479,20140312,2,"Fatigue, Headache, Contusion"
+10009483,20140312,1,"Haemoglobin decreased, Urinary tract infection"
+10009484,20140313,2,Muscle spasms
+10009486,20140312,2,"Rash, Dizziness"
+10009493,20140312,1,"Anaemia, Blood creatinine increased, Hyperkalaemia, Dyspnoea, Fatigue, Dyspnoea exertional, Thrombocytosis, Dizziness"
+10009494,20140313,2,Migraine
+10009499,20140312,2,Epistaxis
+10009500,20140324,1,Cerebral haemorrhage
+10009511,20140312,1,Anaemia
+10009515,20140312,2,"Dry mouth, Dyspnoea, Cough, Lacrimation increased, Insomnia"
+10009520,20140603,2,"Burns third degree, Burns second degree, Cellulitis, Arthropathy, Exostosis, Foot deformity, Chemical injury, Oedema, Blister, Erythema"
+10009527,20140312,2,"White blood cell count abnormal, Platelet count abnormal, Nasal abscess"
+10009538,20140312,2,"Gout, Hypoaesthesia, Pain"
+10009539,20140312,2,"Oral pain, Pyrexia"
+10009540,20140312,2,"Abdominal distension, Fatigue, Memory impairment, Balance disorder"
+10009542,20140312,2,"Nausea, Decreased appetite, Headache, Dizziness, Anaemia"
+10009544,20140312,2,"Gout, Flatulence, Headache"
+10009552,20140312,2,"Diarrhoea, Anaemia"
+10009555,20140312,1,"Platelet count decreased, Haemoglobin decreased"
+10009568,20140312,2,"Diarrhoea, Decreased appetite, Nausea, Vomiting, Headache"
+10009583,20140312,1,"Platelet count decreased, Arthralgia, Pancytopenia, Herpes zoster"
+10009588,20140313,1,"Angina pectoris, Dehydration, Malaise, Pain, Oral surgery, Immunosuppressant drug level increased, Drug interaction"
+10009592,20140312,2,"Tendonitis, Joint stiffness"
+10009612,20140312,2,Oedema
+10009613,20140312,2,"Fatigue, Cough, Upper respiratory tract congestion, Malaise, Insomnia, Dyspnoea exertional, Constipation, Anxiety, Depression, Oedema peripheral, Pyrexia, Splenomegaly, Pain, Drug dose omission, Decreased appetite, Fall, Asthenia, Dizziness, Contusion, Anaemia"
+10009619,20140312,2,"Bone pain, Headache, Contusion"
+10009621,20140312,2,"Pneumonia, Malaise, Arthropathy, Gastrooesophageal reflux disease, Musculoskeletal pain, Blood count abnormal, Headache"
+10009623,20140312,1,"Haematocrit decreased, Haemoglobin decreased, Aspartate aminotransferase increased"
+10009627,20140312,2,Dysgeusia
+10009628,20140312,2,"Fatigue, Weight increased, Haemoglobin decreased"
+10009647,20140312,2,"Splenomegaly, White blood cell count increased, Drug ineffective"
+10009659,20140312,2,Platelet count abnormal
+10009669,20140312,2,"Abdominal pain, Dizziness"
+10009671,20140312,2,Pollakiuria
+10009681,20140312,2,"Tooth infection, Toothache"
+10009684,20140312,2,"Hyperhidrosis, Dyspnoea exertional, Nausea, Contusion, Epistaxis, Abdominal pain upper, Fatigue"
+10009686,20140312,2,"Abdominal distension, Abdominal pain upper, Dyspnoea, Fatigue, Iron deficiency"
+10009695,20140312,2,"Eye infection, Tooth infection, Asthenia"
+10009716,20140312,1,Haemoglobin decreased
+10009720,20140312,2,"Influenza like illness, Pyrexia"
+10009725,20140312,2,Transfusion
+10009726,20140312,2,"Diarrhoea, Contusion"
+10009736,20140312,2,"Colon neoplasm, Abdominal pain, Flatulence, Abdominal distension"
+10009757,20140312,1,"Platelet count decreased, Blood pressure increased, Palpitations, Feeling abnormal, Contusion, Red blood cell count decreased, Haemoglobin decreased"
+10009781,20140312,1,"Platelet count decreased, Weight increased"
+10009788,20140312,2,"Arthralgia, Cardiovascular disorder"
+10009802,20140312,2,"Cardiac murmur, Dyspnoea, Arthritis, Back pain, Neck pain"
+10009804,20140312,2,Migraine
+10009808,20140312,1,"Anaemia, Fatigue, Weight decreased"
+10009810,20140312,2,"Blood potassium increased, Cough, Feeling abnormal, Anaemia, White blood cell count decreased"
+10009811,20140312,2,"Splenomegaly, Dizziness, White blood cell count decreased, Red blood cell count decreased"
+10009830,20140312,2,"Flatulence, Abdominal pain upper, Anaemia"
+10009837,20140312,2,"Rash, Pruritus"
+10009840,20140312,2,Postoperative wound infection
+10009849,20140312,2,"Fall, Dizziness, Drug dose omission"
+10009852,20140312,2,"Nasopharyngitis, Respiratory disorder, Chest pain, Cough, Migraine, White blood cell count decreased, Dizziness"
+10009853,20140312,2,"Splenomegaly, Drug ineffective"
+10009856,20140312,2,"Alanine aminotransferase increased, Aspartate aminotransferase increased, Anaemia, Thrombocytopenia, White blood cell count decreased"
+10009863,20140312,2,"Lactose intolerance, Condition aggravated, Muscular weakness, Dyspnoea, Fatigue, Hyperhidrosis, Weight increased"
+10009872,20140312,2,"Anaemia, Platelet count decreased, Splenomegaly, Weight decreased, Decreased appetite, Wrong technique in drug usage process"
+10009874,20140312,2,"Anaemia, Platelet count decreased, Splenomegaly, Weight decreased, Decreased appetite, Wrong technique in drug usage process"
+10009887,20140312,2,"Chest pain, Nausea, Fatigue, Decreased appetite, Anaemia, Headache, Weight decreased"
+10009888,20140312,1,"Platelet count decreased, Haemoglobin decreased"
+10009889,20140312,2,"Splenomegaly, Drug ineffective, Disease progression"
+10009893,20140312,2,Local swelling
+10009897,20140312,2,"Platelet count increased, White blood cell count increased"
+10009901,20140312,1,Platelet count decreased
+10009907,20140312,2,"Chest discomfort, Hypoaesthesia"
+10009920,20140312,1,"Haemoglobin decreased, Platelet count decreased, White blood cell count decreased, Haematocrit decreased"
+10009933,20140312,2,"Abdominal pain, Abnormal faeces"
+10009935,20140312,1,"Anaemia, Red blood cell count decreased, Sinusitis, Bronchitis, Mastoiditis, Frequent bowel movements, Mucosal inflammation, Muscle spasms, Dyspnoea, Epistaxis, Anxiety, Diarrhoea, Erythema, Contusion, Dizziness"
+10009936,20140312,1,"Anaemia, Disease progression, Splenomegaly, Lung consolidation, Goitre"
+10009956,20140312,2,"Weight decreased, Skin discolouration, Hypoaesthesia, Dizziness, Haemoglobin decreased, Fatigue"
+10009965,20140312,2,"Arthralgia, Back pain, Anaemia"
+10009967,20140312,2,Non-cardiac chest pain
+10009970,20140312,2,"Diarrhoea, Anaemia"
+10009971,20140312,2,"Skin irritation, Rash pruritic, Burning sensation, Fatigue, Aspartate aminotransferase increased, Alanine aminotransferase increased"
+10010018,20140312,2,"Pollakiuria, Head discomfort, Sensation of heaviness, Hypoaesthesia, Dry skin, Binge eating, Headache"
+10010038,20140312,2,"Wheezing, Drug dose omission, Cough, Oropharyngeal pain"
+10010058,20140312,2,"Dyspepsia, Oesophageal pain, Insomnia"
+10010060,20140312,2,"Splenomegaly, Fatigue"
+10010068,20140611,2,"Nausea, Decreased appetite, Weight decreased, Vertigo, Dizziness"
+10010077,20200617,1,"Death, Nausea, Weight decreased, Peripheral swelling, Epistaxis, Anaemia, Diarrhoea"
+10010091,20140312,2,Splenomegaly
+10010095,20140611,2,Musculoskeletal pain
+10010100,20140312,2,Somnolence
+10010101,20140312,2,Blister
+10010108,20140312,2,"Fatigue, Red blood cell count decreased, Haemoglobin decreased"
+10010111,20140312,2,Flatulence
+10010124,20140312,2,Nausea
+10010125,20140312,2,"Epistaxis, Contusion, Petechiae, Platelet count decreased, Malaise"
+10010130,20140312,2,Platelet count abnormal
+10010134,20181112,2,"Tremor, Drug interaction, Weight decreased, Dysphonia, Dizziness, Blood glucose decreased"
+10010151,20140312,2,"Diarrhoea, Discomfort, Local swelling"
+10010157,20140611,2,"Diarrhoea, Haemoglobin decreased"
+10010164,20140312,2,"Neuropathy peripheral, Bone pain, Myalgia, Cyst"
+10010165,20140312,2,"Anaemia, Fatigue, Dyspnoea"
+10010168,20140312,2,"Diarrhoea, Platelet count increased, Rhinorrhoea, Oral pain, Sensation of heaviness, Insomnia, Nail bed disorder, Appetite disorder, Alopecia, Weight increased"
+10010172,20140312,2,"Pain, Chest pain, Skin lesion, Fatigue, Epistaxis, Headache, Contusion"
+10010176,20140312,2,Hospice care
+10010180,20140312,2,"Splenomegaly, Haemoglobin decreased, Platelet count decreased"
+10010183,20140312,2,"Chest pain, Dyspnoea, Oedema peripheral, Muscle spasms, Anaemia"
+10010193,20140312,2,"Diarrhoea, Pruritus, Bone pain, Gait disturbance, Haemoglobin decreased"
+10010211,20140312,2,"Headache, Dizziness, Contusion, Therapeutic response unexpected"
+10010217,20140313,1,"Rectal haemorrhage, Colitis ischaemic, Anaemia, Coagulopathy"
+10010339,20140314,1,"Fall, Loss of consciousness, Rhabdomyolysis"
+10010346,20151021,1,"Intestinal obstruction, Hearing impaired, Arterial occlusive disease, Coronary artery occlusion, Renal impairment"
+10010471,20140314,2,"Adverse event, Fatigue"
+10010497,20140314,1,"Urinary tract infection, Haematuria, Pyrexia, Myalgia"
+10010506,20140314,1,VIth nerve paralysis
+10010507,20140314,1,VIth nerve paralysis
+10010536,20140915,1,Haematuria
+10010577,20140314,1,Fatigue
+10010582,20170110,1,"Pancytopenia, Sepsis"
+10010584,20140312,1,"Headache, Cerebral haemorrhage"
+10010591,20140312,1,"Fatigue, Melaena, International normalised ratio increased, Haemoglobin decreased, Haematocrit decreased, Gastritis, Oesophageal candidiasis, Gastrointestinal haemorrhage"
+10010594,20140312,1,"Anaemia, Gastritis haemorrhagic"
+10010600,20140312,1,"Swelling face, Lip swelling, Local swelling, Local swelling, Throat tightness, Pharyngeal oedema, Dyspnoea, Ear pain, Pain in jaw, Asthenia, Fatigue, Hypersensitivity"
+10010706,20140314,1,"Blood calcium increased, Blood potassium decreased, Anaemia"
+10010728,20140321,1,Haemorrhage intracranial
+10010760,20150226,1,"Headache, Diarrhoea, Night sweats, Dry skin, Deafness"
+10010794,20140314,2,"Expired drug administered, Fatigue, Headache, Throat irritation, Upper-airway cough syndrome, Vomiting"
+10010817,20140311,1,"Fall, Hyponatraemia, Confusional state"
+10010847,20150512,1,Malignant melanoma in situ
+10010849,20140314,1,"Urinary tract infection, Pyrexia, Haematuria, Myalgia"
+10010875,20140314,1,"Interstitial lung disease, Pancreatitis, Disseminated intravascular coagulation, Tracheostomy, Mechanical ventilation, Gastric haemorrhage, Hepatic function abnormal, Cholelithiasis"
+10010877,20140314,1,"Vomiting, Underdose"
+10010879,20141013,1,"Myocardial infarction, Nausea, Weight increased, Headache, Dizziness, Angina pectoris, Fatigue, Hyperhidrosis"
+10010900,20140620,1,"Liver function test abnormal, Salmonellosis, Hepatic steatosis, Herpes simplex, Spinal osteoarthritis, Arthritis, Renal failure acute, Duodenal polyp, Electrolyte imbalance, Oesophagitis"
+10010911,20140605,2,"Abdominal pain upper, Abdominal pain"
+10010937,20140314,1,"Gastrointestinal haemorrhage, Drug interaction"
+10010964,20140318,2,"Pollakiuria, Drug ineffective"
+10010991,20140304,1,"Headache, Insomnia, Nausea, Condition aggravated, Paraesthesia, Night sweats, Myocardial infarction"
+10011124,20140314,1,"Myalgia, Fatigue, Insomnia, Decreased appetite, Sexual dysfunction"
+10011270,20140314,1,"Cyst rupture, Chromaturia"
+10011416,20140312,1,"Amniotic fluid volume decreased, Arthritis, Caesarean section, Maternal exposure during pregnancy"
+10011521,20140313,1,"Abdominal pain upper, Gastrointestinal haemorrhage, Intestinal ischaemia, Dialysis"
+10011645,20140416,1,"Renal cyst haemorrhage, Spinal fracture, Pancreatic mass"
+10011662,20140314,1,"Joint swelling, Pain in extremity, Anxiety, Disturbance in attention, Fatigue, Insomnia"
+10011673,20140313,1,Ulcer
+10011676,20140314,1,"Depressed level of consciousness, Unresponsive to stimuli, Pyrexia, Hypertension"
+10011686,20140313,1,"Ulcer, Scar, Purulence"
+10011688,20140314,1,"Red blood cell abnormality, Macular degeneration, Angina pectoris, Asthenia, Visual acuity reduced, Anaemia"
+10011700,20140314,1,Chronic obstructive pulmonary disease
+10011771,20140406,1,"Cataract, Goitre"
+10011780,20140314,2,Atrial fibrillation
+10011878,20150605,1,"Loss of employment, Multiple injuries, Anhedonia, Economic problem, Internal haemorrhage, Psychological trauma, Social problem, Deformity, Physical disability, Pain, Tension"
+10011916,20150608,1,"Multiple injuries, Physical disability, Pain, Gastrointestinal haemorrhage, Economic problem, Social problem, Multi-organ failure, Loss of employment, Renal injury, Tension, Ulcer, Deformity, Anhedonia, Psychological trauma"
+10011931,20140630,1,"Duodenal ulcer, Oesophagitis, Gastroenteritis aeromonas"
+10011980,20140314,1,"VIIth nerve paralysis, Cardiac disorder, Chronic obstructive pulmonary disease, Bronchiectasis, Thyroid disorder, Arthritis, Inflammation, Skin discolouration, Circumstance or information capable of leading to medication error"
+10012075,20141208,1,Type 2 diabetes mellitus
+10012101,20161222,1,"Acute respiratory distress syndrome, Pneumonia, Interstitial lung disease"
+10012126,20140414,1,"Cerebrovascular accident, Cardiac failure congestive, Disability, Coronary arterial stent insertion, Treatment noncompliance"
+10012128,20140314,1,"Basal cell carcinoma, Shoulder operation, Cyst, Sinus polyp, Ear infection, Synovial cyst, Musculoskeletal pain, Pain in extremity, Arthralgia, Expired drug administered"
+10012191,20140313,1,"Erythema, Feeling abnormal, Visual impairment"
+10012210,20140314,1,"Sudden cardiac death, Aspergillus test positive, Staphylococcus test positive, Mycobacterium avium complex infection, Acute respiratory distress syndrome, Hyperthyroidism, Pulmonary toxicity, Organising pneumonia, Pyrexia, Cough, Dyspnoea, Weight decreased, Haemoptysis, Asthenia"
+10012287,20140327,1,"Dehydration, Nausea, Vomiting, Faeces soft"
+10012291,20140625,2,"Rash erythematous, Application site erythema"
+10012395,20140314,1,Gastric disorder
+10012405,20140513,1,"Peripheral vascular disorder, Condition aggravated, Embolism arterial, Haemorrhage subcutaneous"
+10012419,20160217,2,"Therapeutic response unexpected, Fatigue, Abdominal discomfort, Drug ineffective, Therapy cessation, Gait disturbance, Off label use"
+10012429,20150723,1,"Mobility decreased, Gait disturbance, Abasia, Abasia, Multiple sclerosis, Weight decreased, Wheelchair user, Stress, Therapy cessation"
+10012448,20140821,1,"Depressed level of consciousness, Haematoma, Subdural haemorrhage, Craniotomy, Left ventricular failure, Speech disorder"
+10012534,20140314,1,Cerebral haemorrhage
+10012536,20140312,2,"Drug ineffective, Somnolence, Dizziness"
+10012579,20140415,1,"No adverse event, No adverse event"
+10012602,20140320,1,"Intra-abdominal haemorrhage, Stent placement"
+10012635,20140401,1,"Blood pressure abnormal, Urinary tract infection, Malaise, Diarrhoea, Spinal pain, Dizziness, Tremor, Cold sweat, Presyncope, Feeling abnormal, Hypoaesthesia, Dyspnoea, Pollakiuria, Urinary incontinence, Insomnia, Abdominal pain upper, Asthenia, Back pain, Pain in extremity"
+10012704,20140314,1,"Dementia Alzheimer^s type, Poor peripheral circulation, Stress, Visual acuity reduced, Incorrect dose administered"
+10012725,20140314,1,"International normalised ratio abnormal, Gastrointestinal haemorrhage, Gastritis, Large intestine polyp, Decreased appetite, Weight decreased, Nasopharyngitis, Abdominal distension, Cough, Viral infection, Abdominal pain, Constipation, Abdominal discomfort, Eructation, Off label use, Drug dose omission, Drug interaction"
+10012749,20140314,1,"Malaise, Transient ischaemic attack, Psoriasis, Loss of consciousness, Dehydration, Ear infection, Psoriasis, Bradyphrenia"
+10012765,20140314,1,"Fall, Supraventricular tachycardia"
+10012821,20140416,1,"Renal failure acute, Pulmonary thrombosis, Pulmonary mass, Deep vein thrombosis, Wound, Decubitus ulcer, Neutropenic sepsis, Neutropenia, Anaemia, Systemic candida, Arthralgia, Myalgia, Pyrexia"
+10012825,20140314,1,"Weight decreased, Transaminases increased"
+10012885,20150416,2,"Fatigue, Gait disturbance, Neuropathy peripheral, Hypoacusis"
+10012891,20191017,2,"Cough, Nasopharyngitis"
+10012913,20140314,1,"Weight decreased, Transaminases increased"
+10013023,20140314,1,"Skin lesion, Squamous cell carcinoma, Purulent discharge"
+10013038,20140425,1,Superficial spreading melanoma stage unspecified
+10013039,20140314,1,Unresponsive to stimuli
+10013084,20140314,2,"Liver disorder, Liver function test abnormal"
+10013093,20140314,2,Diarrhoea
+10013221,20140314,1,Transient ischaemic attack
+10013376,20150518,1,Hepatic function abnormal
+10013494,20140314,1,"Death, Haemorrhage intracranial"
+10013527,20140314,1,Death
+10013604,20140324,1,Tendon rupture
+10013613,20140315,1,Nephrogenic systemic fibrosis
+10013643,20140315,2,"Sluggishness, Dyspnoea, Activities of daily living impaired, Swelling, Fluid retention"
+10013688,20140315,1,"Irritability, Crying, Pyrexia, Injection site erythema, Injection site papule"
+10013698,20140606,1,"Hypersensitivity, Palpitations, Syncope, Obstructive airways disorder, Pruritus generalised, Pharyngeal oedema, Dyspnoea, Therapeutic response changed, Incorrect dose administered"
+10013699,20140316,1,"Cerebral haemorrhage, Drug interaction"
+10013702,20140316,1,"Lung infection, Increased bronchial secretion, Productive cough"
+10013706,20140317,1,"Aphagia, Constipation, Abdominal discomfort, Ocular discomfort, Malaise, Eructation, Asthenopia, Dehydration, Intentional drug misuse"
+10013758,20140316,2,Incorrect drug administration duration
+10013782,20140316,2,Insomnia
+10013801,20140316,1,Nephrogenic systemic fibrosis
+10013807,20140316,1,Cerebral haemorrhage
+10013833,20140508,2,"Application site pruritus, Application site erythema"
+10013872,20140316,1,"Post procedural haemorrhage, Compartment syndrome, Drug interaction"
+10013873,20140316,1,"Compartment syndrome, Drug interaction, Post procedural haemorrhage"
+10013999,20140317,1,"Bone neoplasm, Prostatic specific antigen increased, Drug ineffective"
+10014010,20140317,1,Unresponsive to stimuli
+10014036,20150126,1,"Electrocardiogram abnormal, Diarrhoea, Headache, Herpes ophthalmic, Rhinorrhoea, QRS axis abnormal, Urinary tract infection, Sinusitis, Myocardial infarction, Haemorrhoids, Therapeutic response unexpected"
+10014250,20140317,2,"Cellulitis, Blister, Herpes zoster, Pemphigoid"
+10014268,20140408,1,"Rhabdomyolysis, Myalgia, Rash generalised"
+10014271,20140317,2,"Fatigue, Hot flush, Nausea, Abdominal pain upper, Diarrhoea, Pruritus, Erythema"
+10014366,20140317,2,"Urinary tract infection, Dyspnoea, Middle insomnia, Flushing, Rash, Hot flush, Erythema, Feeling hot"
+10014446,20140317,1,Cholelithiasis
+10014467,20140317,1,"Compartment syndrome, Drug interaction, Post procedural haemorrhage, International normalised ratio increased"
+10014510,20140317,1,"Surgical failure, Intervertebral disc degeneration, Vision blurred, Back pain, Weight increased, Weight decreased, Hypotonia, Red blood cell count decreased"
+10014511,20140317,1,Aplastic anaemia
+10014535,20170721,1,"Appendicectomy, Androgen deficiency, Diverticulitis, Influenza, Muscular weakness, Atrial fibrillation, Prostatic specific antigen increased, Death, Peripheral swelling, Drug effect decreased"
+10014540,20140401,1,"Dyspnoea, Urinary tract infection, Cystitis"
+10014591,20140317,1,"Haemorrhagic diathesis, Increased tendency to bruise"
+10014607,20140317,1,Psoriasis
+10014609,20140319,1,"Activities of daily living impaired, Nerve injury, Tendonitis, Gait disturbance, Arthralgia, Pain in extremity, Tendon pain, Burning sensation, Muscle spasms, Joint injury, Tendon rupture"
+10014640,20140605,1,"Pancreatitis acute, Bradycardia, Hypotension, Chest pain, Peripheral artery dissection, Hepatic neoplasm"
+10014668,20140410,1,Heart rate increased
+10014673,20140321,2,"Application site discolouration, Pruritus, Erythema, Drug effect decreased, Product packaging issue"
+10014697,20140317,1,"Pulmonary embolism, Thrombophlebitis superficial"
+10014722,20140328,1,"Cardiac failure, Haematemesis, Abdominal pain upper, International normalised ratio increased, Coagulation factor increased, Infection, Pulmonary oedema, Hypotension, Syncope, Renal failure, Arteriosclerosis, Hyperkalaemia, Anaemia, Acute myocardial infarction, Aortic valve stenosis"
+10014782,20140317,1,"Eating disorder, Haemoglobin decreased, Platelet count decreased"
+10014817,20140317,1,"Cerebrovascular accident, Platelet count decreased"
+10014862,20150616,1,"Physical disability, Tension, Anhedonia, Psychological trauma, Gastrointestinal haemorrhage, Multiple injuries, Deformity, Social problem, Pain, Economic problem, Loss of employment"
+10014972,20140317,1,"Hypothyroidism, Blood thyroid stimulating hormone decreased, Off label use, Low density lipoprotein increased, Blood pressure increased"
+10014975,20140327,1,"Haematochezia, Haemorrhage, Colitis ischaemic, Large intestinal stenosis, Intestinal mass"
+10015014,20140317,1,"Vascular graft occlusion, Liver function test abnormal, Alanine aminotransferase increased, Aspartate aminotransferase increased, Blood alkaline phosphatase increased, Blood bilirubin increased, Chest pain, Dyspnoea exertional, Haemoglobin decreased"
+10015242,20140317,2,Drug hypersensitivity
+10015245,20140317,2,Malaise
+10015283,20140819,1,"Asthenia, Epistaxis, Pneumonia, Dysarthria, Dementia, Pruritus, Fatigue"
+10015296,20140317,2,Thyroid disorder
+10015324,20150615,1,"Haemoptysis, Injury, Purpura, Physical disability, Pain, Anhedonia, Tension, Contusion"
+10015334,20140501,1,"Pneumonia, Influenza, Blood glucose increased"
+10015364,20140417,1,"Hip fracture, Pain"
+10015410,20140317,1,"Hypoglycaemia, Gastroenteritis, General physical health deterioration"
+10015420,20140424,1,"Lumbar spinal stenosis, Brain neoplasm, Lung carcinoma cell type unspecified recurrent"
+10015449,20140723,1,Colon cancer metastatic
+10015488,20140331,1,"Respiratory failure, Osteomyelitis, Nephrolithiasis, Decubitus ulcer, Dyskinesia, Infection, Mental status changes, Hypertension, Dizziness, Muscle spasms, Muscle spasticity, Drug withdrawal syndrome"
+10015518,20140317,1,"Neonatal respiratory distress syndrome, Hypoxia, Leukopenia, Thrombocytopenia, C-reactive protein increased, Bronchopulmonary dysplasia, Neonatal cholestasis, Necrotising colitis, Hypothyroidism, Psychomotor hyperactivity, Inguinal hernia, Low birth weight baby, Premature baby, Foetal growth restriction, Immunosuppression, Pathological fracture, Meconium abnormal, Foetal exposure during pregnancy"
+10015657,20150608,1,"Tension, Anhedonia, Gastrointestinal haemorrhage, Wound infection, Pain, Economic problem, Psychological trauma, Social problem, Loss of employment, Intestinal perforation, Multiple injuries, Physical disability, Sepsis, Deformity"
+10015710,20140513,2,"Rash generalised, Urticaria"
+10015774,20140630,1,"Anaemia, Ankle fracture, Rash, Rash"
+10015777,20140415,1,"Vaginal haemorrhage, Chest pain, Pyrexia"
+10015780,20140317,1,Wrist fracture
+10015892,20140317,1,"Atrial fibrillation, Arthralgia, Synovitis, Sleep disorder, Thrombosis, Drug interaction, Joint stiffness, Hypersensitivity"
+10015923,20150525,1,"Cystitis haemorrhagic, Anaemia, Blood glucose increased, Bladder disorder, Urinary tract infection, Prothrombin time prolonged"
+10015926,20140327,1,"Intra-abdominal haematoma, Red blood cell count decreased, Chronic obstructive pulmonary disease"
+10015946,20140317,2,"Drug ineffective, Incorrect drug administration duration"
+10015975,20150303,1,"Ear infection, Pruritus, Urine odour abnormal, Feeling abnormal, Vaginal odour, Vaginal infection, Skin disorder, Pelvic pain, Rib fracture, Eyelid infection, Deep vein thrombosis, Infected cyst"
+10016004,20150608,1,"Multiple injuries, Gastrointestinal haemorrhage"
+10016029,20140522,1,"Dehydration, Viral infection"
+10016038,20140403,1,"Cerebral atrophy, Memory impairment, Fatigue, Dizziness"
+10016043,20140729,1,"Fall, Femur fracture, Humerus fracture"
+10016058,20150605,1,"Multiple injuries, Gastrointestinal haemorrhage"
+10016073,20191120,1,"Renal failure, Type 2 diabetes mellitus"
+10016089,20150617,1,"Anhedonia, Multiple injuries, Hemiplegia, Physical disability, Deformity, Tension, Loss of employment, Economic problem, Haemorrhage intracranial, Joint dislocation, Psychological trauma, Social problem, Anaemia"
+10016136,20150612,1,"Dyspnoea, Abdominal discomfort, Deformity, Haemorrhagic anaemia, Fatigue, Loss of employment, Social problem, Pain, Anhedonia, Gastrointestinal haemorrhage, Injury, Physical disability, Tension, Economic problem, Psychological trauma"
+10016154,20150617,1,"Deformity, Loss of employment, Psychological trauma, Economic problem, Multiple injuries, Tension, Physical disability, Social problem, Anhedonia, Gastrointestinal haemorrhage, Pain"
+10016166,20140326,1,"Acute myocardial infarction, Renal failure, Hypotension, Arteriosclerosis, Haematemesis, Cardiac failure, Anaemia, Aortic valve stenosis, Abdominal pain upper, International normalised ratio increased, Coagulation factor increased, Infection, Pulmonary oedema, Syncope, Hyperkalaemia"
+10016172,20151026,1,Type 2 diabetes mellitus
+10016193,20140520,1,"Gastric haemorrhage, Skin haemorrhage, Haematemesis, Rubber sensitivity"
+10016233,20191031,1,"Type 2 diabetes mellitus, Renal disorder"
+10016248,20140317,1,"Death, Increased tendency to bruise"
+10016251,20140710,1,Hearing impaired
+10016285,20140317,1,"Pharyngeal oedema, Swollen tongue, Dysphonia"
+10016297,20140317,1,"Myocardial infarction, Blood pressure abnormal, Off label use"
+10016328,20180327,1,Pancreatic carcinoma
+10016368,20140424,1,"Device dislocation, Uterine leiomyoma, Arthralgia, Musculoskeletal pain, Pain in extremity, Pica, Haemoglobin decreased, Menstruation irregular"
+10016376,20140317,1,"Blood pressure inadequately controlled, Upper respiratory tract infection, Photopsia, Pain in extremity"
+10016380,20140615,2,"Blood testosterone decreased, Weight increased, Increased appetite, Fatigue"
+10016382,20140625,2,"Eye pruritus, Lacrimation increased"
+10016423,20140317,1,"Presyncope, Sinus bradycardia"
+10016429,20140403,1,"Myalgia, Decreased appetite, Sexual dysfunction, Insomnia, Fatigue"
+10016490,20140317,1,"Pneumonitis, Respiratory failure"
+10016546,20140326,2,"Fluid retention, Dyspnoea, Oedema peripheral"
+10016565,20140317,1,"Sepsis, Clostridium difficile infection, Candida infection, Bacterial sepsis, Neutropenia"
+10016690,20140702,1,Syncope
+10016719,20140318,1,"Pleuritic pain, Pulmonary artery dilatation, Antisynthetase syndrome, Joint range of motion decreased, Local swelling, Staphylococcal bacteraemia, Localised infection, Rash, Computerised tomogram abnormal, Blood creatine phosphokinase increased, Fatigue, Dizziness, Hypotension, Musculoskeletal chest pain, Hypoaesthesia, Pruritus, Skin discolouration, Tenderness, Herpes zoster, Infection, Osteomyelitis, Soft tissue infection, Pulmonary hypertension, White blood cell count increased"
+10016740,20140318,1,"Pneumonia, Loss of consciousness, Cardiac failure congestive, Cardiac valve disease, Incontinence, Fatigue, Weight decreased, Application site erythema"
+10016759,20140318,1,"Proteinuria, Lupus nephritis, Premature labour, Maternal exposure during pregnancy"
+10016775,20140827,1,"Aphasia, Hemianopia, Pulse absent, Venous pressure increased, Glomerular filtration rate decreased, Sensory loss, Motor dysfunction, Unresponsive to stimuli, Pulmonary vascular disorder, Blood creatinine increased, Muscular weakness, Carotid arteriosclerosis, Cerebrovascular accident, Speech disorder, Facial paresis, VIIth nerve paralysis, Dyspnoea, Movement disorder, Activated partial thromboplastin time prolonged, Prothrombin time prolonged, Neurologic neglect syndrome, Visual acuity reduced, Inguinal hernia, Blood chloride increased, Dysarthria, Circulatory collapse, Gliosis"
+10016781,20240129,1,"Hypertension, Pneumonia, Cellulitis, Metastasis, Metastases to liver, Rosacea, Paronychia, Localised infection, Peripheral swelling, Pain in extremity, Urinary tract infection, Acne, Dry skin, Secretion discharge, Scab, Skin irritation, Periorbital oedema, Rectal fissure, Erythema, Oedema peripheral, Musculoskeletal pain, Anxiety, Skin sensitisation, Oedema, Illness, Nasal congestion, Cough, Hypersomnia, Cyst, Swelling, Pain, Sensitisation, Mobility decreased, Blood pressure systolic increased, Ovarian cyst, Induration, Sinusitis, Anaemia, Disturbance in attention, Protein urine, Mass, Tremor, Crying, Blood creatine increased, Arthralgia, Miliaria, Eye pruritus, Hypersensitivity, Tendonitis, Proctalgia, Haemorrhoids, Haemorrhoidal haemorrhage, Bronchitis, Vitamin B12 deficiency, Fall, Balance disorder, Bone pain, Hypoglycaemia, Weight decreased, Dizziness, Rash, Dyspepsia, Abdominal pain, Sputum discoloured, COVID-19, Pruritus, Nausea, Nasopharyngitis, Fatigue, Product use issue, Needle issue, Injection site hypersensitivity, Injection site haematoma, Injection site pain, Injection site mass, Injection site pain, Headache"
+10016841,20140502,2,"Drug ineffective, Oedema peripheral, Diabetes mellitus inadequate control, Hyperglycaemia, Central obesity"
+10017062,20140318,2,"Muscular weakness, Pain in extremity, Muscle contractions involuntary"
+10017075,20140627,1,"Renal cyst, Multiple sclerosis relapse"
+10017080,20140404,1,"Fall, Contusion, Mobility decreased, Dyspnoea, Myocardial infarction, Cardiac disorder, Depressed mood, Decreased interest, Gait disturbance"
+10017081,20150507,1,Anaphylactic reaction
+10017145,20140318,1,"Hepatic function abnormal, Renal failure, Hepatic failure, Hypoaesthesia, Pain, Paralysis, Rhabdomyolysis, Visual acuity reduced"
+10017148,20140526,1,Small fibre neuropathy
+10017197,20140320,1,"Terminal state, Thrombosis in device, Circumstance or information capable of leading to medication error, Drug dose omission"
+10017218,20140318,2,Limb discomfort
+10017224,20140318,1,Nephrogenic systemic fibrosis
+10017250,20150129,1,"Catheterisation cardiac, Proctalgia, Disease progression, Rectal haemorrhage, Anorectal discomfort, Rectal discharge, Palmar-plantar erythrodysaesthesia syndrome, Adenocarcinoma, Asthenia, Dysplasia"
+10017261,20140318,1,"Acute myocardial infarction, Hypersensitivity"
+10017287,20140416,1,Haemarthrosis
+10017288,20140402,1,"Blood potassium increased, Urticaria, Myalgia, Anaemia, Feeling abnormal, Insomnia, Fatigue"
+10017369,20140319,2,"Skin irritation, Discomfort, Erythema, Pruritus"
+10017408,20140313,1,"Arthralgia, Musculoskeletal stiffness, Gait disturbance, Balance disorder"
+10017416,20140702,2,"Yellow skin, Contusion, Constipation"
+10017427,20140318,2,"Incorrect product storage, Drug ineffective"
+10017452,20140313,1,"Tendon rupture, Hypoaesthesia, Neuropathy peripheral, Pain, Gait disturbance"
+10017478,20140313,1,"Drug ineffective, Product substitution issue, Product adhesion issue, Product physical issue"
+10017509,20140318,2,Drug ineffective
+10017516,20140318,2,Dyspepsia
+10017541,20140313,1,"Urticaria, Pruritus"
+10017612,20140318,2,"Rash pruritic, Constipation, Dry skin"
+10017668,20140313,1,"Musculoskeletal stiffness, Gait disturbance, Musculoskeletal pain, Arthralgia, Pain in extremity, Arthralgia, Arthralgia, Cough, Gait disturbance"
+10017745,20140318,2,Rash

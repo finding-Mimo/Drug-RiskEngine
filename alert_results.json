@@ -1,0 +1,976 @@
+[
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-13",
+    "day_post_discharge":1,
+    "risk_score":0.105,
+    "risk_level":"LOW",
+    "rule_triggers":[
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"Continue monitoring. Next scheduled follow-up as planned.",
+    "alert_tier":"WATCH",
+    "composite_score":{
+      "physiological_score":0.049,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-14",
+    "day_post_discharge":2,
+    "risk_score":0.147,
+    "risk_level":"LOW",
+    "rule_triggers":[
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"Continue monitoring. Next scheduled follow-up as planned.",
+    "alert_tier":"WATCH",
+    "composite_score":{
+      "physiological_score":0.025,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-15",
+    "day_post_discharge":3,
+    "risk_score":0.167,
+    "risk_level":"LOW",
+    "rule_triggers":[
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"Continue monitoring. Next scheduled follow-up as planned.",
+    "alert_tier":"WATCH",
+    "composite_score":{
+      "physiological_score":0.051,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-16",
+    "day_post_discharge":4,
+    "risk_score":0.197,
+    "risk_level":"LOW",
+    "rule_triggers":[
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"Continue monitoring. Next scheduled follow-up as planned.",
+    "alert_tier":"WATCH",
+    "composite_score":{
+      "physiological_score":0.144,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-17",
+    "day_post_discharge":5,
+    "risk_score":0.284,
+    "risk_level":"LOW",
+    "rule_triggers":[
+      "WEIGHT_SLOPE_RISING_5D",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight trend: +0.18 kg\/day over 5 days (sustained fluid retention)",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"Continue monitoring. Next scheduled follow-up as planned.",
+    "alert_tier":"WATCH",
+    "composite_score":{
+      "physiological_score":0.22,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-18",
+    "day_post_discharge":6,
+    "risk_score":0.581,
+    "risk_level":"HIGH",
+    "rule_triggers":[
+      "WEIGHT_SLOPE_RISING_5D",
+      "HR_ZSCORE_HIGH",
+      "ACTIVITY_CRASH",
+      "SPO2_DROP",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight trend: +0.18 kg\/day over 5 days (sustained fluid retention)",
+      "Resting HR 82 bpm (+5.9% vs baseline, z=3.0\u03c3)",
+      "Activity collapsed: 446 steps\/day (70% below personal baseline)",
+      "SpO2 93.0% \u2014 1.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"Urgent clinic contact within 4h. Consider same-day telehealth or in-person evaluation.",
+    "alert_tier":"HIGH_RISK",
+    "composite_score":{
+      "physiological_score":0.567,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-19",
+    "day_post_discharge":7,
+    "risk_score":0.542,
+    "risk_level":"HIGH",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_SLOPE_RISING_5D",
+      "HR_ZSCORE_HIGH",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +0.6 kg (1.4 lbs) above personal baseline (z=2.2\u03c3)",
+      "Weight trend: +0.17 kg\/day over 5 days (sustained fluid retention)",
+      "Resting HR 82 bpm (+5.9% vs baseline, z=3.0\u03c3)",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"Urgent clinic contact within 4h. Consider same-day telehealth or in-person evaluation.",
+    "alert_tier":"HIGH_RISK",
+    "composite_score":{
+      "physiological_score":0.503,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-20",
+    "day_post_discharge":8,
+    "risk_score":0.507,
+    "risk_level":"HIGH",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "AFIB_BURDEN_ELEVATED",
+      "SPO2_DROP",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +0.7 kg (1.6 lbs) above personal baseline (z=2.6\u03c3)",
+      "AFib burden elevated: 3 irregular HR events (z=6.0\u03c3)",
+      "SpO2 92.0% \u2014 2.8 points below personal baseline",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"Urgent clinic contact within 4h. Consider same-day telehealth or in-person evaluation.",
+    "alert_tier":"HIGH_RISK",
+    "composite_score":{
+      "physiological_score":0.542,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-21",
+    "day_post_discharge":9,
+    "risk_score":0.553,
+    "risk_level":"HIGH",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_SLOPE_RISING_5D",
+      "SPO2_DROP",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +1.0 kg (2.3 lbs) above personal baseline (z=3.6\u03c3)",
+      "Weight trend: +0.16 kg\/day over 5 days (sustained fluid retention)",
+      "SpO2 93.0% \u2014 1.8 points below personal baseline",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"Urgent clinic contact within 4h. Consider same-day telehealth or in-person evaluation.",
+    "alert_tier":"HIGH_RISK",
+    "composite_score":{
+      "physiological_score":0.64,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-22",
+    "day_post_discharge":10,
+    "risk_score":0.653,
+    "risk_level":"HIGH",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_SLOPE_RISING_5D",
+      "HR_ZSCORE_HIGH",
+      "SPO2_DROP",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +1.3 kg (3.0 lbs) above personal baseline (z=4.7\u03c3)",
+      "Weight trend: +0.20 kg\/day over 5 days (sustained fluid retention)",
+      "Resting HR 81 bpm (+4.7% vs baseline, z=2.4\u03c3)",
+      "SpO2 92.0% \u2014 2.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"Urgent clinic contact within 4h. Consider same-day telehealth or in-person evaluation.",
+    "alert_tier":"HIGH_RISK",
+    "composite_score":{
+      "physiological_score":0.746,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-23",
+    "day_post_discharge":11,
+    "risk_score":0.696,
+    "risk_level":"HIGH",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_SLOPE_RISING_5D",
+      "HR_ZSCORE_HIGH",
+      "AFIB_BURDEN_ELEVATED",
+      "SPO2_DROP",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +1.4 kg (3.2 lbs) above personal baseline (z=5.0\u03c3)",
+      "Weight trend: +0.22 kg\/day over 5 days (sustained fluid retention)",
+      "Resting HR 81 bpm (+4.7% vs baseline, z=2.4\u03c3)",
+      "AFib burden elevated: 1 irregular HR events (z=2.0\u03c3)",
+      "SpO2 91.0% \u2014 3.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"Urgent clinic contact within 4h. Consider same-day telehealth or in-person evaluation.",
+    "alert_tier":"HIGH_RISK",
+    "composite_score":{
+      "physiological_score":0.832,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-24",
+    "day_post_discharge":12,
+    "risk_score":0.69,
+    "risk_level":"HIGH",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_SLOPE_RISING_5D",
+      "HR_ZSCORE_HIGH",
+      "SPO2_DROP",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +1.5 kg (3.4 lbs) above personal baseline (z=5.3\u03c3)",
+      "Weight trend: +0.20 kg\/day over 5 days (sustained fluid retention)",
+      "Resting HR 83 bpm (+7.2% vs baseline, z=3.7\u03c3)",
+      "SpO2 91.0% \u2014 3.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"Urgent clinic contact within 4h. Consider same-day telehealth or in-person evaluation.",
+    "alert_tier":"HIGH_RISK",
+    "composite_score":{
+      "physiological_score":0.936,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-25",
+    "day_post_discharge":13,
+    "risk_score":0.781,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_SLOPE_RISING_5D",
+      "HR_ZSCORE_HIGH",
+      "AFIB_BURDEN_ELEVATED",
+      "SPO2_DROP",
+      "SPO2_CRITICAL",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +1.7 kg (3.8 lbs) above personal baseline (z=6.0\u03c3)",
+      "Weight trend: +0.16 kg\/day over 5 days (sustained fluid retention)",
+      "Resting HR 85 bpm (+9.8% vs baseline, z=5.0\u03c3)",
+      "AFib burden elevated: 1 irregular HR events (z=2.0\u03c3)",
+      "SpO2 89.0% \u2014 5.8 points below personal baseline",
+      "\ud83d\udea8 SpO2 89.0% \u2014 clinically critical (< 90%)",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-26",
+    "day_post_discharge":14,
+    "risk_score":0.717,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "AFIB_BURDEN_ELEVATED",
+      "SPO2_DROP",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +1.8 kg (4.1 lbs) above personal baseline (z=6.4\u03c3)",
+      "\u26a0 Discharge protocol breach: weight up 1.8 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 83 bpm (+7.2% vs baseline, z=3.7\u03c3)",
+      "AFib burden elevated: 1 irregular HR events (z=2.0\u03c3)",
+      "SpO2 91.0% \u2014 3.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-27",
+    "day_post_discharge":15,
+    "risk_score":0.824,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "AFIB_BURDEN_ELEVATED",
+      "ACTIVITY_CRASH",
+      "SPO2_DROP",
+      "COMPOSITE_WEIGHT_UP_ACTIVITY_DOWN",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +1.9 kg (4.3 lbs) above personal baseline (z=6.7\u03c3)",
+      "\u26a0 Discharge protocol breach: weight up 1.9 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 87 bpm (+12.4% vs baseline, z=6.3\u03c3)",
+      "AFib burden elevated: 5 irregular HR events (z=10.0\u03c3)",
+      "Activity collapsed: 314 steps\/day (79% below personal baseline)",
+      "SpO2 91.0% \u2014 3.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Simultaneous weight gain + activity collapse \u2014 hallmark CHF decompensation pattern",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-28",
+    "day_post_discharge":16,
+    "risk_score":0.738,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "AFIB_BURDEN_ELEVATED",
+      "SPO2_DROP",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +2.0 kg (4.5 lbs) above personal baseline (z=7.1\u03c3)",
+      "\u26a0 Discharge protocol breach: weight up 2.0 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 85 bpm (+9.8% vs baseline, z=5.0\u03c3)",
+      "AFib burden elevated: 9 irregular HR events (z=18.0\u03c3)",
+      "SpO2 90.0% \u2014 4.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-29",
+    "day_post_discharge":17,
+    "risk_score":0.821,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "AFIB_BURDEN_ELEVATED",
+      "ACTIVITY_CRASH",
+      "SPO2_DROP",
+      "COMPOSITE_WEIGHT_UP_ACTIVITY_DOWN",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +2.1 kg (4.7 lbs) above personal baseline (z=7.4\u03c3)",
+      "\u26a0 Discharge protocol breach: weight up 2.1 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 86 bpm (+11.1% vs baseline, z=5.7\u03c3)",
+      "AFib burden elevated: 3 irregular HR events (z=6.0\u03c3)",
+      "Activity collapsed: 424 steps\/day (71% below personal baseline)",
+      "SpO2 91.0% \u2014 3.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Simultaneous weight gain + activity collapse \u2014 hallmark CHF decompensation pattern",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-30",
+    "day_post_discharge":18,
+    "risk_score":0.852,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "HR_RISING_TREND",
+      "AFIB_BURDEN_ELEVATED",
+      "ACTIVITY_CRASH",
+      "SPO2_DROP",
+      "COMPOSITE_WEIGHT_UP_ACTIVITY_DOWN",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +2.3 kg (5.2 lbs) above personal baseline (z=8.1\u03c3)",
+      "\u26a0 Discharge protocol breach: weight up 2.3 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 95 bpm (+22.7% vs baseline, z=11.6\u03c3)",
+      "HR rising trend: +2.3 bpm\/day over 5 days",
+      "AFib burden elevated: 9 irregular HR events (z=18.0\u03c3)",
+      "Activity collapsed: 103 steps\/day (93% below personal baseline)",
+      "SpO2 90.0% \u2014 4.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Simultaneous weight gain + activity collapse \u2014 hallmark CHF decompensation pattern",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-03-31",
+    "day_post_discharge":19,
+    "risk_score":0.886,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_SLOPE_RISING_5D",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "HR_RISING_TREND",
+      "AFIB_BURDEN_ELEVATED",
+      "ACTIVITY_CRASH",
+      "SPO2_DROP",
+      "COMPOSITE_WEIGHT_UP_ACTIVITY_DOWN",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +2.7 kg (6.0 lbs) above personal baseline (z=9.5\u03c3)",
+      "Weight trend: +0.19 kg\/day over 5 days (sustained fluid retention)",
+      "\u26a0 Discharge protocol breach: weight up 2.7 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 97 bpm (+25.3% vs baseline, z=12.9\u03c3)",
+      "HR rising trend: +3.0 bpm\/day over 5 days",
+      "AFib burden elevated: 8 irregular HR events (z=16.0\u03c3)",
+      "Activity collapsed: 55 steps\/day (96% below personal baseline)",
+      "SpO2 90.0% \u2014 4.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Simultaneous weight gain + activity collapse \u2014 hallmark CHF decompensation pattern",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-04-01",
+    "day_post_discharge":20,
+    "risk_score":0.948,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_SLOPE_RISING_5D",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "HR_RISING_TREND",
+      "AFIB_BURDEN_ELEVATED",
+      "ACTIVITY_CRASH",
+      "SPO2_DROP",
+      "SPO2_CRITICAL",
+      "COMPOSITE_WEIGHT_UP_ACTIVITY_DOWN",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH",
+      "ANTICOAGULATION_GAP"
+    ],
+    "drivers":[
+      "Weight +2.8 kg (6.3 lbs) above personal baseline (z=9.9\u03c3)",
+      "Weight trend: +0.22 kg\/day over 5 days (sustained fluid retention)",
+      "\u26a0 Discharge protocol breach: weight up 2.8 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 98 bpm (+26.6% vs baseline, z=13.6\u03c3)",
+      "HR rising trend: +3.7 bpm\/day over 5 days",
+      "AFib burden elevated: 9 irregular HR events (z=18.0\u03c3)",
+      "Activity collapsed: 79 steps\/day (95% below personal baseline)",
+      "SpO2 89.0% \u2014 5.8 points below personal baseline",
+      "\ud83d\udea8 SpO2 89.0% \u2014 clinically critical (< 90%)",
+      "\ud83d\udd34 COMPOSITE: Simultaneous weight gain + activity collapse \u2014 hallmark CHF decompensation pattern",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval",
+      "\ud83d\udea8 Apixaban gap detected \u2014 AFib patient without anticoagulation (stroke risk)"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":1.0,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-04-02",
+    "day_post_discharge":21,
+    "risk_score":0.919,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_SLOPE_RISING_5D",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "HR_RISING_TREND",
+      "AFIB_BURDEN_ELEVATED",
+      "ACTIVITY_CRASH",
+      "SPO2_DROP",
+      "COMPOSITE_WEIGHT_UP_ACTIVITY_DOWN",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH",
+      "ANTICOAGULATION_GAP"
+    ],
+    "drivers":[
+      "Weight +2.9 kg (6.5 lbs) above personal baseline (z=10.2\u03c3)",
+      "Weight trend: +0.21 kg\/day over 5 days (sustained fluid retention)",
+      "\u26a0 Discharge protocol breach: weight up 2.9 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 94 bpm (+21.4% vs baseline, z=10.9\u03c3)",
+      "HR rising trend: +1.9 bpm\/day over 5 days",
+      "AFib burden elevated: 4 irregular HR events (z=8.0\u03c3)",
+      "Activity collapsed: 54 steps\/day (96% below personal baseline)",
+      "SpO2 91.0% \u2014 3.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Simultaneous weight gain + activity collapse \u2014 hallmark CHF decompensation pattern",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval",
+      "\ud83d\udea8 Apixaban gap detected \u2014 AFib patient without anticoagulation (stroke risk)"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":1.0,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-04-03",
+    "day_post_discharge":22,
+    "risk_score":0.908,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_SLOPE_RISING_5D",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "AFIB_BURDEN_ELEVATED",
+      "ACTIVITY_CRASH",
+      "SPO2_DROP",
+      "COMPOSITE_WEIGHT_UP_ACTIVITY_DOWN",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH",
+      "ANTICOAGULATION_GAP"
+    ],
+    "drivers":[
+      "Weight +3.0 kg (6.7 lbs) above personal baseline (z=10.6\u03c3)",
+      "Weight trend: +0.16 kg\/day over 5 days (sustained fluid retention)",
+      "\u26a0 Discharge protocol breach: weight up 3.0 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 97 bpm (+25.3% vs baseline, z=12.9\u03c3)",
+      "AFib burden elevated: 3 irregular HR events (z=6.0\u03c3)",
+      "Activity collapsed: 147 steps\/day (90% below personal baseline)",
+      "SpO2 90.0% \u2014 4.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Simultaneous weight gain + activity collapse \u2014 hallmark CHF decompensation pattern",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval",
+      "\ud83d\udea8 Apixaban gap detected \u2014 AFib patient without anticoagulation (stroke risk)"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":1.0,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-04-04",
+    "day_post_discharge":23,
+    "risk_score":0.718,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "AFIB_BURDEN_ELEVATED",
+      "SPO2_DROP",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +2.9 kg (6.5 lbs) above personal baseline (z=10.2\u03c3)",
+      "\u26a0 Discharge protocol breach: weight up 2.9 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 87 bpm (+12.4% vs baseline, z=6.3\u03c3)",
+      "AFib burden elevated: 2 irregular HR events (z=4.0\u03c3)",
+      "SpO2 91.0% \u2014 3.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-04-05",
+    "day_post_discharge":24,
+    "risk_score":0.718,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "AFIB_BURDEN_ELEVATED",
+      "SPO2_DROP",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +3.0 kg (6.7 lbs) above personal baseline (z=10.6\u03c3)",
+      "\u26a0 Discharge protocol breach: weight up 3.0 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 90 bpm (+16.3% vs baseline, z=8.3\u03c3)",
+      "AFib burden elevated: 7 irregular HR events (z=14.0\u03c3)",
+      "SpO2 92.0% \u2014 2.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-04-06",
+    "day_post_discharge":25,
+    "risk_score":0.743,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "AFIB_BURDEN_ELEVATED",
+      "SPO2_DROP",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +3.1 kg (6.9 lbs) above personal baseline (z=10.9\u03c3)",
+      "\u26a0 Discharge protocol breach: weight up 3.1 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 90 bpm (+16.3% vs baseline, z=8.3\u03c3)",
+      "AFib burden elevated: 6 irregular HR events (z=12.0\u03c3)",
+      "SpO2 90.0% \u2014 4.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-04-07",
+    "day_post_discharge":26,
+    "risk_score":0.725,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "AFIB_BURDEN_ELEVATED",
+      "SPO2_DROP",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +3.3 kg (7.4 lbs) above personal baseline (z=11.6\u03c3)",
+      "\u26a0 Discharge protocol breach: weight up 3.3 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 95 bpm (+22.7% vs baseline, z=11.6\u03c3)",
+      "AFib burden elevated: 6 irregular HR events (z=12.0\u03c3)",
+      "SpO2 90.0% \u2014 4.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-04-08",
+    "day_post_discharge":27,
+    "risk_score":0.736,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "HR_RISING_TREND",
+      "AFIB_BURDEN_ELEVATED",
+      "SPO2_DROP",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +3.4 kg (7.6 lbs) above personal baseline (z=11.9\u03c3)",
+      "\u26a0 Discharge protocol breach: weight up 3.4 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 94 bpm (+21.4% vs baseline, z=10.9\u03c3)",
+      "HR rising trend: +1.9 bpm\/day over 5 days",
+      "AFib burden elevated: 4 irregular HR events (z=8.0\u03c3)",
+      "SpO2 91.0% \u2014 3.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  },
+  {
+    "patient_id":"RGH-2024-084471",
+    "date":"2024-04-09",
+    "day_post_discharge":28,
+    "risk_score":0.846,
+    "risk_level":"CRITICAL",
+    "rule_triggers":[
+      "WEIGHT_ZSCORE_HIGH",
+      "WEIGHT_GAIN_PROTOCOL_BREACH",
+      "HR_ZSCORE_HIGH",
+      "HR_RISING_TREND",
+      "AFIB_BURDEN_ELEVATED",
+      "ACTIVITY_CRASH",
+      "SPO2_DROP",
+      "COMPOSITE_WEIGHT_UP_ACTIVITY_DOWN",
+      "COMPOSITE_HR_MED_MISMATCH",
+      "COMPOSITE_SPO2_HR",
+      "SPIRO_NOT_FILLED",
+      "BETA_BLOCKER_MISMATCH"
+    ],
+    "drivers":[
+      "Weight +3.5 kg (7.8 lbs) above personal baseline (z=12.3\u03c3)",
+      "\u26a0 Discharge protocol breach: weight up 3.5 kg from baseline (threshold: 1.8 kg \/ 4 lbs)",
+      "Resting HR 96 bpm (+24.0% vs baseline, z=12.3\u03c3)",
+      "HR rising trend: +1.6 bpm\/day over 5 days",
+      "AFib burden elevated: 4 irregular HR events (z=8.0\u03c3)",
+      "Activity collapsed: 385 steps\/day (74% below personal baseline)",
+      "SpO2 90.0% \u2014 4.8 points below personal baseline",
+      "\ud83d\udd34 COMPOSITE: Simultaneous weight gain + activity collapse \u2014 hallmark CHF decompensation pattern",
+      "\ud83d\udd34 COMPOSITE: Elevated HR + beta-blocker mismatch (Carvedilol\u2192Metoprolol substitution) \u2014 rate poorly controlled",
+      "\ud83d\udd34 COMPOSITE: SpO2 decline + tachycardia \u2014 possible pulmonary congestion",
+      "\u26a0 Spironolactone (NEW discharge med) never filled \u2014 neurohormonal blockade incomplete",
+      "\u26a0 Beta-blocker substitution: Carvedilol\u2192Metoprolol without documented prescriber approval"
+    ],
+    "recommended_action":"\ud83d\udea8 IMMEDIATE ACTION: Contact patient\/family now. Arrange emergency evaluation. Risk of imminent readmission.",
+    "alert_tier":"CRITICAL",
+    "composite_score":{
+      "physiological_score":1.0,
+      "pharmacy_score":0.6,
+      "clinical_severity_score":0.346
+    }
+  }
+]

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Risk Monitoring Dashboard | High-Fidelity</title>
+    
+    <!-- Load Core Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-deep: #05070a;
+            --bg-panel: #0d1117;
+            --accent-neon: #a855f7;
+            --risk-low: #22c55e;
+            --flag-color: #ff00ff;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: #f8fafc;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        .font-outfit { font-family: 'Outfit', sans-serif; }
+
+        .glass-panel {
+            background: rgba(13, 17, 23, 0.8);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+        }
+
+        @keyframes soft-pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.8; transform: scale(1.05); }
+        }
+
+        .animate-soft-pulse {
+            animation: soft-pulse 2s infinite ease-in-out;
+        }
+
+        @keyframes glow-pulse {
+            0%, 100% { box-shadow: 0 0 5px var(--flag-color), 0 0 10px var(--flag-color); }
+            50% { box-shadow: 0 0 15px var(--flag-color), 0 0 25px var(--flag-color); }
+        }
+
+        .flag-glow {
+            animation: glow-pulse 1.5s infinite ease-in-out;
+        }
+
+        @keyframes alert-blink {
+            0%, 100% { opacity: 1; filter: brightness(1.2) drop-shadow(0 0 10px rgba(255,0,0,0.5)); }
+            50% { opacity: 0.7; filter: brightness(0.8) drop-shadow(0 0 0px rgba(255,0,0,0)); }
+        }
+
+        .animate-alert-blink {
+            animation: alert-blink 1s infinite ease-in-out;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+
+        .loader-spin {
+            border: 3px solid rgba(168, 85, 247, 0.2);
+            border-top: 3px solid var(--accent-neon);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        deep: '#05070a',
+                        panel: '#0d1117',
+                        neon: '#a855f7',
+                        flag: '#ff00ff',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="antialiased">
+    <div id="root">
+        <div className="flex items-center justify-center min-h-screen">
+            <div className="flex flex-col items-center gap-4">
+                <div className="loader-spin"></div>
+                <p className="text-gray-500 font-bold tracking-widest animate-pulse uppercase">Initializing Clinical Engine...</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/babel">
+        const MotionLib = window.Motion || window.FramerMotion;
+        const motion = MotionLib?.motion || (({children, ...props}) => <div {...props}>{children}</div>);
+        const AnimatePresence = MotionLib?.AnimatePresence || (({children}) => <>{children}</>);
+
+        const { useState, useEffect, useMemo } = React;
+
+        // --- Icons ---
+        const WarningIcon = () => (
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+            </svg>
+        );
+
+        const FlagIcon = ({ className }) => (
+            <svg xmlns="http://www.w3.org/2000/svg" className={className} viewBox="0 0 24 24" fill="currentColor">
+                <path d="M4 2v20h2v-8h14l-4-6 4-6h-14v-0z" />
+            </svg>
+        );
+
+        const UserIcon = () => (
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+            </svg>
+        );
+
+        // --- Components ---
+
+        const TopAlertBar = ({ dayData, dayNumber }) => {
+            const isFlagged = dayData.deviation_flag || dayData.spike_flag;
+            const level = dayData.level;
+            
+            let message = "Stable Monitoring: No clinical action required.";
+            let bgColor = "from-emerald-600 to-emerald-800";
+            
+            if (dayData.spike_flag) {
+                message = "CRITICAL: Sudden physiological spike detected. Immediate clinical review recommended.";
+                bgColor = "from-red-600 to-red-900";
+            } else if (dayData.deviation_flag) {
+                message = "WARNING: Deviation from clinical guideline detected. Monitor closely.";
+                bgColor = "from-orange-600 to-orange-800";
+            } else if (level === 'CRITICAL' || level === 'HIGH') {
+                message = "HIGH RISK: Elevated deterioration markers. Evaluate intervention.";
+                bgColor = "from-red-500 to-red-700";
+            }
+
+            return (
+                <div className={`fixed top-[72px] left-0 w-full z-40 bg-gradient-to-r ${bgColor} p-3 shadow-xl flex items-center justify-center gap-4 border-b border-white/10 transition-colors duration-500 ${isFlagged ? 'animate-alert-blink' : ''}`}>
+                    <div className="flex items-center gap-3">
+                        {isFlagged ? <WarningIcon /> : <div className="w-2 h-2 rounded-full bg-white animate-pulse" />}
+                        <span className="text-white font-bold tracking-wide text-sm uppercase">
+                            Day {dayNumber} Status: {message}
+                        </span>
+                    </div>
+                </div>
+            );
+        };
+
+        const ProfileHeader = ({ patient, onReset }) => (
+            <div className="fixed top-0 left-0 w-full z-50 glass-panel border-b border-white/10 px-8 py-3 flex items-center justify-between">
+                <div className="flex items-center gap-6">
+                    <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-lg bg-neon flex items-center justify-center text-xl font-black shadow-[0_0_20px_rgba(168,85,247,0.3)]">
+                            {patient.name[0]}
+                        </div>
+                        <div>
+                            <h2 className="text-lg font-outfit font-black tracking-tight text-white uppercase leading-none">{patient.name}</h2>
+                            <p className="text-[10px] text-gray-500 font-bold uppercase tracking-widest mt-1">ID: {patient.patient_id} • AGE: {patient.age} • EF: {patient.ef_pct}%</p>
+                        </div>
+                    </div>
+                    <div className="hidden md:flex h-8 w-[1px] bg-white/10 mx-2"></div>
+                    <div className="hidden md:flex items-center gap-4">
+                        <div className="flex flex-col">
+                            <span className="text-[9px] text-gray-500 uppercase font-black tracking-tighter">Primary DX</span>
+                            <span className="text-[11px] font-bold text-gray-300">Acute Decompensated CHF</span>
+                        </div>
+                        <div className="flex flex-col">
+                            <span className="text-[9px] text-gray-500 uppercase font-black tracking-tighter">Follow-up</span>
+                            <span className="text-[11px] font-bold text-gray-300">Cardiology (March 19)</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-2 bg-black/40 px-3 py-1.5 rounded-full border border-white/5">
+                        <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></div>
+                        <span className="text-[10px] font-black text-emerald-500 uppercase tracking-widest">System Online</span>
+                    </div>
+                    <button onClick={onReset} className="text-[10px] font-black uppercase tracking-widest text-gray-400 hover:text-white transition-colors border-l border-white/10 pl-4">New Analysis</button>
+                </div>
+            </div>
+        );
+
+        const RiskTile = ({ day, data, isSelected, onClick, colorStyle }) => {
+            const isFlagged = data.deviation_flag || data.spike_flag;
+            return (
+                <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    onClick={onClick}
+                    className={`relative w-full aspect-square rounded-xl flex items-center justify-center text-[10px] font-black transition-all border-2 
+                        ${isSelected ? 'ring-2 ring-white/50 border-white shadow-[0_0_20px_rgba(255,255,255,0.2)] z-10' : 'border-transparent opacity-80 hover:opacity-100'}
+                        ${isFlagged ? 'animate-soft-pulse' : ''}
+                    `}
+                    style={{ background: colorStyle.background, color: colorStyle.text }}
+                >
+                    {day}
+                    {isFlagged && (
+                        <div className="absolute -top-1.5 -right-1.5 bg-flag text-white p-1 rounded-full flag-glow scale-75">
+                            <FlagIcon className="w-2.5 h-2.5" />
+                        </div>
+                    )}
+                </motion.button>
+            );
+        };
+
+        const DriverCard = ({ driver, isFlagged }) => {
+            let icon = "📋";
+            if (driver.includes("Weight")) icon = "⚖️";
+            if (driver.includes("HR")) icon = "❤️";
+            if (driver.includes("SpO2")) icon = "🫁";
+            if (driver.includes("AFib")) icon = "💓";
+            if (driver.includes("Activity")) icon = "🏃";
+            if (driver.includes("composite") || driver.includes("🔴")) icon = "🚨";
+            if (driver.includes("🤖")) icon = "🤖";
+
+            return (
+                <motion.div
+                    whileHover={{ scale: 1.02, backgroundColor: "rgba(255,255,255,0.05)" }}
+                    className={`glass-panel rounded-xl p-4 relative border border-white/5 inner-glow mb-3 ${isFlagged ? 'border-neon/30' : ''}`}
+                >
+                    <div className="flex items-center gap-4">
+                        <div className="text-2xl filter drop-shadow-[0_0_10px_rgba(168,85,247,0.5)]">{icon}</div>
+                        <div className="flex-1">
+                            <p className="text-gray-300 text-[11px] font-medium leading-snug">{driver}</p>
+                        </div>
+                    </div>
+                </motion.div>
+            );
+        };
+
+        function UploadScreen({ onAnalyze }) {
+            const [isLoading, setIsLoading] = useState(false);
+            const [error, setError] = useState("");
+
+            const handleSubmit = async (e) => {
+                e.preventDefault();
+                setIsLoading(true);
+                setError("");
+                
+                const formData = new FormData(e.target);
+                const discharge = formData.get('discharge');
+                const wearable = formData.get('wearable');
+                const pharmacy = formData.get('pharmacy');
+
+                // Strict Validation: Ensure at least one primary data source is provided
+                if (!discharge.name && !wearable.name && !pharmacy.name) {
+                    setError("INPUT REQUIRED: Please upload the respective patient details (PDF, CSV, or JSON) inside the blocks above to initialize analysis.");
+                    setIsLoading(false);
+                    return;
+                }
+
+                try {
+                    const res = await fetch("http://127.0.0.1:5000/analyze", { method: "POST", body: formData });
+                    if (!res.ok) {
+                        const errData = await res.json();
+                        throw new Error(errData.error || "Connection Failed. Ensure Risk Engine is running.");
+                    }
+                    const data = await res.json();
+                    onAnalyze(data);
+                } catch (err) {
+                    setError(err.message);
+                }
+                setIsLoading(false);
+            };
+
+            return (
+                <div className="flex flex-col items-center justify-center min-h-screen p-6 relative">
+                    {/* Integrated Redirection Button */}
+                    <motion.a 
+                        initial={{ opacity: 0, x: 20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        href="http://localhost:8501" target="_blank" 
+                        className="fixed right-8 top-12 z-[100] glass-panel bg-neon/10 hover:bg-neon text-white px-6 py-4 rounded-2xl font-black uppercase tracking-tighter shadow-[0_0_40px_rgba(168,85,247,0.3)] transition-all hover:scale-110 flex items-center gap-3 border border-neon/50 group"
+                    >
+                        <div className="flex flex-col items-end">
+                            <span className="text-[10px] text-neon group-hover:text-white/80 leading-none mb-1 opacity-80">PHARMACOVIGILANCE</span>
+                            <span className="text-sm tracking-tight">Drug Safety AI</span>
+                        </div>
+                        <div className="bg-white/10 p-2 rounded-xl group-hover:bg-white/20">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                            </svg>
+                        </div>
+                    </motion.a>
+
+                    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="glass-panel rounded-3xl p-12 w-full max-w-3xl shadow-2xl relative overflow-hidden">
+                        <div className="absolute -top-24 -left-24 w-64 h-64 bg-neon opacity-10 rounded-full blur-[100px]"></div>
+                        <div className="relative z-10">
+                            <h1 className="text-5xl font-outfit font-black mb-4 tracking-tighter bg-gradient-to-br from-white to-gray-500 bg-clip-text text-transparent uppercase">Risk Engine</h1>
+                            <p className="text-gray-400 mb-10 text-lg">Initialize multimodal patient monitoring.</p>
+                            {error && <div className="bg-red-500/10 border border-red-500/50 text-red-400 p-4 rounded-xl mb-8 text-sm">{error}</div>}
+                            <form onSubmit={handleSubmit} className="space-y-6">
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    <div className="col-span-2">
+                                        <label className="block text-[10px] font-black uppercase tracking-[0.2em] text-gray-500 mb-2">Discharge Summary (PDF)</label>
+                                        <input type="file" name="discharge" accept=".pdf" className="w-full bg-black/40 border border-white/10 rounded-xl p-4 text-sm outline-none transition-all focus:border-neon/50" />
+                                    </div>
+                                    <div className="col-span-2 md:col-span-1">
+                                        <label className="block text-[10px] font-black uppercase tracking-[0.2em] text-gray-500 mb-2">Vitals (CSV)</label>
+                                        <input type="file" name="wearable" accept=".csv" className="w-full bg-black/40 border border-white/10 rounded-xl p-4 text-sm outline-none transition-all focus:border-neon/50" />
+                                    </div>
+                                    <div className="col-span-2 md:col-span-1">
+                                        <label className="block text-[10px] font-black uppercase tracking-[0.2em] text-gray-500 mb-2">Pharmacy (JSON)</label>
+                                        <input type="file" name="pharmacy" accept=".json" className="w-full bg-black/40 border border-white/10 rounded-xl p-4 text-sm outline-none transition-all focus:border-neon/50" />
+                                    </div>
+                                </div>
+                                <button type="submit" disabled={isLoading} className="w-full bg-white text-black font-black py-5 rounded-2xl hover:bg-neon hover:text-white transition-all duration-500 uppercase tracking-tighter text-xl">
+                                    {isLoading ? <div className="loader-spin w-6 h-6 border-2"></div> : "Initialize Analysis"}
+                                </button>
+                            </form>
+                        </div>
+                    </motion.div>
+                </div>
+            );
+        }
+
+        function Dashboard({ data, onReset }) {
+            const { dashboard_details, patient, day_images, comparison_info } = data;
+            const days = Object.keys(dashboard_details).sort((a, b) => parseInt(a) - parseInt(b));
+            const [selectedDay, setSelectedDay] = useState(days[0]);
+            
+            const getDayStyles = (dayKey) => {
+                const dayData = dashboard_details[dayKey];
+                const score = parseFloat(dayData.score);
+                if (dayData.level === 'LOW') return { background: 'rgb(34, 197, 94)', text: '#000' };
+                else if (dayData.level === 'MODERATE') {
+                    const intensity = (score - 0.3) / 0.2;
+                    return { background: `linear-gradient(135deg, rgb(254, 240, 138), rgb(250, ${Math.floor(250 - intensity*100)}, ${Math.floor(200 - intensity*150)}))`, text: '#000' };
+                } else {
+                    const intensity = Math.min((score - 0.5) / 0.5, 1);
+                    return { background: `linear-gradient(135deg, rgb(252, 165, 165), rgb(220, ${Math.floor(100 - intensity*100)}, ${Math.floor(100 - intensity*100)}))`, text: '#fff' };
+                }
+            };
+
+            const dayStyles = useMemo(() => {
+                const styles = {};
+                days.forEach(d => { styles[d] = getDayStyles(d); });
+                return styles;
+            }, [data]);
+
+            const selectedData = dashboard_details[selectedDay];
+
+            return (
+                <div className="min-h-screen pt-36 pb-12 px-6">
+                    <ProfileHeader patient={patient} onReset={onReset} />
+                    <TopAlertBar dayData={selectedData} dayNumber={selectedDay} />
+
+                    <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
+                        <div className="lg:col-span-2 space-y-8">
+                            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="glass-panel rounded-3xl p-8">
+                                <h2 className="text-[10px] font-black text-neon uppercase tracking-[0.3em] mb-6">Patient Risk Timeline</h2>
+                                <div className="grid grid-cols-7 sm:grid-cols-10 gap-3">
+                                    {days.map(d => (
+                                        <RiskTile key={d} day={d} data={dashboard_details[d]} isSelected={selectedDay === d} onClick={() => setSelectedDay(d)} colorStyle={dayStyles[d]} />
+                                    ))}
+                                </div>
+                            </motion.div>
+
+                            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="glass-panel rounded-3xl p-6 overflow-hidden bg-black/40 border border-white/5 h-[450px] relative">
+                                <h2 className="text-[10px] font-black text-neon uppercase tracking-[0.3em] mb-4">Physiological Trends</h2>
+                                {day_images && day_images[selectedDay] && <img src={day_images[selectedDay]} className="w-full h-full object-contain" alt="Trends" />}
+                            </motion.div>
+                        </div>
+
+                        <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="space-y-6">
+                            <div className="glass-panel rounded-3xl p-8 min-h-[600px]">
+                                <div className="flex items-center justify-between mb-8">
+                                    <h2 className="text-[10px] font-black text-neon uppercase tracking-[0.3em]">Day {selectedDay} Metrics</h2>
+                                    <span className="text-white font-black text-2xl font-outfit uppercase tracking-tighter">{selectedData.level}</span>
+                                </div>
+
+                                <div className="grid grid-cols-2 gap-4 mb-8">
+                                    <div className="bg-black/40 p-4 rounded-2xl border border-white/5">
+                                        <span className="text-[9px] text-gray-500 font-black uppercase tracking-widest">Heart Rate</span>
+                                        <p className="text-xl font-outfit font-black text-white leading-tight">{selectedData.hr}</p>
+                                        {selectedData.avg_increase && selectedData.avg_increase.hr && <span className="text-[9px] font-bold text-red-400 uppercase">{selectedData.avg_increase.hr} vs prev</span>}
+                                    </div>
+                                    <div className="bg-black/40 p-4 rounded-2xl border border-white/5">
+                                        <span className="text-[9px] text-gray-500 font-black uppercase tracking-widest">Weight</span>
+                                        <p className="text-xl font-outfit font-black text-white leading-tight">{selectedData.weight}</p>
+                                        {selectedData.avg_increase && selectedData.avg_increase.weight && <span className="text-[9px] font-bold text-orange-400 uppercase">{selectedData.avg_increase.weight} vs prev</span>}
+                                    </div>
+                                    <div className="bg-black/40 p-4 rounded-2xl border border-white/5">
+                                        <span className="text-[9px] text-gray-500 font-black uppercase tracking-widest">SpO2</span>
+                                        <p className="text-xl font-outfit font-black text-white leading-tight">{selectedData.spo2}</p>
+                                        {selectedData.avg_increase && selectedData.avg_increase.spo2 && <span className="text-[9px] font-bold text-emerald-400 uppercase">{selectedData.avg_increase.spo2} vs prev</span>}
+                                    </div>
+                                    <div className="bg-black/40 p-4 rounded-2xl border border-white/5">
+                                        <span className="text-[9px] text-gray-500 font-black uppercase tracking-widest">Risk Score</span>
+                                        <p className="text-xl font-outfit font-black text-white leading-tight">{selectedData.score}</p>
+                                        <span className="text-[9px] font-bold text-gray-500 uppercase tracking-tighter">Day {selectedDay} Probability</span>
+                                    </div>
+                                </div>
+
+                                <h3 className="text-[10px] font-black text-gray-500 uppercase tracking-[0.2em] mb-4">Clinical Insights</h3>
+                                <div className="space-y-1">
+                                    {selectedData.drivers.map((drv, i) => <DriverCard key={i} driver={drv} isFlagged={selectedData.deviation_flag || selectedData.spike_flag} />)}
+                                </div>
+                            </div>
+                        </motion.div>
+                    </div>
+
+                    {comparison_info && (
+                        <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="max-w-7xl mx-auto mt-8 glass-panel rounded-3xl p-8 overflow-hidden">
+                            <div className="flex flex-col lg:flex-row gap-10">
+                                <div className="lg:w-2/5">
+                                    <div className="flex items-center gap-3 mb-6">
+                                        <div className="p-2 bg-flag/20 rounded-lg"><FlagIcon className="w-5 h-5 text-flag" /></div>
+                                        <h2 className="text-xl font-outfit font-black uppercase tracking-tighter text-white">Clinical Flag Comparison</h2>
+                                    </div>
+                                    <div className="bg-black/40 rounded-2xl p-6 border border-white/5 whitespace-pre-line text-sm leading-relaxed text-gray-300">
+                                        {comparison_info.explanation}
+                                    </div>
+                                    <div className="mt-6 p-4 bg-neon/10 border border-neon/30 rounded-xl">
+                                        <p className="text-[10px] font-black text-neon uppercase tracking-widest mb-1">Clinician Summary</p>
+                                        <p className="text-xs text-gray-400">The flags occurred because your body reached specific "breaking points" where the combination of weight gain, heart rate changes, and oxygen levels signaled a high probability of readmission.</p>
+                                    </div>
+                                </div>
+                                <div className="lg:w-3/5 bg-black/40 rounded-2xl border border-white/5 flex items-center justify-center p-4">
+                                    <img src={comparison_info.graph} className="max-w-full rounded-xl shadow-2xl" alt="Comparison Graph" />
+                                </div>
+                            </div>
+                        </motion.div>
+                    )}
+                </div>
+            );
+        }
+
+        function App() {
+            const [appData, setAppData] = useState(null);
+            return appData ? <Dashboard data={appData} onReset={() => setAppData(null)} /> : <UploadScreen onAnalyze={setAppData} />;
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(<App />);
+    </script>
+</body>
+</html>

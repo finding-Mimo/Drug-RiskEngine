@@ -1,0 +1,3002 @@
+[
+    {
+        "report_id": "10003304",
+        "date": "20140424",
+        "serious": "2",
+        "reactions": "Drug hypersensitivity"
+    },
+    {
+        "report_id": "10003310",
+        "date": "20150812",
+        "serious": "2",
+        "reactions": "Back pain"
+    },
+    {
+        "report_id": "10003349",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Cerebrovascular accident, Blood pressure increased, Pain"
+    },
+    {
+        "report_id": "10003432",
+        "date": "20150812",
+        "serious": "1",
+        "reactions": "Oedema peripheral, Fluid retention"
+    },
+    {
+        "report_id": "10003582",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Hypertension, Dehydration, Night sweats, Panic attack, Hyperlipidaemia, Insomnia, Cold sweat, Bipolar disorder, Hyperhidrosis, Dysgeusia, Nausea"
+    },
+    {
+        "report_id": "10003595",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Transfusion"
+    },
+    {
+        "report_id": "10003632",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Influenza, Pneumonia"
+    },
+    {
+        "report_id": "10003713",
+        "date": "20140611",
+        "serious": "2",
+        "reactions": "Rash, Dyspnoea"
+    },
+    {
+        "report_id": "10003717",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Haemoglobin decreased, Weight increased"
+    },
+    {
+        "report_id": "10003740",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Type 2 diabetes mellitus"
+    },
+    {
+        "report_id": "10003792",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Grand mal convulsion, Vomiting, Amnesia"
+    },
+    {
+        "report_id": "10003859",
+        "date": "20150312",
+        "serious": "1",
+        "reactions": "Blood count abnormal, Platelet count decreased"
+    },
+    {
+        "report_id": "10003864",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Platelet count decreased, Blood count abnormal"
+    },
+    {
+        "report_id": "10003923",
+        "date": "20170119",
+        "serious": "1",
+        "reactions": "Increased appetite, Incontinence, Off label use, Epistaxis, Blindness, Weight increased, Skin cancer, Nasopharyngitis, Dizziness, Dry eye, Wrong technique in product usage process, Pruritus, Increased tendency to bruise, Diarrhoea, Constipation"
+    },
+    {
+        "report_id": "10004051",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Pain, Dizziness, Headache"
+    },
+    {
+        "report_id": "10004057",
+        "date": "20200421",
+        "serious": "2",
+        "reactions": "Malaise, Nausea, Haemoglobin decreased, Headache"
+    },
+    {
+        "report_id": "10004085",
+        "date": "20140618",
+        "serious": "1",
+        "reactions": "Lower gastrointestinal haemorrhage"
+    },
+    {
+        "report_id": "10004101",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Rash"
+    },
+    {
+        "report_id": "10004111",
+        "date": "20140611",
+        "serious": "2",
+        "reactions": "Rash, Headache"
+    },
+    {
+        "report_id": "10004114",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Oral mucosal erythema, Oral pain, Abdominal tenderness"
+    },
+    {
+        "report_id": "10004130",
+        "date": "20140912",
+        "serious": "2",
+        "reactions": "Laboratory test abnormal, Contusion, Drug dose omission, Platelet count increased, Hypertension, Treatment noncompliance, Eye disorder, White blood cell count increased, Pain"
+    },
+    {
+        "report_id": "10004138",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Pneumonia, Anaemia"
+    },
+    {
+        "report_id": "10004140",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Nausea, Drug administration error"
+    },
+    {
+        "report_id": "10004144",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Flatulence"
+    },
+    {
+        "report_id": "10004175",
+        "date": "20140721",
+        "serious": "1",
+        "reactions": "Skin discolouration, Rash"
+    },
+    {
+        "report_id": "10004186",
+        "date": "20140502",
+        "serious": "1",
+        "reactions": "Thrombotic microangiopathy, Renal impairment, Hepatic failure, Mental status changes, Stem cell transplant, Graft versus host disease, Fatigue, Drug administration error"
+    },
+    {
+        "report_id": "10004211",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Spinal disorder, Dizziness, Feeling abnormal"
+    },
+    {
+        "report_id": "10004221",
+        "date": "20140425",
+        "serious": "1",
+        "reactions": "Chest pain, Palpitations, Drug ineffective"
+    },
+    {
+        "report_id": "10004254",
+        "date": "20140502",
+        "serious": "2",
+        "reactions": "Drug ineffective"
+    },
+    {
+        "report_id": "10004383",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Neuropathy peripheral, Muscle spasms, Myopathy, Sleep disorder, Blood glucose increased"
+    },
+    {
+        "report_id": "10004428",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Cerebrovascular accident, Weight increased, Withdrawal syndrome"
+    },
+    {
+        "report_id": "10004465",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Depression, Disease progression, Psychotic disorder"
+    },
+    {
+        "report_id": "10004480",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Diarrhoea, Fatigue, Furuncle"
+    },
+    {
+        "report_id": "10004486",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Nausea, Chills, Abdominal pain, Headache"
+    },
+    {
+        "report_id": "10004554",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Cardiac stress test abnormal, Arteriogram coronary abnormal, Weight decreased"
+    },
+    {
+        "report_id": "10004589",
+        "date": "20140611",
+        "serious": "1",
+        "reactions": "Haemoglobin decreased, Alopecia, Palpitations, Chills, Blood count abnormal"
+    },
+    {
+        "report_id": "10004604",
+        "date": "20140430",
+        "serious": "1",
+        "reactions": "Nephrolithiasis, Kidney infection, Heart rate increased, Dyspnoea, Fatigue, Dizziness"
+    },
+    {
+        "report_id": "10004608",
+        "date": "20140611",
+        "serious": "2",
+        "reactions": "Incontinence, Urinary tract infection"
+    },
+    {
+        "report_id": "10004622",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "White blood cell count increased, Platelet count decreased, Contusion"
+    },
+    {
+        "report_id": "10004629",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Diarrhoea"
+    },
+    {
+        "report_id": "10004634",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Dyspepsia, Contusion"
+    },
+    {
+        "report_id": "10004640",
+        "date": "20140611",
+        "serious": "2",
+        "reactions": "Hypertension, Increased appetite, Weight increased, Haemoglobin decreased"
+    },
+    {
+        "report_id": "10004687",
+        "date": "20140707",
+        "serious": "1",
+        "reactions": "Arteritis"
+    },
+    {
+        "report_id": "10004707",
+        "date": "20140820",
+        "serious": "1",
+        "reactions": "Hip fracture, Visual impairment, Overdose, Rehabilitation therapy, Gait disturbance, Mobility decreased, Dizziness, Fall"
+    },
+    {
+        "report_id": "10004759",
+        "date": "20140516",
+        "serious": "1",
+        "reactions": "Myocardial infarction, Coronary arterial stent insertion, Drug administration error"
+    },
+    {
+        "report_id": "10004795",
+        "date": "20191101",
+        "serious": "1",
+        "reactions": "Type 2 diabetes mellitus"
+    },
+    {
+        "report_id": "10004803",
+        "date": "20191104",
+        "serious": "1",
+        "reactions": "Hyperkalaemia, Pancreatitis acute, Type 2 diabetes mellitus"
+    },
+    {
+        "report_id": "10004896",
+        "date": "20180209",
+        "serious": "2",
+        "reactions": "Drug hypersensitivity"
+    },
+    {
+        "report_id": "10004923",
+        "date": "20140415",
+        "serious": "1",
+        "reactions": "Respiratory failure, Myocardial infarction, Cardiac failure, Memory impairment, Pain in extremity, Diarrhoea"
+    },
+    {
+        "report_id": "10004971",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Asthenia, Dyspnoea, Anaemia, Drug administration error"
+    },
+    {
+        "report_id": "10005001",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Flatulence, Decreased appetite, Nausea, Constipation"
+    },
+    {
+        "report_id": "10005204",
+        "date": "20140611",
+        "serious": "2",
+        "reactions": "Nasal congestion, Constipation, Spondylitis, Weight increased"
+    },
+    {
+        "report_id": "10005231",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Adverse drug reaction"
+    },
+    {
+        "report_id": "10005238",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Joint swelling, Pain in extremity, Anxiety, Disturbance in attention, Fatigue, Insomnia"
+    },
+    {
+        "report_id": "10005289",
+        "date": "20140715",
+        "serious": "1",
+        "reactions": "Cardio-respiratory arrest, Death, Septic shock, Respiratory failure"
+    },
+    {
+        "report_id": "10005296",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Gallbladder disorder, Oropharyngeal pain, Sinusitis"
+    },
+    {
+        "report_id": "10005416",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Adverse event, Influenza like illness"
+    },
+    {
+        "report_id": "10005429",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Intentional underdose, Wrong technique in drug usage process, Drug withdrawal syndrome, Insomnia, Decreased appetite, Loss of consciousness, Dehydration, Blood glucose abnormal"
+    },
+    {
+        "report_id": "10005542",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Dyspnoea, Asthma, Chest pain, Chest discomfort, Wheezing, Cough, Sinusitis"
+    },
+    {
+        "report_id": "10005562",
+        "date": "20140326",
+        "serious": "2",
+        "reactions": "Hyperhidrosis, Pain, Insomnia, Flushing"
+    },
+    {
+        "report_id": "10005664",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Headache, Nasopharyngitis"
+    },
+    {
+        "report_id": "10005676",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Muscle spasms, Weight decreased, Influenza, Gait disturbance, Cerebellar ataxia, Hypersensitivity, Headache, Insomnia, Overdose"
+    },
+    {
+        "report_id": "10005772",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Genital rash"
+    },
+    {
+        "report_id": "10005778",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Herpes zoster"
+    },
+    {
+        "report_id": "10005826",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Loss of consciousness, Iron deficiency anaemia, Syncope"
+    },
+    {
+        "report_id": "10005888",
+        "date": "20180307",
+        "serious": "1",
+        "reactions": "Cardiac arrest, Acute myocardial infarction, Left atrial dilatation, Hyponatraemia, Hypertension, Coronary artery disease, Ischaemic cardiomyopathy, Fatigue, Ventricular tachycardia, Ventricular fibrillation, Heart rate increased, Cardiac failure acute, Atrial fibrillation, Hypogonadism, Respiratory failure, Ejection fraction decreased, Cardiac failure congestive, Sinus bradycardia, Coronary artery occlusion, Sleep apnoea syndrome"
+    },
+    {
+        "report_id": "10005923",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Atypical pneumonia, Hypoacusis"
+    },
+    {
+        "report_id": "10005993",
+        "date": "20140417",
+        "serious": "1",
+        "reactions": "Glaucoma, Rash, Oedema peripheral, Lacrimation increased, Oedema peripheral, Pain, Fatigue, Herpes virus infection"
+    },
+    {
+        "report_id": "10006049",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Death, Respiratory distress, Anaemia, Haematochezia"
+    },
+    {
+        "report_id": "10006051",
+        "date": "20140602",
+        "serious": "1",
+        "reactions": "Blindness, Deafness, Loss of consciousness, Contusion, Glaucoma, Pruritus, Muscle disorder, Confusional state, Skin lesion, Pain, Oral disorder, Delusion, Aggression"
+    },
+    {
+        "report_id": "10006071",
+        "date": "20140422",
+        "serious": "1",
+        "reactions": "Cardiac arrest, Blood urine present, Unresponsive to stimuli, Blood pressure decreased, Haemoglobin decreased, Abdominal pain"
+    },
+    {
+        "report_id": "10006097",
+        "date": "20140613",
+        "serious": "2",
+        "reactions": "Overdose, Drug ineffective, Product quality issue, Product quality issue"
+    },
+    {
+        "report_id": "10006105",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Memory impairment, Chronic lymphocytic leukaemia"
+    },
+    {
+        "report_id": "10006117",
+        "date": "20140324",
+        "serious": "1",
+        "reactions": "Infection, Neutropenia, White blood cell count decreased"
+    },
+    {
+        "report_id": "10006147",
+        "date": "20140508",
+        "serious": "1",
+        "reactions": "Dizziness, Fatigue, Rash"
+    },
+    {
+        "report_id": "10006156",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Death"
+    },
+    {
+        "report_id": "10006158",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Pulmonary thrombosis, Thrombosis"
+    },
+    {
+        "report_id": "10006168",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Incorrect dose administered, White blood cell count decreased, Rash"
+    },
+    {
+        "report_id": "10006170",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Off label use, Atrial fibrillation, Metastases to bone"
+    },
+    {
+        "report_id": "10006179",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Hypersensitivity, Angioedema, Pruritus"
+    },
+    {
+        "report_id": "10006203",
+        "date": "20150331",
+        "serious": "1",
+        "reactions": "Hearing impaired, Epistaxis, Hypertension, Computerised tomogram abnormal, Inappropriate schedule of drug administration, Rash, Hip fracture, Haemorrhagic diathesis, Rash, Dry skin"
+    },
+    {
+        "report_id": "10006218",
+        "date": "20140502",
+        "serious": "1",
+        "reactions": "Bacterial infection, Gastrointestinal disorder, Diarrhoea"
+    },
+    {
+        "report_id": "10006236",
+        "date": "20140326",
+        "serious": "1",
+        "reactions": "Increased tendency to bruise"
+    },
+    {
+        "report_id": "10006272",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Gastrointestinal haemorrhage, Drug interaction"
+    },
+    {
+        "report_id": "10006274",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Weight decreased, Transaminases increased, Malaise"
+    },
+    {
+        "report_id": "10006313",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Haemorrhage, Drug interaction"
+    },
+    {
+        "report_id": "10006314",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Gastrointestinal haemorrhage, Drug interaction"
+    },
+    {
+        "report_id": "10006367",
+        "date": "20150217",
+        "serious": "1",
+        "reactions": "Type 2 diabetes mellitus"
+    },
+    {
+        "report_id": "10006374",
+        "date": "20150217",
+        "serious": "1",
+        "reactions": "Type 2 diabetes mellitus"
+    },
+    {
+        "report_id": "10006398",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Gastrointestinal haemorrhage, Drug interaction"
+    },
+    {
+        "report_id": "10006401",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Chillblains, Pain in extremity, Oedema peripheral"
+    },
+    {
+        "report_id": "10006412",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Gastrointestinal haemorrhage, Drug interaction, Diverticulum intestinal haemorrhagic, Rectal haemorrhage, Melaena"
+    },
+    {
+        "report_id": "10006449",
+        "date": "20140311",
+        "serious": "1",
+        "reactions": "Dyspnoea, Eye swelling, Dizziness, Palpitations"
+    },
+    {
+        "report_id": "10006483",
+        "date": "20150216",
+        "serious": "1",
+        "reactions": "Type 2 diabetes mellitus"
+    },
+    {
+        "report_id": "10006492",
+        "date": "20140516",
+        "serious": "1",
+        "reactions": "Small fibre neuropathy"
+    },
+    {
+        "report_id": "10006498",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Renal failure acute, Retroperitoneal haemorrhage"
+    },
+    {
+        "report_id": "10006505",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Haemorrhage, Drug interaction"
+    },
+    {
+        "report_id": "10006512",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Ulcer haemorrhage, Drug interaction"
+    },
+    {
+        "report_id": "10006522",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Gastrointestinal haemorrhage, Drug interaction, Melaena"
+    },
+    {
+        "report_id": "10006576",
+        "date": "20140618",
+        "serious": "1",
+        "reactions": "Type 2 diabetes mellitus"
+    },
+    {
+        "report_id": "10006583",
+        "date": "20141222",
+        "serious": "1",
+        "reactions": "Laceration, Dyspnoea, Productive cough, Seizure, Head injury, Presyncope, Fall, Rib fracture, Loss of consciousness, Syncope, Balance disorder, Concomitant disease aggravated, Insomnia, Humerus fracture, Joint injury"
+    },
+    {
+        "report_id": "10006584",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Inappropriate schedule of drug administration"
+    },
+    {
+        "report_id": "10006746",
+        "date": "20150813",
+        "serious": "2",
+        "reactions": "Pain, Skin disorder"
+    },
+    {
+        "report_id": "10006778",
+        "date": "20140311",
+        "serious": "1",
+        "reactions": "Pyrexia, Unresponsive to stimuli, Hypotonia, Atrial fibrillation, Sick sinus syndrome, Ischaemic stroke"
+    },
+    {
+        "report_id": "10006834",
+        "date": "20140311",
+        "serious": "1",
+        "reactions": "Kounis syndrome, Acute myocardial infarction"
+    },
+    {
+        "report_id": "10006982",
+        "date": "20140311",
+        "serious": "1",
+        "reactions": "Nausea, Tremor, Dizziness, Anxiety, Headache, Blood pressure systolic increased, Product label on wrong product, Wrong drug administered"
+    },
+    {
+        "report_id": "10007002",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Gastrointestinal haemorrhage, Drug interaction, Haematochezia"
+    },
+    {
+        "report_id": "10007059",
+        "date": "20140714",
+        "serious": "1",
+        "reactions": "Off label use, Thrombophlebitis superficial, Thrombosis"
+    },
+    {
+        "report_id": "10007132",
+        "date": "20150327",
+        "serious": "1",
+        "reactions": "Depression, Drug hypersensitivity, Suicidal ideation, Weight decreased, Insomnia, Pemphigoid"
+    },
+    {
+        "report_id": "10007195",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Nausea, Dehydration, Cardiac arrest, Abdominal pain"
+    },
+    {
+        "report_id": "10007246",
+        "date": "20140417",
+        "serious": "2",
+        "reactions": "Disorientation, Dizziness, Hypersensitivity"
+    },
+    {
+        "report_id": "10007380",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Eye disorder, Loss of consciousness, Fall, Headache, Eye infection"
+    },
+    {
+        "report_id": "10007386",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Dyspnoea, Cough, Pleural effusion, Pneumonia, Anaemia"
+    },
+    {
+        "report_id": "10007397",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Gastrointestinal haemorrhage, Drug interaction"
+    },
+    {
+        "report_id": "10007454",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Haematuria, Pyrexia, Myalgia, Urinary tract infection"
+    },
+    {
+        "report_id": "10007455",
+        "date": "20150415",
+        "serious": "1",
+        "reactions": "Type 2 diabetes mellitus"
+    },
+    {
+        "report_id": "10007468",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Gastrointestinal haemorrhage, Drug interaction"
+    },
+    {
+        "report_id": "10007511",
+        "date": "20140612",
+        "serious": "1",
+        "reactions": "Type 2 diabetes mellitus, Diabetic neuropathy, Impaired driving ability, Diabetic vascular disorder"
+    },
+    {
+        "report_id": "10007541",
+        "date": "20141006",
+        "serious": "1",
+        "reactions": "Glucose tolerance impaired, Type 2 diabetes mellitus"
+    },
+    {
+        "report_id": "10007648",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Respiratory distress, Drug hypersensitivity"
+    },
+    {
+        "report_id": "10007839",
+        "date": "20140311",
+        "serious": "1",
+        "reactions": "Brain injury, Dizziness, Vomiting, Cognitive disorder"
+    },
+    {
+        "report_id": "10008011",
+        "date": "20140321",
+        "serious": "1",
+        "reactions": "Subdural haemorrhage, Brain stem haemorrhage, Haematemesis, Apnoea"
+    },
+    {
+        "report_id": "10008054",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Basal cell carcinoma"
+    },
+    {
+        "report_id": "10008151",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Cerebrovascular accident, Weight increased, Withdrawal syndrome"
+    },
+    {
+        "report_id": "10008154",
+        "date": "20140331",
+        "serious": "2",
+        "reactions": "Off label use, Drug ineffective"
+    },
+    {
+        "report_id": "10008431",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Hyponatraemia, Confusional state"
+    },
+    {
+        "report_id": "10008437",
+        "date": "20140228",
+        "serious": "1",
+        "reactions": "Application site vesicles, Application site pain"
+    },
+    {
+        "report_id": "10008463",
+        "date": "20150427",
+        "serious": "1",
+        "reactions": "Osteoporosis, Alopecia, Dementia Alzheimer^s type, Osteopenia, Hearing impaired, Skin wrinkling, Fall"
+    },
+    {
+        "report_id": "10008529",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Diarrhoea, Abdominal pain upper"
+    },
+    {
+        "report_id": "10008535",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Back pain, Platelet count decreased, Cystitis"
+    },
+    {
+        "report_id": "10008542",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Flushing, Hyperhidrosis, Dizziness"
+    },
+    {
+        "report_id": "10008553",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Malaise, Decreased appetite, Diarrhoea, Hypoaesthesia, Vision blurred, Insomnia, Dizziness, Headache"
+    },
+    {
+        "report_id": "10008573",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Nausea, Retching"
+    },
+    {
+        "report_id": "10008600",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Dyspnoea, Haemoglobin decreased"
+    },
+    {
+        "report_id": "10008608",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Hypoaesthesia"
+    },
+    {
+        "report_id": "10008630",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Nasopharyngitis"
+    },
+    {
+        "report_id": "10008680",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Depression, Platelet count increased"
+    },
+    {
+        "report_id": "10008682",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Dry eye, Cataract"
+    },
+    {
+        "report_id": "10008684",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Nausea, Dizziness, Increased tendency to bruise"
+    },
+    {
+        "report_id": "10008690",
+        "date": "20200407",
+        "serious": "1",
+        "reactions": "Vomiting, Anxiety, Diarrhoea, Weight increased, Urinary tract infection, Pruritus, Dry skin, Stomatitis, Paraesthesia, Dysphagia, Depression, Nausea, Dysgeusia, Therapeutic response unexpected, Pyrexia, Off label use, Headache, Night sweats, Insomnia, Hypoaesthesia, Thrombocytopenia, Rash, Chest pain, Constipation, Anaemia, Hot flush, Cough"
+    },
+    {
+        "report_id": "10008694",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Asthenia"
+    },
+    {
+        "report_id": "10008706",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Blood uric acid increased"
+    },
+    {
+        "report_id": "10008720",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Oedema, Fatigue"
+    },
+    {
+        "report_id": "10008721",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Tooth loss, Somnolence"
+    },
+    {
+        "report_id": "10008729",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Haemoglobin decreased"
+    },
+    {
+        "report_id": "10008730",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Haematochezia, Abdominal pain upper, Haemorrhoids, Local swelling, Wound"
+    },
+    {
+        "report_id": "10008737",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Blood pressure increased"
+    },
+    {
+        "report_id": "10008739",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Diarrhoea"
+    },
+    {
+        "report_id": "10008742",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Contusion, Respiratory tract infection, Platelet count decreased"
+    },
+    {
+        "report_id": "10008750",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Tenderness"
+    },
+    {
+        "report_id": "10008757",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Diarrhoea"
+    },
+    {
+        "report_id": "10008758",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Haemoglobin decreased, Diarrhoea"
+    },
+    {
+        "report_id": "10008760",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Nail discolouration"
+    },
+    {
+        "report_id": "10008779",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Abdominal pain upper, Diarrhoea, Back pain, Headache"
+    },
+    {
+        "report_id": "10008782",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Transfusion"
+    },
+    {
+        "report_id": "10008785",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Tremor, Diarrhoea, Pyrexia, Chills, Fatigue, Asthenia"
+    },
+    {
+        "report_id": "10008798",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Dyspnoea, Asthenia, Platelet count decreased, Dizziness"
+    },
+    {
+        "report_id": "10008801",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Back pain, Pain in extremity"
+    },
+    {
+        "report_id": "10008819",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "White blood cell count increased"
+    },
+    {
+        "report_id": "10008822",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Fatigue, Muscular weakness, Lethargy, Haemoglobin decreased"
+    },
+    {
+        "report_id": "10008832",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Weight decreased, Constipation, Decreased appetite"
+    },
+    {
+        "report_id": "10008857",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Fatigue, Haemorrhagic diathesis, Insomnia, Dizziness, Contusion"
+    },
+    {
+        "report_id": "10008865",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Tremor"
+    },
+    {
+        "report_id": "10008869",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Venous thrombosis limb, Pain in extremity, Hypoaesthesia, Fall, Asthenia, Paraesthesia, Constipation, Arthralgia, Contusion, Fatigue, Intervertebral disc protrusion"
+    },
+    {
+        "report_id": "10008870",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Rash"
+    },
+    {
+        "report_id": "10008912",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Blood count abnormal"
+    },
+    {
+        "report_id": "10008914",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Fatigue, Anaemia"
+    },
+    {
+        "report_id": "10008934",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Blood creatinine increased, Fatigue, Haemoglobin decreased, Haematocrit decreased, Red blood cell count decreased, Decreased appetite, Blast cell count increased"
+    },
+    {
+        "report_id": "10008937",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Haemoglobin decreased, Haematocrit decreased"
+    },
+    {
+        "report_id": "10008938",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Stomatitis, Skin lesion"
+    },
+    {
+        "report_id": "10008951",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Spleen disorder"
+    },
+    {
+        "report_id": "10008956",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Angina pectoris, Diabetes mellitus inadequate control, Wound haemorrhage, Therapy cessation"
+    },
+    {
+        "report_id": "10008960",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Haemoglobin decreased"
+    },
+    {
+        "report_id": "10008980",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Fatigue, Nausea, Muscle spasms, Burning sensation"
+    },
+    {
+        "report_id": "10008981",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Osteoarthritis"
+    },
+    {
+        "report_id": "10009000",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Syncope, Pyrexia, Chills"
+    },
+    {
+        "report_id": "10009012",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Pruritus, Red blood cell count decreased, Haemoglobin decreased, Haematocrit decreased"
+    },
+    {
+        "report_id": "10009030",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Alopecia, Dizziness, Asthenia, Pain, Platelet count decreased"
+    },
+    {
+        "report_id": "10009043",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Abdominal distension, Weight increased"
+    },
+    {
+        "report_id": "10009079",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Back pain, Pain in extremity"
+    },
+    {
+        "report_id": "10009342",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Cerebrovascular accident, Weight increased, Withdrawal syndrome"
+    },
+    {
+        "report_id": "10009348",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Pain in extremity, White blood cell count decreased, Platelet count decreased"
+    },
+    {
+        "report_id": "10009384",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Haemoglobin decreased, Fatigue, Drug ineffective"
+    },
+    {
+        "report_id": "10009440",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Abdominal distension"
+    },
+    {
+        "report_id": "10009445",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Haemoglobin decreased, Red blood cell count decreased"
+    },
+    {
+        "report_id": "10009453",
+        "date": "20211020",
+        "serious": "1",
+        "reactions": "Death, Erythropoiesis abnormal, Hepatic failure, Haemoglobin decreased, Oedema peripheral, Asthenia, Therapeutic response decreased, Splenomegaly, Fall, General physical health deterioration, Illness, Anxiety, Decreased activity, Pain, Platelet count decreased, Increased tendency to bruise, Contusion"
+    },
+    {
+        "report_id": "10009460",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Abdominal pain, Vomiting, Rectal haemorrhage, Atrial fibrillation"
+    },
+    {
+        "report_id": "10009462",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Back pain"
+    },
+    {
+        "report_id": "10009470",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Gastrooesophageal reflux disease, Blood count abnormal"
+    },
+    {
+        "report_id": "10009473",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Skin lesion"
+    },
+    {
+        "report_id": "10009474",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Constipation"
+    },
+    {
+        "report_id": "10009479",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Fatigue, Headache, Contusion"
+    },
+    {
+        "report_id": "10009483",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Haemoglobin decreased, Urinary tract infection"
+    },
+    {
+        "report_id": "10009484",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Muscle spasms"
+    },
+    {
+        "report_id": "10009486",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Rash, Dizziness"
+    },
+    {
+        "report_id": "10009493",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Anaemia, Blood creatinine increased, Hyperkalaemia, Dyspnoea, Fatigue, Dyspnoea exertional, Thrombocytosis, Dizziness"
+    },
+    {
+        "report_id": "10009494",
+        "date": "20140313",
+        "serious": "2",
+        "reactions": "Migraine"
+    },
+    {
+        "report_id": "10009499",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Epistaxis"
+    },
+    {
+        "report_id": "10009500",
+        "date": "20140324",
+        "serious": "1",
+        "reactions": "Cerebral haemorrhage"
+    },
+    {
+        "report_id": "10009511",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Anaemia"
+    },
+    {
+        "report_id": "10009515",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Dry mouth, Dyspnoea, Cough, Lacrimation increased, Insomnia"
+    },
+    {
+        "report_id": "10009520",
+        "date": "20140603",
+        "serious": "2",
+        "reactions": "Burns third degree, Burns second degree, Cellulitis, Arthropathy, Exostosis, Foot deformity, Chemical injury, Oedema, Blister, Erythema"
+    },
+    {
+        "report_id": "10009527",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "White blood cell count abnormal, Platelet count abnormal, Nasal abscess"
+    },
+    {
+        "report_id": "10009538",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Gout, Hypoaesthesia, Pain"
+    },
+    {
+        "report_id": "10009539",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Oral pain, Pyrexia"
+    },
+    {
+        "report_id": "10009540",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Abdominal distension, Fatigue, Memory impairment, Balance disorder"
+    },
+    {
+        "report_id": "10009542",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Nausea, Decreased appetite, Headache, Dizziness, Anaemia"
+    },
+    {
+        "report_id": "10009544",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Gout, Flatulence, Headache"
+    },
+    {
+        "report_id": "10009552",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Diarrhoea, Anaemia"
+    },
+    {
+        "report_id": "10009555",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Platelet count decreased, Haemoglobin decreased"
+    },
+    {
+        "report_id": "10009568",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Diarrhoea, Decreased appetite, Nausea, Vomiting, Headache"
+    },
+    {
+        "report_id": "10009583",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Platelet count decreased, Arthralgia, Pancytopenia, Herpes zoster"
+    },
+    {
+        "report_id": "10009588",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Angina pectoris, Dehydration, Malaise, Pain, Oral surgery, Immunosuppressant drug level increased, Drug interaction"
+    },
+    {
+        "report_id": "10009592",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Tendonitis, Joint stiffness"
+    },
+    {
+        "report_id": "10009612",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Oedema"
+    },
+    {
+        "report_id": "10009613",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Fatigue, Cough, Upper respiratory tract congestion, Malaise, Insomnia, Dyspnoea exertional, Constipation, Anxiety, Depression, Oedema peripheral, Pyrexia, Splenomegaly, Pain, Drug dose omission, Decreased appetite, Fall, Asthenia, Dizziness, Contusion, Anaemia"
+    },
+    {
+        "report_id": "10009619",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Bone pain, Headache, Contusion"
+    },
+    {
+        "report_id": "10009621",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Pneumonia, Malaise, Arthropathy, Gastrooesophageal reflux disease, Musculoskeletal pain, Blood count abnormal, Headache"
+    },
+    {
+        "report_id": "10009623",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Haematocrit decreased, Haemoglobin decreased, Aspartate aminotransferase increased"
+    },
+    {
+        "report_id": "10009627",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Dysgeusia"
+    },
+    {
+        "report_id": "10009628",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Fatigue, Weight increased, Haemoglobin decreased"
+    },
+    {
+        "report_id": "10009647",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Splenomegaly, White blood cell count increased, Drug ineffective"
+    },
+    {
+        "report_id": "10009659",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Platelet count abnormal"
+    },
+    {
+        "report_id": "10009669",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Abdominal pain, Dizziness"
+    },
+    {
+        "report_id": "10009671",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Pollakiuria"
+    },
+    {
+        "report_id": "10009681",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Tooth infection, Toothache"
+    },
+    {
+        "report_id": "10009684",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Hyperhidrosis, Dyspnoea exertional, Nausea, Contusion, Epistaxis, Abdominal pain upper, Fatigue"
+    },
+    {
+        "report_id": "10009686",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Abdominal distension, Abdominal pain upper, Dyspnoea, Fatigue, Iron deficiency"
+    },
+    {
+        "report_id": "10009695",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Eye infection, Tooth infection, Asthenia"
+    },
+    {
+        "report_id": "10009716",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Haemoglobin decreased"
+    },
+    {
+        "report_id": "10009720",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Influenza like illness, Pyrexia"
+    },
+    {
+        "report_id": "10009725",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Transfusion"
+    },
+    {
+        "report_id": "10009726",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Diarrhoea, Contusion"
+    },
+    {
+        "report_id": "10009736",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Colon neoplasm, Abdominal pain, Flatulence, Abdominal distension"
+    },
+    {
+        "report_id": "10009757",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Platelet count decreased, Blood pressure increased, Palpitations, Feeling abnormal, Contusion, Red blood cell count decreased, Haemoglobin decreased"
+    },
+    {
+        "report_id": "10009781",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Platelet count decreased, Weight increased"
+    },
+    {
+        "report_id": "10009788",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Arthralgia, Cardiovascular disorder"
+    },
+    {
+        "report_id": "10009802",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Cardiac murmur, Dyspnoea, Arthritis, Back pain, Neck pain"
+    },
+    {
+        "report_id": "10009804",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Migraine"
+    },
+    {
+        "report_id": "10009808",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Anaemia, Fatigue, Weight decreased"
+    },
+    {
+        "report_id": "10009810",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Blood potassium increased, Cough, Feeling abnormal, Anaemia, White blood cell count decreased"
+    },
+    {
+        "report_id": "10009811",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Splenomegaly, Dizziness, White blood cell count decreased, Red blood cell count decreased"
+    },
+    {
+        "report_id": "10009830",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Flatulence, Abdominal pain upper, Anaemia"
+    },
+    {
+        "report_id": "10009837",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Rash, Pruritus"
+    },
+    {
+        "report_id": "10009840",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Postoperative wound infection"
+    },
+    {
+        "report_id": "10009849",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Fall, Dizziness, Drug dose omission"
+    },
+    {
+        "report_id": "10009852",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Nasopharyngitis, Respiratory disorder, Chest pain, Cough, Migraine, White blood cell count decreased, Dizziness"
+    },
+    {
+        "report_id": "10009853",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Splenomegaly, Drug ineffective"
+    },
+    {
+        "report_id": "10009856",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Alanine aminotransferase increased, Aspartate aminotransferase increased, Anaemia, Thrombocytopenia, White blood cell count decreased"
+    },
+    {
+        "report_id": "10009863",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Lactose intolerance, Condition aggravated, Muscular weakness, Dyspnoea, Fatigue, Hyperhidrosis, Weight increased"
+    },
+    {
+        "report_id": "10009872",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Anaemia, Platelet count decreased, Splenomegaly, Weight decreased, Decreased appetite, Wrong technique in drug usage process"
+    },
+    {
+        "report_id": "10009874",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Anaemia, Platelet count decreased, Splenomegaly, Weight decreased, Decreased appetite, Wrong technique in drug usage process"
+    },
+    {
+        "report_id": "10009887",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Chest pain, Nausea, Fatigue, Decreased appetite, Anaemia, Headache, Weight decreased"
+    },
+    {
+        "report_id": "10009888",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Platelet count decreased, Haemoglobin decreased"
+    },
+    {
+        "report_id": "10009889",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Splenomegaly, Drug ineffective, Disease progression"
+    },
+    {
+        "report_id": "10009893",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Local swelling"
+    },
+    {
+        "report_id": "10009897",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Platelet count increased, White blood cell count increased"
+    },
+    {
+        "report_id": "10009901",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Platelet count decreased"
+    },
+    {
+        "report_id": "10009907",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Chest discomfort, Hypoaesthesia"
+    },
+    {
+        "report_id": "10009920",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Haemoglobin decreased, Platelet count decreased, White blood cell count decreased, Haematocrit decreased"
+    },
+    {
+        "report_id": "10009933",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Abdominal pain, Abnormal faeces"
+    },
+    {
+        "report_id": "10009935",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Anaemia, Red blood cell count decreased, Sinusitis, Bronchitis, Mastoiditis, Frequent bowel movements, Mucosal inflammation, Muscle spasms, Dyspnoea, Epistaxis, Anxiety, Diarrhoea, Erythema, Contusion, Dizziness"
+    },
+    {
+        "report_id": "10009936",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Anaemia, Disease progression, Splenomegaly, Lung consolidation, Goitre"
+    },
+    {
+        "report_id": "10009956",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Weight decreased, Skin discolouration, Hypoaesthesia, Dizziness, Haemoglobin decreased, Fatigue"
+    },
+    {
+        "report_id": "10009965",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Arthralgia, Back pain, Anaemia"
+    },
+    {
+        "report_id": "10009967",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Non-cardiac chest pain"
+    },
+    {
+        "report_id": "10009970",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Diarrhoea, Anaemia"
+    },
+    {
+        "report_id": "10009971",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Skin irritation, Rash pruritic, Burning sensation, Fatigue, Aspartate aminotransferase increased, Alanine aminotransferase increased"
+    },
+    {
+        "report_id": "10010018",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Pollakiuria, Head discomfort, Sensation of heaviness, Hypoaesthesia, Dry skin, Binge eating, Headache"
+    },
+    {
+        "report_id": "10010038",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Wheezing, Drug dose omission, Cough, Oropharyngeal pain"
+    },
+    {
+        "report_id": "10010058",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Dyspepsia, Oesophageal pain, Insomnia"
+    },
+    {
+        "report_id": "10010060",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Splenomegaly, Fatigue"
+    },
+    {
+        "report_id": "10010068",
+        "date": "20140611",
+        "serious": "2",
+        "reactions": "Nausea, Decreased appetite, Weight decreased, Vertigo, Dizziness"
+    },
+    {
+        "report_id": "10010077",
+        "date": "20200617",
+        "serious": "1",
+        "reactions": "Death, Nausea, Weight decreased, Peripheral swelling, Epistaxis, Anaemia, Diarrhoea"
+    },
+    {
+        "report_id": "10010091",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Splenomegaly"
+    },
+    {
+        "report_id": "10010095",
+        "date": "20140611",
+        "serious": "2",
+        "reactions": "Musculoskeletal pain"
+    },
+    {
+        "report_id": "10010100",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Somnolence"
+    },
+    {
+        "report_id": "10010101",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Blister"
+    },
+    {
+        "report_id": "10010108",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Fatigue, Red blood cell count decreased, Haemoglobin decreased"
+    },
+    {
+        "report_id": "10010111",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Flatulence"
+    },
+    {
+        "report_id": "10010124",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Nausea"
+    },
+    {
+        "report_id": "10010125",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Epistaxis, Contusion, Petechiae, Platelet count decreased, Malaise"
+    },
+    {
+        "report_id": "10010130",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Platelet count abnormal"
+    },
+    {
+        "report_id": "10010134",
+        "date": "20181112",
+        "serious": "2",
+        "reactions": "Tremor, Drug interaction, Weight decreased, Dysphonia, Dizziness, Blood glucose decreased"
+    },
+    {
+        "report_id": "10010151",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Diarrhoea, Discomfort, Local swelling"
+    },
+    {
+        "report_id": "10010157",
+        "date": "20140611",
+        "serious": "2",
+        "reactions": "Diarrhoea, Haemoglobin decreased"
+    },
+    {
+        "report_id": "10010164",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Neuropathy peripheral, Bone pain, Myalgia, Cyst"
+    },
+    {
+        "report_id": "10010165",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Anaemia, Fatigue, Dyspnoea"
+    },
+    {
+        "report_id": "10010168",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Diarrhoea, Platelet count increased, Rhinorrhoea, Oral pain, Sensation of heaviness, Insomnia, Nail bed disorder, Appetite disorder, Alopecia, Weight increased"
+    },
+    {
+        "report_id": "10010172",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Pain, Chest pain, Skin lesion, Fatigue, Epistaxis, Headache, Contusion"
+    },
+    {
+        "report_id": "10010176",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Hospice care"
+    },
+    {
+        "report_id": "10010180",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Splenomegaly, Haemoglobin decreased, Platelet count decreased"
+    },
+    {
+        "report_id": "10010183",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Chest pain, Dyspnoea, Oedema peripheral, Muscle spasms, Anaemia"
+    },
+    {
+        "report_id": "10010193",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Diarrhoea, Pruritus, Bone pain, Gait disturbance, Haemoglobin decreased"
+    },
+    {
+        "report_id": "10010211",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Headache, Dizziness, Contusion, Therapeutic response unexpected"
+    },
+    {
+        "report_id": "10010217",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Rectal haemorrhage, Colitis ischaemic, Anaemia, Coagulopathy"
+    },
+    {
+        "report_id": "10010339",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Fall, Loss of consciousness, Rhabdomyolysis"
+    },
+    {
+        "report_id": "10010346",
+        "date": "20151021",
+        "serious": "1",
+        "reactions": "Intestinal obstruction, Hearing impaired, Arterial occlusive disease, Coronary artery occlusion, Renal impairment"
+    },
+    {
+        "report_id": "10010471",
+        "date": "20140314",
+        "serious": "2",
+        "reactions": "Adverse event, Fatigue"
+    },
+    {
+        "report_id": "10010497",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Urinary tract infection, Haematuria, Pyrexia, Myalgia"
+    },
+    {
+        "report_id": "10010506",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "VIth nerve paralysis"
+    },
+    {
+        "report_id": "10010507",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "VIth nerve paralysis"
+    },
+    {
+        "report_id": "10010536",
+        "date": "20140915",
+        "serious": "1",
+        "reactions": "Haematuria"
+    },
+    {
+        "report_id": "10010577",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Fatigue"
+    },
+    {
+        "report_id": "10010582",
+        "date": "20170110",
+        "serious": "1",
+        "reactions": "Pancytopenia, Sepsis"
+    },
+    {
+        "report_id": "10010584",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Headache, Cerebral haemorrhage"
+    },
+    {
+        "report_id": "10010591",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Fatigue, Melaena, International normalised ratio increased, Haemoglobin decreased, Haematocrit decreased, Gastritis, Oesophageal candidiasis, Gastrointestinal haemorrhage"
+    },
+    {
+        "report_id": "10010594",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Anaemia, Gastritis haemorrhagic"
+    },
+    {
+        "report_id": "10010600",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Swelling face, Lip swelling, Local swelling, Local swelling, Throat tightness, Pharyngeal oedema, Dyspnoea, Ear pain, Pain in jaw, Asthenia, Fatigue, Hypersensitivity"
+    },
+    {
+        "report_id": "10010706",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Blood calcium increased, Blood potassium decreased, Anaemia"
+    },
+    {
+        "report_id": "10010728",
+        "date": "20140321",
+        "serious": "1",
+        "reactions": "Haemorrhage intracranial"
+    },
+    {
+        "report_id": "10010760",
+        "date": "20150226",
+        "serious": "1",
+        "reactions": "Headache, Diarrhoea, Night sweats, Dry skin, Deafness"
+    },
+    {
+        "report_id": "10010794",
+        "date": "20140314",
+        "serious": "2",
+        "reactions": "Expired drug administered, Fatigue, Headache, Throat irritation, Upper-airway cough syndrome, Vomiting"
+    },
+    {
+        "report_id": "10010817",
+        "date": "20140311",
+        "serious": "1",
+        "reactions": "Fall, Hyponatraemia, Confusional state"
+    },
+    {
+        "report_id": "10010847",
+        "date": "20150512",
+        "serious": "1",
+        "reactions": "Malignant melanoma in situ"
+    },
+    {
+        "report_id": "10010849",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Urinary tract infection, Pyrexia, Haematuria, Myalgia"
+    },
+    {
+        "report_id": "10010875",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Interstitial lung disease, Pancreatitis, Disseminated intravascular coagulation, Tracheostomy, Mechanical ventilation, Gastric haemorrhage, Hepatic function abnormal, Cholelithiasis"
+    },
+    {
+        "report_id": "10010877",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Vomiting, Underdose"
+    },
+    {
+        "report_id": "10010879",
+        "date": "20141013",
+        "serious": "1",
+        "reactions": "Myocardial infarction, Nausea, Weight increased, Headache, Dizziness, Angina pectoris, Fatigue, Hyperhidrosis"
+    },
+    {
+        "report_id": "10010900",
+        "date": "20140620",
+        "serious": "1",
+        "reactions": "Liver function test abnormal, Salmonellosis, Hepatic steatosis, Herpes simplex, Spinal osteoarthritis, Arthritis, Renal failure acute, Duodenal polyp, Electrolyte imbalance, Oesophagitis"
+    },
+    {
+        "report_id": "10010911",
+        "date": "20140605",
+        "serious": "2",
+        "reactions": "Abdominal pain upper, Abdominal pain"
+    },
+    {
+        "report_id": "10010937",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Gastrointestinal haemorrhage, Drug interaction"
+    },
+    {
+        "report_id": "10010964",
+        "date": "20140318",
+        "serious": "2",
+        "reactions": "Pollakiuria, Drug ineffective"
+    },
+    {
+        "report_id": "10010991",
+        "date": "20140304",
+        "serious": "1",
+        "reactions": "Headache, Insomnia, Nausea, Condition aggravated, Paraesthesia, Night sweats, Myocardial infarction"
+    },
+    {
+        "report_id": "10011124",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Myalgia, Fatigue, Insomnia, Decreased appetite, Sexual dysfunction"
+    },
+    {
+        "report_id": "10011270",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Cyst rupture, Chromaturia"
+    },
+    {
+        "report_id": "10011416",
+        "date": "20140312",
+        "serious": "1",
+        "reactions": "Amniotic fluid volume decreased, Arthritis, Caesarean section, Maternal exposure during pregnancy"
+    },
+    {
+        "report_id": "10011521",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Abdominal pain upper, Gastrointestinal haemorrhage, Intestinal ischaemia, Dialysis"
+    },
+    {
+        "report_id": "10011645",
+        "date": "20140416",
+        "serious": "1",
+        "reactions": "Renal cyst haemorrhage, Spinal fracture, Pancreatic mass"
+    },
+    {
+        "report_id": "10011662",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Joint swelling, Pain in extremity, Anxiety, Disturbance in attention, Fatigue, Insomnia"
+    },
+    {
+        "report_id": "10011673",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Ulcer"
+    },
+    {
+        "report_id": "10011676",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Depressed level of consciousness, Unresponsive to stimuli, Pyrexia, Hypertension"
+    },
+    {
+        "report_id": "10011686",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Ulcer, Scar, Purulence"
+    },
+    {
+        "report_id": "10011688",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Red blood cell abnormality, Macular degeneration, Angina pectoris, Asthenia, Visual acuity reduced, Anaemia"
+    },
+    {
+        "report_id": "10011700",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Chronic obstructive pulmonary disease"
+    },
+    {
+        "report_id": "10011771",
+        "date": "20140406",
+        "serious": "1",
+        "reactions": "Cataract, Goitre"
+    },
+    {
+        "report_id": "10011780",
+        "date": "20140314",
+        "serious": "2",
+        "reactions": "Atrial fibrillation"
+    },
+    {
+        "report_id": "10011878",
+        "date": "20150605",
+        "serious": "1",
+        "reactions": "Loss of employment, Multiple injuries, Anhedonia, Economic problem, Internal haemorrhage, Psychological trauma, Social problem, Deformity, Physical disability, Pain, Tension"
+    },
+    {
+        "report_id": "10011916",
+        "date": "20150608",
+        "serious": "1",
+        "reactions": "Multiple injuries, Physical disability, Pain, Gastrointestinal haemorrhage, Economic problem, Social problem, Multi-organ failure, Loss of employment, Renal injury, Tension, Ulcer, Deformity, Anhedonia, Psychological trauma"
+    },
+    {
+        "report_id": "10011931",
+        "date": "20140630",
+        "serious": "1",
+        "reactions": "Duodenal ulcer, Oesophagitis, Gastroenteritis aeromonas"
+    },
+    {
+        "report_id": "10011980",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "VIIth nerve paralysis, Cardiac disorder, Chronic obstructive pulmonary disease, Bronchiectasis, Thyroid disorder, Arthritis, Inflammation, Skin discolouration, Circumstance or information capable of leading to medication error"
+    },
+    {
+        "report_id": "10012075",
+        "date": "20141208",
+        "serious": "1",
+        "reactions": "Type 2 diabetes mellitus"
+    },
+    {
+        "report_id": "10012101",
+        "date": "20161222",
+        "serious": "1",
+        "reactions": "Acute respiratory distress syndrome, Pneumonia, Interstitial lung disease"
+    },
+    {
+        "report_id": "10012126",
+        "date": "20140414",
+        "serious": "1",
+        "reactions": "Cerebrovascular accident, Cardiac failure congestive, Disability, Coronary arterial stent insertion, Treatment noncompliance"
+    },
+    {
+        "report_id": "10012128",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Basal cell carcinoma, Shoulder operation, Cyst, Sinus polyp, Ear infection, Synovial cyst, Musculoskeletal pain, Pain in extremity, Arthralgia, Expired drug administered"
+    },
+    {
+        "report_id": "10012191",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Erythema, Feeling abnormal, Visual impairment"
+    },
+    {
+        "report_id": "10012210",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Sudden cardiac death, Aspergillus test positive, Staphylococcus test positive, Mycobacterium avium complex infection, Acute respiratory distress syndrome, Hyperthyroidism, Pulmonary toxicity, Organising pneumonia, Pyrexia, Cough, Dyspnoea, Weight decreased, Haemoptysis, Asthenia"
+    },
+    {
+        "report_id": "10012287",
+        "date": "20140327",
+        "serious": "1",
+        "reactions": "Dehydration, Nausea, Vomiting, Faeces soft"
+    },
+    {
+        "report_id": "10012291",
+        "date": "20140625",
+        "serious": "2",
+        "reactions": "Rash erythematous, Application site erythema"
+    },
+    {
+        "report_id": "10012395",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Gastric disorder"
+    },
+    {
+        "report_id": "10012405",
+        "date": "20140513",
+        "serious": "1",
+        "reactions": "Peripheral vascular disorder, Condition aggravated, Embolism arterial, Haemorrhage subcutaneous"
+    },
+    {
+        "report_id": "10012419",
+        "date": "20160217",
+        "serious": "2",
+        "reactions": "Therapeutic response unexpected, Fatigue, Abdominal discomfort, Drug ineffective, Therapy cessation, Gait disturbance, Off label use"
+    },
+    {
+        "report_id": "10012429",
+        "date": "20150723",
+        "serious": "1",
+        "reactions": "Mobility decreased, Gait disturbance, Abasia, Abasia, Multiple sclerosis, Weight decreased, Wheelchair user, Stress, Therapy cessation"
+    },
+    {
+        "report_id": "10012448",
+        "date": "20140821",
+        "serious": "1",
+        "reactions": "Depressed level of consciousness, Haematoma, Subdural haemorrhage, Craniotomy, Left ventricular failure, Speech disorder"
+    },
+    {
+        "report_id": "10012534",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Cerebral haemorrhage"
+    },
+    {
+        "report_id": "10012536",
+        "date": "20140312",
+        "serious": "2",
+        "reactions": "Drug ineffective, Somnolence, Dizziness"
+    },
+    {
+        "report_id": "10012579",
+        "date": "20140415",
+        "serious": "1",
+        "reactions": "No adverse event, No adverse event"
+    },
+    {
+        "report_id": "10012602",
+        "date": "20140320",
+        "serious": "1",
+        "reactions": "Intra-abdominal haemorrhage, Stent placement"
+    },
+    {
+        "report_id": "10012635",
+        "date": "20140401",
+        "serious": "1",
+        "reactions": "Blood pressure abnormal, Urinary tract infection, Malaise, Diarrhoea, Spinal pain, Dizziness, Tremor, Cold sweat, Presyncope, Feeling abnormal, Hypoaesthesia, Dyspnoea, Pollakiuria, Urinary incontinence, Insomnia, Abdominal pain upper, Asthenia, Back pain, Pain in extremity"
+    },
+    {
+        "report_id": "10012704",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Dementia Alzheimer^s type, Poor peripheral circulation, Stress, Visual acuity reduced, Incorrect dose administered"
+    },
+    {
+        "report_id": "10012725",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "International normalised ratio abnormal, Gastrointestinal haemorrhage, Gastritis, Large intestine polyp, Decreased appetite, Weight decreased, Nasopharyngitis, Abdominal distension, Cough, Viral infection, Abdominal pain, Constipation, Abdominal discomfort, Eructation, Off label use, Drug dose omission, Drug interaction"
+    },
+    {
+        "report_id": "10012749",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Malaise, Transient ischaemic attack, Psoriasis, Loss of consciousness, Dehydration, Ear infection, Psoriasis, Bradyphrenia"
+    },
+    {
+        "report_id": "10012765",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Fall, Supraventricular tachycardia"
+    },
+    {
+        "report_id": "10012821",
+        "date": "20140416",
+        "serious": "1",
+        "reactions": "Renal failure acute, Pulmonary thrombosis, Pulmonary mass, Deep vein thrombosis, Wound, Decubitus ulcer, Neutropenic sepsis, Neutropenia, Anaemia, Systemic candida, Arthralgia, Myalgia, Pyrexia"
+    },
+    {
+        "report_id": "10012825",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Weight decreased, Transaminases increased"
+    },
+    {
+        "report_id": "10012885",
+        "date": "20150416",
+        "serious": "2",
+        "reactions": "Fatigue, Gait disturbance, Neuropathy peripheral, Hypoacusis"
+    },
+    {
+        "report_id": "10012891",
+        "date": "20191017",
+        "serious": "2",
+        "reactions": "Cough, Nasopharyngitis"
+    },
+    {
+        "report_id": "10012913",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Weight decreased, Transaminases increased"
+    },
+    {
+        "report_id": "10013023",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Skin lesion, Squamous cell carcinoma, Purulent discharge"
+    },
+    {
+        "report_id": "10013038",
+        "date": "20140425",
+        "serious": "1",
+        "reactions": "Superficial spreading melanoma stage unspecified"
+    },
+    {
+        "report_id": "10013039",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Unresponsive to stimuli"
+    },
+    {
+        "report_id": "10013084",
+        "date": "20140314",
+        "serious": "2",
+        "reactions": "Liver disorder, Liver function test abnormal"
+    },
+    {
+        "report_id": "10013093",
+        "date": "20140314",
+        "serious": "2",
+        "reactions": "Diarrhoea"
+    },
+    {
+        "report_id": "10013221",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Transient ischaemic attack"
+    },
+    {
+        "report_id": "10013376",
+        "date": "20150518",
+        "serious": "1",
+        "reactions": "Hepatic function abnormal"
+    },
+    {
+        "report_id": "10013494",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Death, Haemorrhage intracranial"
+    },
+    {
+        "report_id": "10013527",
+        "date": "20140314",
+        "serious": "1",
+        "reactions": "Death"
+    },
+    {
+        "report_id": "10013604",
+        "date": "20140324",
+        "serious": "1",
+        "reactions": "Tendon rupture"
+    },
+    {
+        "report_id": "10013613",
+        "date": "20140315",
+        "serious": "1",
+        "reactions": "Nephrogenic systemic fibrosis"
+    },
+    {
+        "report_id": "10013643",
+        "date": "20140315",
+        "serious": "2",
+        "reactions": "Sluggishness, Dyspnoea, Activities of daily living impaired, Swelling, Fluid retention"
+    },
+    {
+        "report_id": "10013688",
+        "date": "20140315",
+        "serious": "1",
+        "reactions": "Irritability, Crying, Pyrexia, Injection site erythema, Injection site papule"
+    },
+    {
+        "report_id": "10013698",
+        "date": "20140606",
+        "serious": "1",
+        "reactions": "Hypersensitivity, Palpitations, Syncope, Obstructive airways disorder, Pruritus generalised, Pharyngeal oedema, Dyspnoea, Therapeutic response changed, Incorrect dose administered"
+    },
+    {
+        "report_id": "10013699",
+        "date": "20140316",
+        "serious": "1",
+        "reactions": "Cerebral haemorrhage, Drug interaction"
+    },
+    {
+        "report_id": "10013702",
+        "date": "20140316",
+        "serious": "1",
+        "reactions": "Lung infection, Increased bronchial secretion, Productive cough"
+    },
+    {
+        "report_id": "10013706",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Aphagia, Constipation, Abdominal discomfort, Ocular discomfort, Malaise, Eructation, Asthenopia, Dehydration, Intentional drug misuse"
+    },
+    {
+        "report_id": "10013758",
+        "date": "20140316",
+        "serious": "2",
+        "reactions": "Incorrect drug administration duration"
+    },
+    {
+        "report_id": "10013782",
+        "date": "20140316",
+        "serious": "2",
+        "reactions": "Insomnia"
+    },
+    {
+        "report_id": "10013801",
+        "date": "20140316",
+        "serious": "1",
+        "reactions": "Nephrogenic systemic fibrosis"
+    },
+    {
+        "report_id": "10013807",
+        "date": "20140316",
+        "serious": "1",
+        "reactions": "Cerebral haemorrhage"
+    },
+    {
+        "report_id": "10013833",
+        "date": "20140508",
+        "serious": "2",
+        "reactions": "Application site pruritus, Application site erythema"
+    },
+    {
+        "report_id": "10013872",
+        "date": "20140316",
+        "serious": "1",
+        "reactions": "Post procedural haemorrhage, Compartment syndrome, Drug interaction"
+    },
+    {
+        "report_id": "10013873",
+        "date": "20140316",
+        "serious": "1",
+        "reactions": "Compartment syndrome, Drug interaction, Post procedural haemorrhage"
+    },
+    {
+        "report_id": "10013999",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Bone neoplasm, Prostatic specific antigen increased, Drug ineffective"
+    },
+    {
+        "report_id": "10014010",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Unresponsive to stimuli"
+    },
+    {
+        "report_id": "10014036",
+        "date": "20150126",
+        "serious": "1",
+        "reactions": "Electrocardiogram abnormal, Diarrhoea, Headache, Herpes ophthalmic, Rhinorrhoea, QRS axis abnormal, Urinary tract infection, Sinusitis, Myocardial infarction, Haemorrhoids, Therapeutic response unexpected"
+    },
+    {
+        "report_id": "10014250",
+        "date": "20140317",
+        "serious": "2",
+        "reactions": "Cellulitis, Blister, Herpes zoster, Pemphigoid"
+    },
+    {
+        "report_id": "10014268",
+        "date": "20140408",
+        "serious": "1",
+        "reactions": "Rhabdomyolysis, Myalgia, Rash generalised"
+    },
+    {
+        "report_id": "10014271",
+        "date": "20140317",
+        "serious": "2",
+        "reactions": "Fatigue, Hot flush, Nausea, Abdominal pain upper, Diarrhoea, Pruritus, Erythema"
+    },
+    {
+        "report_id": "10014366",
+        "date": "20140317",
+        "serious": "2",
+        "reactions": "Urinary tract infection, Dyspnoea, Middle insomnia, Flushing, Rash, Hot flush, Erythema, Feeling hot"
+    },
+    {
+        "report_id": "10014446",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Cholelithiasis"
+    },
+    {
+        "report_id": "10014467",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Compartment syndrome, Drug interaction, Post procedural haemorrhage, International normalised ratio increased"
+    },
+    {
+        "report_id": "10014510",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Surgical failure, Intervertebral disc degeneration, Vision blurred, Back pain, Weight increased, Weight decreased, Hypotonia, Red blood cell count decreased"
+    },
+    {
+        "report_id": "10014511",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Aplastic anaemia"
+    },
+    {
+        "report_id": "10014535",
+        "date": "20170721",
+        "serious": "1",
+        "reactions": "Appendicectomy, Androgen deficiency, Diverticulitis, Influenza, Muscular weakness, Atrial fibrillation, Prostatic specific antigen increased, Death, Peripheral swelling, Drug effect decreased"
+    },
+    {
+        "report_id": "10014540",
+        "date": "20140401",
+        "serious": "1",
+        "reactions": "Dyspnoea, Urinary tract infection, Cystitis"
+    },
+    {
+        "report_id": "10014591",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Haemorrhagic diathesis, Increased tendency to bruise"
+    },
+    {
+        "report_id": "10014607",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Psoriasis"
+    },
+    {
+        "report_id": "10014609",
+        "date": "20140319",
+        "serious": "1",
+        "reactions": "Activities of daily living impaired, Nerve injury, Tendonitis, Gait disturbance, Arthralgia, Pain in extremity, Tendon pain, Burning sensation, Muscle spasms, Joint injury, Tendon rupture"
+    },
+    {
+        "report_id": "10014640",
+        "date": "20140605",
+        "serious": "1",
+        "reactions": "Pancreatitis acute, Bradycardia, Hypotension, Chest pain, Peripheral artery dissection, Hepatic neoplasm"
+    },
+    {
+        "report_id": "10014668",
+        "date": "20140410",
+        "serious": "1",
+        "reactions": "Heart rate increased"
+    },
+    {
+        "report_id": "10014673",
+        "date": "20140321",
+        "serious": "2",
+        "reactions": "Application site discolouration, Pruritus, Erythema, Drug effect decreased, Product packaging issue"
+    },
+    {
+        "report_id": "10014697",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Pulmonary embolism, Thrombophlebitis superficial"
+    },
+    {
+        "report_id": "10014722",
+        "date": "20140328",
+        "serious": "1",
+        "reactions": "Cardiac failure, Haematemesis, Abdominal pain upper, International normalised ratio increased, Coagulation factor increased, Infection, Pulmonary oedema, Hypotension, Syncope, Renal failure, Arteriosclerosis, Hyperkalaemia, Anaemia, Acute myocardial infarction, Aortic valve stenosis"
+    },
+    {
+        "report_id": "10014782",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Eating disorder, Haemoglobin decreased, Platelet count decreased"
+    },
+    {
+        "report_id": "10014817",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Cerebrovascular accident, Platelet count decreased"
+    },
+    {
+        "report_id": "10014862",
+        "date": "20150616",
+        "serious": "1",
+        "reactions": "Physical disability, Tension, Anhedonia, Psychological trauma, Gastrointestinal haemorrhage, Multiple injuries, Deformity, Social problem, Pain, Economic problem, Loss of employment"
+    },
+    {
+        "report_id": "10014972",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Hypothyroidism, Blood thyroid stimulating hormone decreased, Off label use, Low density lipoprotein increased, Blood pressure increased"
+    },
+    {
+        "report_id": "10014975",
+        "date": "20140327",
+        "serious": "1",
+        "reactions": "Haematochezia, Haemorrhage, Colitis ischaemic, Large intestinal stenosis, Intestinal mass"
+    },
+    {
+        "report_id": "10015014",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Vascular graft occlusion, Liver function test abnormal, Alanine aminotransferase increased, Aspartate aminotransferase increased, Blood alkaline phosphatase increased, Blood bilirubin increased, Chest pain, Dyspnoea exertional, Haemoglobin decreased"
+    },
+    {
+        "report_id": "10015242",
+        "date": "20140317",
+        "serious": "2",
+        "reactions": "Drug hypersensitivity"
+    },
+    {
+        "report_id": "10015245",
+        "date": "20140317",
+        "serious": "2",
+        "reactions": "Malaise"
+    },
+    {
+        "report_id": "10015283",
+        "date": "20140819",
+        "serious": "1",
+        "reactions": "Asthenia, Epistaxis, Pneumonia, Dysarthria, Dementia, Pruritus, Fatigue"
+    },
+    {
+        "report_id": "10015296",
+        "date": "20140317",
+        "serious": "2",
+        "reactions": "Thyroid disorder"
+    },
+    {
+        "report_id": "10015324",
+        "date": "20150615",
+        "serious": "1",
+        "reactions": "Haemoptysis, Injury, Purpura, Physical disability, Pain, Anhedonia, Tension, Contusion"
+    },
+    {
+        "report_id": "10015334",
+        "date": "20140501",
+        "serious": "1",
+        "reactions": "Pneumonia, Influenza, Blood glucose increased"
+    },
+    {
+        "report_id": "10015364",
+        "date": "20140417",
+        "serious": "1",
+        "reactions": "Hip fracture, Pain"
+    },
+    {
+        "report_id": "10015410",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Hypoglycaemia, Gastroenteritis, General physical health deterioration"
+    },
+    {
+        "report_id": "10015420",
+        "date": "20140424",
+        "serious": "1",
+        "reactions": "Lumbar spinal stenosis, Brain neoplasm, Lung carcinoma cell type unspecified recurrent"
+    },
+    {
+        "report_id": "10015449",
+        "date": "20140723",
+        "serious": "1",
+        "reactions": "Colon cancer metastatic"
+    },
+    {
+        "report_id": "10015488",
+        "date": "20140331",
+        "serious": "1",
+        "reactions": "Respiratory failure, Osteomyelitis, Nephrolithiasis, Decubitus ulcer, Dyskinesia, Infection, Mental status changes, Hypertension, Dizziness, Muscle spasms, Muscle spasticity, Drug withdrawal syndrome"
+    },
+    {
+        "report_id": "10015518",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Neonatal respiratory distress syndrome, Hypoxia, Leukopenia, Thrombocytopenia, C-reactive protein increased, Bronchopulmonary dysplasia, Neonatal cholestasis, Necrotising colitis, Hypothyroidism, Psychomotor hyperactivity, Inguinal hernia, Low birth weight baby, Premature baby, Foetal growth restriction, Immunosuppression, Pathological fracture, Meconium abnormal, Foetal exposure during pregnancy"
+    },
+    {
+        "report_id": "10015657",
+        "date": "20150608",
+        "serious": "1",
+        "reactions": "Tension, Anhedonia, Gastrointestinal haemorrhage, Wound infection, Pain, Economic problem, Psychological trauma, Social problem, Loss of employment, Intestinal perforation, Multiple injuries, Physical disability, Sepsis, Deformity"
+    },
+    {
+        "report_id": "10015710",
+        "date": "20140513",
+        "serious": "2",
+        "reactions": "Rash generalised, Urticaria"
+    },
+    {
+        "report_id": "10015774",
+        "date": "20140630",
+        "serious": "1",
+        "reactions": "Anaemia, Ankle fracture, Rash, Rash"
+    },
+    {
+        "report_id": "10015777",
+        "date": "20140415",
+        "serious": "1",
+        "reactions": "Vaginal haemorrhage, Chest pain, Pyrexia"
+    },
+    {
+        "report_id": "10015780",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Wrist fracture"
+    },
+    {
+        "report_id": "10015892",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Atrial fibrillation, Arthralgia, Synovitis, Sleep disorder, Thrombosis, Drug interaction, Joint stiffness, Hypersensitivity"
+    },
+    {
+        "report_id": "10015923",
+        "date": "20150525",
+        "serious": "1",
+        "reactions": "Cystitis haemorrhagic, Anaemia, Blood glucose increased, Bladder disorder, Urinary tract infection, Prothrombin time prolonged"
+    },
+    {
+        "report_id": "10015926",
+        "date": "20140327",
+        "serious": "1",
+        "reactions": "Intra-abdominal haematoma, Red blood cell count decreased, Chronic obstructive pulmonary disease"
+    },
+    {
+        "report_id": "10015946",
+        "date": "20140317",
+        "serious": "2",
+        "reactions": "Drug ineffective, Incorrect drug administration duration"
+    },
+    {
+        "report_id": "10015975",
+        "date": "20150303",
+        "serious": "1",
+        "reactions": "Ear infection, Pruritus, Urine odour abnormal, Feeling abnormal, Vaginal odour, Vaginal infection, Skin disorder, Pelvic pain, Rib fracture, Eyelid infection, Deep vein thrombosis, Infected cyst"
+    },
+    {
+        "report_id": "10016004",
+        "date": "20150608",
+        "serious": "1",
+        "reactions": "Multiple injuries, Gastrointestinal haemorrhage"
+    },
+    {
+        "report_id": "10016029",
+        "date": "20140522",
+        "serious": "1",
+        "reactions": "Dehydration, Viral infection"
+    },
+    {
+        "report_id": "10016038",
+        "date": "20140403",
+        "serious": "1",
+        "reactions": "Cerebral atrophy, Memory impairment, Fatigue, Dizziness"
+    },
+    {
+        "report_id": "10016043",
+        "date": "20140729",
+        "serious": "1",
+        "reactions": "Fall, Femur fracture, Humerus fracture"
+    },
+    {
+        "report_id": "10016058",
+        "date": "20150605",
+        "serious": "1",
+        "reactions": "Multiple injuries, Gastrointestinal haemorrhage"
+    },
+    {
+        "report_id": "10016073",
+        "date": "20191120",
+        "serious": "1",
+        "reactions": "Renal failure, Type 2 diabetes mellitus"
+    },
+    {
+        "report_id": "10016089",
+        "date": "20150617",
+        "serious": "1",
+        "reactions": "Anhedonia, Multiple injuries, Hemiplegia, Physical disability, Deformity, Tension, Loss of employment, Economic problem, Haemorrhage intracranial, Joint dislocation, Psychological trauma, Social problem, Anaemia"
+    },
+    {
+        "report_id": "10016136",
+        "date": "20150612",
+        "serious": "1",
+        "reactions": "Dyspnoea, Abdominal discomfort, Deformity, Haemorrhagic anaemia, Fatigue, Loss of employment, Social problem, Pain, Anhedonia, Gastrointestinal haemorrhage, Injury, Physical disability, Tension, Economic problem, Psychological trauma"
+    },
+    {
+        "report_id": "10016154",
+        "date": "20150617",
+        "serious": "1",
+        "reactions": "Deformity, Loss of employment, Psychological trauma, Economic problem, Multiple injuries, Tension, Physical disability, Social problem, Anhedonia, Gastrointestinal haemorrhage, Pain"
+    },
+    {
+        "report_id": "10016166",
+        "date": "20140326",
+        "serious": "1",
+        "reactions": "Acute myocardial infarction, Renal failure, Hypotension, Arteriosclerosis, Haematemesis, Cardiac failure, Anaemia, Aortic valve stenosis, Abdominal pain upper, International normalised ratio increased, Coagulation factor increased, Infection, Pulmonary oedema, Syncope, Hyperkalaemia"
+    },
+    {
+        "report_id": "10016172",
+        "date": "20151026",
+        "serious": "1",
+        "reactions": "Type 2 diabetes mellitus"
+    },
+    {
+        "report_id": "10016193",
+        "date": "20140520",
+        "serious": "1",
+        "reactions": "Gastric haemorrhage, Skin haemorrhage, Haematemesis, Rubber sensitivity"
+    },
+    {
+        "report_id": "10016233",
+        "date": "20191031",
+        "serious": "1",
+        "reactions": "Type 2 diabetes mellitus, Renal disorder"
+    },
+    {
+        "report_id": "10016248",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Death, Increased tendency to bruise"
+    },
+    {
+        "report_id": "10016251",
+        "date": "20140710",
+        "serious": "1",
+        "reactions": "Hearing impaired"
+    },
+    {
+        "report_id": "10016285",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Pharyngeal oedema, Swollen tongue, Dysphonia"
+    },
+    {
+        "report_id": "10016297",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Myocardial infarction, Blood pressure abnormal, Off label use"
+    },
+    {
+        "report_id": "10016328",
+        "date": "20180327",
+        "serious": "1",
+        "reactions": "Pancreatic carcinoma"
+    },
+    {
+        "report_id": "10016368",
+        "date": "20140424",
+        "serious": "1",
+        "reactions": "Device dislocation, Uterine leiomyoma, Arthralgia, Musculoskeletal pain, Pain in extremity, Pica, Haemoglobin decreased, Menstruation irregular"
+    },
+    {
+        "report_id": "10016376",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Blood pressure inadequately controlled, Upper respiratory tract infection, Photopsia, Pain in extremity"
+    },
+    {
+        "report_id": "10016380",
+        "date": "20140615",
+        "serious": "2",
+        "reactions": "Blood testosterone decreased, Weight increased, Increased appetite, Fatigue"
+    },
+    {
+        "report_id": "10016382",
+        "date": "20140625",
+        "serious": "2",
+        "reactions": "Eye pruritus, Lacrimation increased"
+    },
+    {
+        "report_id": "10016423",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Presyncope, Sinus bradycardia"
+    },
+    {
+        "report_id": "10016429",
+        "date": "20140403",
+        "serious": "1",
+        "reactions": "Myalgia, Decreased appetite, Sexual dysfunction, Insomnia, Fatigue"
+    },
+    {
+        "report_id": "10016490",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Pneumonitis, Respiratory failure"
+    },
+    {
+        "report_id": "10016546",
+        "date": "20140326",
+        "serious": "2",
+        "reactions": "Fluid retention, Dyspnoea, Oedema peripheral"
+    },
+    {
+        "report_id": "10016565",
+        "date": "20140317",
+        "serious": "1",
+        "reactions": "Sepsis, Clostridium difficile infection, Candida infection, Bacterial sepsis, Neutropenia"
+    },
+    {
+        "report_id": "10016690",
+        "date": "20140702",
+        "serious": "1",
+        "reactions": "Syncope"
+    },
+    {
+        "report_id": "10016719",
+        "date": "20140318",
+        "serious": "1",
+        "reactions": "Pleuritic pain, Pulmonary artery dilatation, Antisynthetase syndrome, Joint range of motion decreased, Local swelling, Staphylococcal bacteraemia, Localised infection, Rash, Computerised tomogram abnormal, Blood creatine phosphokinase increased, Fatigue, Dizziness, Hypotension, Musculoskeletal chest pain, Hypoaesthesia, Pruritus, Skin discolouration, Tenderness, Herpes zoster, Infection, Osteomyelitis, Soft tissue infection, Pulmonary hypertension, White blood cell count increased"
+    },
+    {
+        "report_id": "10016740",
+        "date": "20140318",
+        "serious": "1",
+        "reactions": "Pneumonia, Loss of consciousness, Cardiac failure congestive, Cardiac valve disease, Incontinence, Fatigue, Weight decreased, Application site erythema"
+    },
+    {
+        "report_id": "10016759",
+        "date": "20140318",
+        "serious": "1",
+        "reactions": "Proteinuria, Lupus nephritis, Premature labour, Maternal exposure during pregnancy"
+    },
+    {
+        "report_id": "10016775",
+        "date": "20140827",
+        "serious": "1",
+        "reactions": "Aphasia, Hemianopia, Pulse absent, Venous pressure increased, Glomerular filtration rate decreased, Sensory loss, Motor dysfunction, Unresponsive to stimuli, Pulmonary vascular disorder, Blood creatinine increased, Muscular weakness, Carotid arteriosclerosis, Cerebrovascular accident, Speech disorder, Facial paresis, VIIth nerve paralysis, Dyspnoea, Movement disorder, Activated partial thromboplastin time prolonged, Prothrombin time prolonged, Neurologic neglect syndrome, Visual acuity reduced, Inguinal hernia, Blood chloride increased, Dysarthria, Circulatory collapse, Gliosis"
+    },
+    {
+        "report_id": "10016781",
+        "date": "20240129",
+        "serious": "1",
+        "reactions": "Hypertension, Pneumonia, Cellulitis, Metastasis, Metastases to liver, Rosacea, Paronychia, Localised infection, Peripheral swelling, Pain in extremity, Urinary tract infection, Acne, Dry skin, Secretion discharge, Scab, Skin irritation, Periorbital oedema, Rectal fissure, Erythema, Oedema peripheral, Musculoskeletal pain, Anxiety, Skin sensitisation, Oedema, Illness, Nasal congestion, Cough, Hypersomnia, Cyst, Swelling, Pain, Sensitisation, Mobility decreased, Blood pressure systolic increased, Ovarian cyst, Induration, Sinusitis, Anaemia, Disturbance in attention, Protein urine, Mass, Tremor, Crying, Blood creatine increased, Arthralgia, Miliaria, Eye pruritus, Hypersensitivity, Tendonitis, Proctalgia, Haemorrhoids, Haemorrhoidal haemorrhage, Bronchitis, Vitamin B12 deficiency, Fall, Balance disorder, Bone pain, Hypoglycaemia, Weight decreased, Dizziness, Rash, Dyspepsia, Abdominal pain, Sputum discoloured, COVID-19, Pruritus, Nausea, Nasopharyngitis, Fatigue, Product use issue, Needle issue, Injection site hypersensitivity, Injection site haematoma, Injection site pain, Injection site mass, Injection site pain, Headache"
+    },
+    {
+        "report_id": "10016841",
+        "date": "20140502",
+        "serious": "2",
+        "reactions": "Drug ineffective, Oedema peripheral, Diabetes mellitus inadequate control, Hyperglycaemia, Central obesity"
+    },
+    {
+        "report_id": "10017062",
+        "date": "20140318",
+        "serious": "2",
+        "reactions": "Muscular weakness, Pain in extremity, Muscle contractions involuntary"
+    },
+    {
+        "report_id": "10017075",
+        "date": "20140627",
+        "serious": "1",
+        "reactions": "Renal cyst, Multiple sclerosis relapse"
+    },
+    {
+        "report_id": "10017080",
+        "date": "20140404",
+        "serious": "1",
+        "reactions": "Fall, Contusion, Mobility decreased, Dyspnoea, Myocardial infarction, Cardiac disorder, Depressed mood, Decreased interest, Gait disturbance"
+    },
+    {
+        "report_id": "10017081",
+        "date": "20150507",
+        "serious": "1",
+        "reactions": "Anaphylactic reaction"
+    },
+    {
+        "report_id": "10017145",
+        "date": "20140318",
+        "serious": "1",
+        "reactions": "Hepatic function abnormal, Renal failure, Hepatic failure, Hypoaesthesia, Pain, Paralysis, Rhabdomyolysis, Visual acuity reduced"
+    },
+    {
+        "report_id": "10017148",
+        "date": "20140526",
+        "serious": "1",
+        "reactions": "Small fibre neuropathy"
+    },
+    {
+        "report_id": "10017197",
+        "date": "20140320",
+        "serious": "1",
+        "reactions": "Terminal state, Thrombosis in device, Circumstance or information capable of leading to medication error, Drug dose omission"
+    },
+    {
+        "report_id": "10017218",
+        "date": "20140318",
+        "serious": "2",
+        "reactions": "Limb discomfort"
+    },
+    {
+        "report_id": "10017224",
+        "date": "20140318",
+        "serious": "1",
+        "reactions": "Nephrogenic systemic fibrosis"
+    },
+    {
+        "report_id": "10017250",
+        "date": "20150129",
+        "serious": "1",
+        "reactions": "Catheterisation cardiac, Proctalgia, Disease progression, Rectal haemorrhage, Anorectal discomfort, Rectal discharge, Palmar-plantar erythrodysaesthesia syndrome, Adenocarcinoma, Asthenia, Dysplasia"
+    },
+    {
+        "report_id": "10017261",
+        "date": "20140318",
+        "serious": "1",
+        "reactions": "Acute myocardial infarction, Hypersensitivity"
+    },
+    {
+        "report_id": "10017287",
+        "date": "20140416",
+        "serious": "1",
+        "reactions": "Haemarthrosis"
+    },
+    {
+        "report_id": "10017288",
+        "date": "20140402",
+        "serious": "1",
+        "reactions": "Blood potassium increased, Urticaria, Myalgia, Anaemia, Feeling abnormal, Insomnia, Fatigue"
+    },
+    {
+        "report_id": "10017369",
+        "date": "20140319",
+        "serious": "2",
+        "reactions": "Skin irritation, Discomfort, Erythema, Pruritus"
+    },
+    {
+        "report_id": "10017408",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Arthralgia, Musculoskeletal stiffness, Gait disturbance, Balance disorder"
+    },
+    {
+        "report_id": "10017416",
+        "date": "20140702",
+        "serious": "2",
+        "reactions": "Yellow skin, Contusion, Constipation"
+    },
+    {
+        "report_id": "10017427",
+        "date": "20140318",
+        "serious": "2",
+        "reactions": "Incorrect product storage, Drug ineffective"
+    },
+    {
+        "report_id": "10017452",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Tendon rupture, Hypoaesthesia, Neuropathy peripheral, Pain, Gait disturbance"
+    },
+    {
+        "report_id": "10017478",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Drug ineffective, Product substitution issue, Product adhesion issue, Product physical issue"
+    },
+    {
+        "report_id": "10017509",
+        "date": "20140318",
+        "serious": "2",
+        "reactions": "Drug ineffective"
+    },
+    {
+        "report_id": "10017516",
+        "date": "20140318",
+        "serious": "2",
+        "reactions": "Dyspepsia"
+    },
+    {
+        "report_id": "10017541",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Urticaria, Pruritus"
+    },
+    {
+        "report_id": "10017612",
+        "date": "20140318",
+        "serious": "2",
+        "reactions": "Rash pruritic, Constipation, Dry skin"
+    },
+    {
+        "report_id": "10017668",
+        "date": "20140313",
+        "serious": "1",
+        "reactions": "Musculoskeletal stiffness, Gait disturbance, Musculoskeletal pain, Arthralgia, Pain in extremity, Arthralgia, Arthralgia, Cough, Gait disturbance"
+    },
+    {
+        "report_id": "10017745",
+        "date": "20140318",
+        "serious": "2",
+        "reactions": "Rash"
+    }
+]
