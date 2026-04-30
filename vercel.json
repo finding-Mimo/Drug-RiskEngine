@@ -10,11 +10,7 @@
       "use": "@vercel/python"
     },
     {
-      "src": "index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "safety.html",
+      "src": "*.html",
       "use": "@vercel/static"
     }
   ],
@@ -30,6 +26,14 @@
     {
       "src": "/safety",
       "dest": "safety.html"
+    },
+    {
+      "src": "/safety.html",
+      "dest": "safety.html"
+    },
+    {
+      "src": "/index.html",
+      "dest": "index.html"
     },
     {
       "src": "/(.*)",
