@@ -187,16 +187,16 @@
                     const result = await res.json();
                     if (!res.ok) throw new Error(result.error);
                     setRawData(result);
-                } catch (err) { 
+                } catch (err) {
                     // Match the high-fidelity mock data from the screenshot
                     setRawData({
-                        reports: Array.from({length: 2000}, (_, i) => ({
+                        reports: Array.from({ length: 2000 }, (_, i) => ({
                             report_id: 10003300 + i,
                             serious: Math.random() > 0.8 ? 1 : 2,
                             country: ["US", "GB", "DE", "FR", "JP", "CA", "IN"][Math.floor(Math.random() * 7)],
                             date: `20${Math.floor(Math.random() * 11) + 14}-${String(Math.floor(Math.random() * 12) + 1).padStart(2, '0')}-01`
                         })),
-                        reactions: Array.from({length: 3000}, (_, i) => ({
+                        reactions: Array.from({ length: 3000 }, (_, i) => ({
                             report_id: 10003300 + Math.floor(Math.random() * 2000),
                             reaction_name: ["FATIGUE", "MULTIPLE INJURIES", "GASTROINTESTINAL HAEMORRHAGE", "DIARRHOEA", "DRUG INEFFECTIVE", "DIZZINESS", "DYSPNOEA", "PAIN", "ANAEMIA", "NAUSEA", "ASTHENIA", "WEIGHT DECREASED", "HEADACHE", "RASH"][Math.floor(Math.random() * 14)]
                         })),
@@ -216,7 +216,7 @@
                 let filteredReports = rawData.reports;
                 if (selectedCountry !== "All") filteredReports = filteredReports.filter(r => r.country === selectedCountry);
                 if (selectedSeriousness === "Serious") filteredReports = filteredReports.filter(r => r.serious === 1);
-                else if (selectedSeriousness === "Non-serious") filteredReports = filteredReports.filter(r => r.serious === 2);
+                else if (selectedSeriousness === "Non-serious") filteredReports = filteredReports.filter(r => r.serious === 0);
 
                 const reportIds = new Set(filteredReports.map(r => r.report_id));
                 const filteredReactions = rawData.reactions.filter(rx => reportIds.has(rx.report_id));
@@ -284,7 +284,10 @@
 
                     {/* Main Content */}
                     <div className="flex-1 ml-[300px] p-8 pt-4">
-                    
+                        <header className="flex justify-between items-center mb-10">
+                            <div className="flex items-center gap-3"><span className="text-4xl">💊</span><h1 className="text-4xl font-bold font-outfit tracking-tighter">AE Intelligence Dashboard <span className="bg-[#a855f7] text-[10px] px-3 py-1 rounded-md ml-2 align-middle">ADMIN</span></h1></div>
+                            <div className="text-right text-xs text-gray-500">Logged in: <span className="text-white font-bold">{user.username}</span><br /><button className="mt-1 hover:text-white transition-colors">Logout</button></div>
+                        </header>
 
                         <div className="border-t border-[#262730] pt-6">
                             <div className="flex items-center gap-2 text-xs text-gray-400 mb-8">{loading ? <><div className="w-3 h-3 border-2 border-gray-600 border-t-white rounded-full animate-spin"></div> Analyzing data for {drug.toUpperCase()}...</> : `Results for ${drug.toUpperCase()}`}</div>
@@ -374,7 +377,7 @@
                                                         <p className="text-5xl font-bold font-outfit">{rawData?.accuracy || "0.00%"}</p>
                                                     </div>
                                                     <p className="text-sm text-gray-400 font-bold leading-relaxed">This model uses reaction frequency patterns to predict serious outcomes.</p>
-                                                    
+
                                                     <div className="border-t border-[#262730] pt-8">
                                                         <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">🔍 Model Explainability</h3>
                                                         <p className="text-xs font-bold mb-4 uppercase tracking-widest text-gray-400">Reaction Frequency Importance: <span className="text-green-400 bg-green-400/10 px-3 py-1 rounded ml-2">{rawData?.importance || "0.000"}</span></p>
@@ -388,35 +391,34 @@
                                                     <div className="bg-[#131720] p-8 rounded-2xl border border-[#262730] space-y-6">
                                                         <div>
                                                             <label className="text-xs text-gray-400 font-bold mb-3 block uppercase tracking-widest">Select Reaction to Predict Severity</label>
-                                                            <select 
-                                                                value={selectedReaction} 
-                                                                onChange={(e) => setSelectedReaction(e.target.value)} 
+                                                            <select
+                                                                value={selectedReaction}
+                                                                onChange={(e) => setSelectedReaction(e.target.value)}
                                                                 className="st-input h-14 text-sm font-bold border-2 border-transparent focus:border-[#a855f7] transition-all"
                                                             >
                                                                 {processed.all_reactions.map(r => <option key={r} value={r}>{r}</option>)}
                                                             </select>
                                                         </div>
-                                                        <button 
+                                                        <button
                                                             onClick={() => {
                                                                 const prob = parseFloat(processed.risk_signals[selectedReaction] || 0);
                                                                 setPrediction(prob > 0.5 ? "HIGH" : "LOW");
-                                                            }} 
+                                                            }}
                                                             className="st-button h-14 text-sm uppercase tracking-[0.2em] shadow-lg shadow-purple-500/20 active:scale-95 transition-transform"
                                                         >
                                                             Predict Clinical Risk
                                                         </button>
-                                                        
+
                                                         <AnimatePresence>
                                                             {prediction && (
-                                                                <motion.div 
-                                                                    initial={{ opacity: 0, y: 20 }} 
+                                                                <motion.div
+                                                                    initial={{ opacity: 0, y: 20 }}
                                                                     animate={{ opacity: 1, y: 0 }}
                                                                     exit={{ opacity: 0, scale: 0.95 }}
-                                                                    className={`p-5 rounded-xl border-2 font-black text-center text-xs tracking-widest flex items-center justify-center gap-3 ${
-                                                                        prediction === 'HIGH' 
-                                                                        ? 'bg-red-500/10 border-red-500/50 text-red-500' 
-                                                                        : 'bg-green-500/10 border-green-500/50 text-green-500'
-                                                                    }`}
+                                                                    className={`p-5 rounded-xl border-2 font-black text-center text-xs tracking-widest flex items-center justify-center gap-3 ${prediction === 'HIGH'
+                                                                            ? 'bg-red-500/10 border-red-500/50 text-red-500'
+                                                                            : 'bg-green-500/10 border-green-500/50 text-green-500'
+                                                                        }`}
                                                                 >
                                                                     {prediction === 'HIGH' ? '⚠️' : '✅'} PREDICTION: {prediction} CLINICAL RISK DETECTED
                                                                 </motion.div>
