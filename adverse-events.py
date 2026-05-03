@@ -77,17 +77,19 @@ def process_data(raw_data):
                 })
         
         if report_id and report_id not in seen_reports:
-            # Additive scoring to ensure differentiation
-            score = 0
-            if entry.get("serious") == "1": score += 0.25
-            if entry.get("seriousnessdeath") == "1": score += 0.40
-            if entry.get("seriousnesslifethreatening") == "1": score += 0.20
-            if entry.get("seriousnesshospitalization") == "1": score += 0.10
-            if entry.get("seriousnessdisabling") == "1": score += 0.05
+            # Binary seriousness (1=Serious, 0=Non-Serious)
+            is_serious = 1 if (
+                entry.get("serious") == "1" or 
+                entry.get("seriousnessdeath") == "1" or 
+                entry.get("seriousnesshospitalization") == "1" or 
+                entry.get("seriousnesslifethreatening") == "1" or 
+                entry.get("seriousnessdisabling") == "1" or 
+                entry.get("seriousnessother") == "1"
+            ) else 0
 
             report_rows.append({
                 "report_id": report_id,
-                "serious": round(min(score, 1.0), 3),
+                "serious": is_serious,
                 "date_received": date_received
             })
             seen_reports.add(report_id)
