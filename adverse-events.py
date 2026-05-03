@@ -89,11 +89,11 @@ def process_data(raw_data):
 
             # Additive severity for graph differentiation
             score = 0
-            if entry.get("serious") == "1": score += 0.25
-            if entry.get("seriousnessdeath") == "1": score += 0.40
-            if entry.get("seriousnesslifethreatening") == "1": score += 0.20
-            if entry.get("seriousnesshospitalization") == "1": score += 0.10
-            if entry.get("seriousnessdisabling") == "1": score += 0.05
+            if str(entry.get("serious")) == "1": score += 0.25
+            if str(entry.get("seriousnessdeath")) == "1": score += 0.40
+            if str(entry.get("seriousnesslifethreatening")) == "1": score += 0.20
+            if str(entry.get("seriousnesshospitalization")) == "1": score += 0.10
+            if str(entry.get("seriousnessdisabling")) == "1": score += 0.05
 
             report_rows.append({
                 "report_id": report_id,
