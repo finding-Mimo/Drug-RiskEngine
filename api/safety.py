@@ -59,14 +59,21 @@ def analyze():
         
     reports = []
     reactions = []
+    seen_reports = set()
     for entry in raw:
         rid = entry.get("safetyreportid")
-        reports.append({
-            "report_id": rid,
-            "serious": int(entry.get("serious", 0)),
-            "country": entry.get("primarysource", {}).get("reportercountry", "Unknown"),
-            "date": entry.get("receiptdate")
-        })
+        
+        # Deduplicate reports to prevent double-counting
+        if rid and rid not in seen_reports:
+            reports.append({
+                "report_id": rid,
+                "serious": 1 if str(entry.get("serious")) == "1" else 0,
+                "country": entry.get("primarysource", {}).get("reportercountry", "Unknown"),
+                "date": entry.get("receiptdate")
+            })
+            seen_reports.add(rid)
+
+        # Reactions are processed for all entries (can have multiple per report)
         for r in entry.get("patient", {}).get("reaction", []):
             name = r.get("reactionmeddrapt")
             if name:
