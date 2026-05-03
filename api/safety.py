@@ -96,7 +96,8 @@ def analyze():
     merged["reaction_freq"] = merged["reaction_name"].map(reaction_counts)
     
     X = merged[["reaction_freq"]]
-    y = merged["serious"]
+    # Convert severity weights to binary labels (Serious vs Non-Serious) for classification
+    y = (merged["serious"] > 0).astype(int)
     
     accuracy = "0.00%"
     importance = 0.0
