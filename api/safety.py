@@ -63,8 +63,9 @@ def analyze():
     for entry in raw:
         rid = entry.get("safetyreportid")
         
-        # Deduplicate reports and assign binary seriousness (1=Serious, 0=Non-Serious)
+        # Deduplicate reports and apply both binary and weighted severity
         if rid and rid not in seen_reports:
+            # Binary flag for table and counts
             is_serious = 1 if (
                 entry.get("serious") == "1" or 
                 entry.get("seriousnessdeath") == "1" or 
@@ -74,9 +75,18 @@ def analyze():
                 entry.get("seriousnessother") == "1"
             ) else 0
             
+            # Additive Intensity for the High Risk Signals graph
+            score = 0
+            if entry.get("serious") == "1": score += 0.25
+            if entry.get("seriousnessdeath") == "1": score += 0.40
+            if entry.get("seriousnesslifethreatening") == "1": score += 0.20
+            if entry.get("seriousnesshospitalization") == "1": score += 0.10
+            if entry.get("seriousnessdisabling") == "1": score += 0.05
+            
             reports.append({
                 "report_id": rid,
                 "serious": is_serious,
+                "severity": round(min(score, 1.0), 3),
                 "country": entry.get("primarysource", {}).get("reportercountry", "Unknown"),
                 "date": entry.get("receiptdate")
             })
