@@ -77,9 +77,18 @@ def process_data(raw_data):
                 })
         
         if report_id and report_id not in seen_reports:
+            # Severity Weights for more dynamic risk scoring
+            severity = 0
+            if entry.get("seriousnessdeath") == "1": severity = 1.0
+            elif entry.get("seriousnesslifethreatening") == "1": severity = 0.8
+            elif entry.get("seriousnesshospitalization") == "1": severity = 0.6
+            elif entry.get("seriousnessdisabling") == "1": severity = 0.6
+            elif entry.get("seriousnessother") == "1": severity = 0.4
+            elif entry.get("serious") == "1": severity = 0.3
+
             report_rows.append({
                 "report_id": report_id,
-                "serious": 1 if str(serious) == "1" else 0,
+                "serious": severity,
                 "date_received": date_received
             })
             seen_reports.add(report_id)
