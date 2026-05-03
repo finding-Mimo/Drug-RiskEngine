@@ -87,9 +87,18 @@ def process_data(raw_data):
                 entry.get("seriousnessother") == "1"
             ) else 0
 
+            # Additive severity for graph differentiation
+            score = 0
+            if entry.get("serious") == "1": score += 0.25
+            if entry.get("seriousnessdeath") == "1": score += 0.40
+            if entry.get("seriousnesslifethreatening") == "1": score += 0.20
+            if entry.get("seriousnesshospitalization") == "1": score += 0.10
+            if entry.get("seriousnessdisabling") == "1": score += 0.05
+
             report_rows.append({
                 "report_id": report_id,
                 "serious": is_serious,
+                "severity": round(min(score, 1.0), 3),
                 "date_received": date_received
             })
             seen_reports.add(report_id)
