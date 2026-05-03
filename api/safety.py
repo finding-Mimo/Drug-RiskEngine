@@ -63,11 +63,20 @@ def analyze():
     for entry in raw:
         rid = entry.get("safetyreportid")
         
-        # Deduplicate reports to prevent double-counting
+        # Deduplicate reports and apply Severity Weighting (0-1 scale)
         if rid and rid not in seen_reports:
+            # Severity Weights: Death=1.0, Life-Threatening=0.8, Hospitalization/Disability=0.6, Other=0.4, Unspecified Serious=0.3
+            severity = 0
+            if entry.get("seriousnessdeath") == "1": severity = 1.0
+            elif entry.get("seriousnesslifethreatening") == "1": severity = 0.8
+            elif entry.get("seriousnesshospitalization") == "1": severity = 0.6
+            elif entry.get("seriousnessdisabling") == "1": severity = 0.6
+            elif entry.get("seriousnessother") == "1": severity = 0.4
+            elif entry.get("serious") == "1": severity = 0.3
+            
             reports.append({
                 "report_id": rid,
-                "serious": 1 if str(entry.get("serious")) == "1" else 0,
+                "serious": severity,
                 "country": entry.get("primarysource", {}).get("reportercountry", "Unknown"),
                 "date": entry.get("receiptdate")
             })
