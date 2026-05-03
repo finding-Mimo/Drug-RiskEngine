@@ -90,28 +90,35 @@ def analyze():
     df_reports = pd.DataFrame(reports)
     df_reactions = pd.DataFrame(reactions)
     
-    # ML Logic - Perfectly as per pharmacovigilance_dashboard.py
-    merged = df_reactions.merge(df_reports, on="report_id")
-    reaction_counts = merged["reaction_name"].value_counts().to_dict()
-    merged["reaction_freq"] = merged["reaction_name"].map(reaction_counts)
-    
-    X = merged[["reaction_freq"]]
-    # Convert severity weights to binary labels (Serious vs Non-Serious) for classification
-    y = (merged["serious"] > 0).astype(int)
-    
     accuracy = "0.00%"
     importance = 0.0
-    if len(merged) > 10:
-        try:
-            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-            model = RandomForestClassifier()
-            model.fit(X_train, y_train)
-            preds = model.predict(X_test)
-            acc = accuracy_score(y_test, preds)
-            accuracy = f"{acc:.2%}"
-            importance = float(model.feature_importances_[0])
-        except:
-            pass
+    
+    if not df_reports.empty and not df_reactions.empty:
+        # Ensure report_id types match for merge
+        df_reports["report_id"] = df_reports["report_id"].astype(str)
+        df_reactions["report_id"] = df_reactions["report_id"].astype(str)
+        
+        merged = df_reactions.merge(df_reports, on="report_id")
+        
+        if len(merged) > 20:
+            reaction_counts = merged["reaction_name"].value_counts().to_dict()
+            merged["reaction_freq"] = merged["reaction_name"].map(reaction_counts)
+            
+            X = merged[["reaction_freq"]].values
+            y = (merged["serious"] > 0).astype(int).values
+            
+            if len(np.unique(y)) > 1:
+                try:
+                    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+                    model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=42)
+                    model.fit(X_train, y_train)
+                    preds = model.predict(X_test)
+                    acc = accuracy_score(y_test, preds)
+                    accuracy = f"{acc:.2%}"
+                    # For a single feature, importance is either 1.0 (if split) or 0.0
+                    importance = float(model.feature_importances_[0])
+                except:
+                    pass
 
     # Trends Logic
     df_reports['date'] = pd.to_datetime(df_reports['date'], errors='coerce')
