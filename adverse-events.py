@@ -62,7 +62,7 @@ def process_data(raw_data):
     """Extracts reaction and report info"""
     reaction_rows = []
     report_rows = []
-
+    seen_reports = set()
     for entry in raw_data:
         report_id = entry.get("safetyreportid")
         serious = entry.get("serious", "2")
@@ -76,11 +76,13 @@ def process_data(raw_data):
                     "reaction_name": name.upper()
                 })
         
-        report_rows.append({
-            "report_id": report_id,
-            "serious": 1 if str(serious) == "1" else 0,
-            "date_received": date_received
-        })
+        if report_id and report_id not in seen_reports:
+            report_rows.append({
+                "report_id": report_id,
+                "serious": 1 if str(serious) == "1" else 0,
+                "date_received": date_received
+            })
+            seen_reports.add(report_id)
 
     return pd.DataFrame(reaction_rows), pd.DataFrame(report_rows)
 
