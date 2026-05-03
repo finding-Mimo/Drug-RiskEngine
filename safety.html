@@ -231,15 +231,23 @@
                 const topReactions = Object.fromEntries(Object.entries(rxCounts).sort((a, b) => b[1] - a[1]).slice(0, 15));
 
                 const rxRisk = {};
+                const reportLookup = new Map(filteredReports.map(r => [r.report_id, r]));
+                
                 filteredReactions.forEach(rx => {
-                    const r = filteredReports.find(rep => rep.report_id === rx.report_id);
+                    const r = reportLookup.get(rx.report_id);
                     if (r) {
                         if (!rxRisk[rx.reaction_name]) rxRisk[rx.reaction_name] = { total: 0, severity: 0 };
                         rxRisk[rx.reaction_name].total++;
-                        rxRisk[rx.reaction_name].severity += (r.severity || 0);
+                        rxRisk[rx.reaction_name].severity += parseFloat(r.severity || 0);
                     }
                 });
-                const riskSignals = Object.fromEntries(Object.entries(rxRisk).map(([k, v]) => [k, (v.severity / v.total).toFixed(3)]).sort((a, b) => b[1] - a[1]).slice(0, 15));
+                
+                const riskSignals = Object.fromEntries(
+                    Object.entries(rxRisk)
+                        .map(([k, v]) => [k, (v.severity / v.total).toFixed(3)])
+                        .sort((a, b) => parseFloat(b[1]) - parseFloat(a[1]))
+                        .slice(0, 15)
+                );
 
                 const prrSignals = Object.entries(rxCounts).map(([rx, A]) => ({ name: rx, prr: (Math.random() * 10).toFixed(2), count: A })).slice(0, 10);
 
